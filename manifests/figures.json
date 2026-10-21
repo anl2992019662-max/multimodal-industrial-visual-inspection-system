@@ -1,0 +1,288 @@
+[
+  {
+    "file": "docs/images/brief/electrode-less.png",
+    "title": "极片：漏焊",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 4,
+    "bbox_points": [
+      107.52,
+      143.4,
+      197.04,
+      265.44
+    ],
+    "sha256": "7dfed2f0074b199e9da6e1140747608d9255c7c4a7c6c6befd7bbced486044ad"
+  },
+  {
+    "file": "docs/images/brief/electrode-more.png",
+    "title": "极片：多焊",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 4,
+    "bbox_points": [
+      248.04,
+      142.8,
+      338.04,
+      265.44
+    ],
+    "sha256": "4060dc1eab02da87829e6a8e7b068cd293d2e2d46037fc1c274b1551a77960b2"
+  },
+  {
+    "file": "docs/images/brief/electrode-skew.png",
+    "title": "极片：焊偏",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 4,
+    "bbox_points": [
+      393.12,
+      142.8,
+      483.12,
+      265.44
+    ],
+    "sha256": "ce39ae133f9df751943dce582c81a8002361fff5b65bd330fccf35e971689d15"
+  },
+  {
+    "file": "docs/images/brief/electrode-break.png",
+    "title": "极片：焊穿",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 4,
+    "bbox_points": [
+      106.32,
+      289.8,
+      198,
+      414.72
+    ],
+    "sha256": "0edeb920b74282675e709f27bdffdb0995fb9f89ff38ab130c274d0b32e86127"
+  },
+  {
+    "file": "docs/images/brief/electrode-offset.png",
+    "title": "极片：偏移",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 4,
+    "bbox_points": [
+      245.04,
+      287.4,
+      340.68,
+      417.72
+    ],
+    "sha256": "26b09f3fb38898aa8438b69ced39870e80a8e834d41fd0e6dedcbc96755d6064"
+  },
+  {
+    "file": "docs/images/brief/electrode-ok.png",
+    "title": "极片：合格",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 4,
+    "bbox_points": [
+      388.92,
+      285.6,
+      487.32,
+      419.76
+    ],
+    "sha256": "691fab0d9e9c9a914215e3767764841ec777fa0ca50856904199ac4a254400e7"
+  },
+  {
+    "file": "docs/images/brief/cable-standard.png",
+    "title": "线缆：标准姿态",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 5,
+    "bbox_points": [
+      24.12,
+      73.8,
+      189,
+      241.44
+    ],
+    "sha256": "40531090772181abac7e8ef3d5d3dedebd6737e7289b7cc601767557f14eb8f6"
+  },
+  {
+    "file": "docs/images/brief/cable-test.png",
+    "title": "线缆：待旋转",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 5,
+    "bbox_points": [
+      204.84,
+      73.8,
+      380.76,
+      241.68
+    ],
+    "sha256": "805217f1d2ceb0326d15b09b7150fd7bf3d86df8949e1de0d7d0b089d6fea1ce"
+  },
+  {
+    "file": "docs/images/brief/cable-angle.png",
+    "title": "线缆：角度示意",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 5,
+    "bbox_points": [
+      400.32,
+      74.4,
+      566.16,
+      240.6
+    ],
+    "sha256": "4caa4cae0a91501b7e6986824ce8ad7ecc7b0a804e2ffe1da08e63e9b85c70e7"
+  },
+  {
+    "file": "docs/images/brief/glove-empty.png",
+    "title": "手套：空模",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 5,
+    "bbox_points": [
+      107.64,
+      384,
+      202.92,
+      501.84
+    ],
+    "sha256": "24e7a07dc997475d25bf1277240a6ef42fcb24716d54a1e214871edc631fdcbd"
+  },
+  {
+    "file": "docs/images/brief/glove-damage.png",
+    "title": "手套：破损",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 5,
+    "bbox_points": [
+      249.6,
+      384,
+      345.36,
+      502.32
+    ],
+    "sha256": "704bb891552136393687aabe6d5c87749b95fbb36e8d37220ef3244694392898"
+  },
+  {
+    "file": "docs/images/brief/glove-ok.png",
+    "title": "手套：合格",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 5,
+    "bbox_points": [
+      393.48,
+      386.4,
+      485.16,
+      499.8
+    ],
+    "sha256": "03efea273058274f3b843b9f24509be63d61cb6168cc47f2192db16bd37a009d"
+  },
+  {
+    "file": "docs/images/brief/chip-coil.png",
+    "title": "芯片：卷线",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      31.56,
+      76.2,
+      185.52,
+      192.36
+    ],
+    "sha256": "c224b7f5cf01bd485f2344baf530b20b95867cdae3b7ae3b5bbaf9dff15577e7"
+  },
+  {
+    "file": "docs/images/brief/chip-link.png",
+    "title": "芯片：连线",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      220.8,
+      78,
+      369.36,
+      189.96
+    ],
+    "sha256": "43cc567b31195779525a695ae46e40bd716039b9aea46476901bdc1c062d164f"
+  },
+  {
+    "file": "docs/images/brief/chip-missing.png",
+    "title": "芯片：漏焊",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      407.52,
+      76.8,
+      559.56,
+      191.52
+    ],
+    "sha256": "007a6b2504ee6dd6a4dfcbb66c0b5fbec9a86bb024ec36a3f5268c436f72b361"
+  },
+  {
+    "file": "docs/images/brief/chip-offset.png",
+    "title": "芯片：偏线",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      32.76,
+      217.2,
+      185.16,
+      332.04
+    ],
+    "sha256": "73fa6923dda9306773b59f8463e97fe5021e36bc41ca83ac00b575023a7b5267"
+  },
+  {
+    "file": "docs/images/brief/chip-bent.png",
+    "title": "芯片：弯线",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      218.4,
+      216.6,
+      371.52,
+      332.28
+    ],
+    "sha256": "11bf9bb79eb4aa8d14d6e1512dffbb8fe4e034bb08161923cff2f680bd9b2292"
+  },
+  {
+    "file": "docs/images/brief/chip-ok.png",
+    "title": "芯片：合格",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      406.92,
+      216.6,
+      559.92,
+      332.04
+    ],
+    "sha256": "cdf9bac384124a17516192b15cfad3e29c68eac0c2a52b0ca0f7802dda17c26f"
+  },
+  {
+    "file": "docs/images/brief/datum-x.png",
+    "title": "芯片位置：X 基准",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      40.2,
+      440.52,
+      155.28,
+      527.52
+    ],
+    "sha256": "c7b5ac81e9fa8a1f6d815177c7fec3080cac0192797ed90e107e43056ebeb82a"
+  },
+  {
+    "file": "docs/images/brief/datum-y.png",
+    "title": "芯片位置：Y 基准",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      164.76,
+      438.72,
+      285.6,
+      529.44
+    ],
+    "sha256": "73241120f0df0dafc1a0c87f4da04a8d1b8220786cd5ed2e980b65b2c50aa6d7"
+  },
+  {
+    "file": "docs/images/brief/datum-overview.png",
+    "title": "芯片位置：基准总览",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      299.52,
+      438.12,
+      421.56,
+      529.8
+    ],
+    "sha256": "8e9f9b20b53daa935a92d6a9ab4e18ffffcc8f75a3183efc70ad5812625e2a22"
+  },
+  {
+    "file": "docs/images/brief/chip-position.png",
+    "title": "芯片位置：位置度",
+    "source": "docs/reference/competition-brief.pdf",
+    "page": 6,
+    "bbox_points": [
+      432.72,
+      438.12,
+      554.64,
+      529.92
+    ],
+    "sha256": "070204ccd1d7d5da1c738a9db6d9a6316fc3a1d416099b0e96624a8a1d527faa"
+  }
+]

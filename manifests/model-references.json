@@ -1,0 +1,704 @@
+[
+  {
+    "reference": "Model\\01jipian\\01_1_louhan(less)\\model\\ExportModel\\DetModel_20260701155019060.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_2#0#8",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "8",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#9",
+        "CustName": "漏焊",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "9",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#33",
+        "CustName": "检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "33",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23720205
+  },
+  {
+    "reference": "Model\\01jipian\\01_2_duohan(more)\\model\\ExportModel\\DetModel_20260702085909631.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_2#0#15",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "15",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#14",
+        "CustName": "多焊",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "14",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#33",
+        "CustName": "检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "33",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23720205
+  },
+  {
+    "reference": "Model\\01jipian\\01_3_hanpian(skew)\\model\\ExportModel\\DetModel_20260702092243642.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_2#0#19",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "19",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#18",
+        "CustName": "焊偏",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "18",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#33",
+        "CustName": "检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "33",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23720205
+  },
+  {
+    "reference": "Model\\01jipian\\01_4_hanchuan(break)\\model\\ExportModel\\DetModel_20260702100444950.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_2#0#23",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "23",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#22",
+        "CustName": "焊穿",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "22",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#33",
+        "CustName": "检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "33",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23720206
+  },
+  {
+    "reference": "Model\\01jipian\\01_5_pianyi(jipian)\\model\\ExportModel\\DetModel_20260702103305680.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_2#0#27",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "27",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#26",
+        "CustName": "偏移",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "26",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#33",
+        "CustName": "检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "33",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23720207
+  },
+  {
+    "reference": "Model\\01jipian\\01_jipianfenlei\\model\\ExportModel\\ClsModel_20260706100808639.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_2#0#32",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLClassify-CPU",
+        "Sequence": "32",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#34",
+        "CustName": "分类",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "34",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_2#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": true,
+    "exists": true,
+    "bytes": 94482842
+  },
+  {
+    "reference": "Model\\02xianlan\\02_xianlan\\model\\ExportModel\\DetModel_20260707000012260.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_3/AlgoFlowTree_ATOM_3#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_3#0#3",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "3",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_3#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": true,
+    "exists": true,
+    "bytes": 23849842
+  },
+  {
+    "reference": "Model\\legacy\\missing-posun.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_4/AlgoFlowTree_ATOM_4#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_4#0#4",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLClassify-CPU",
+        "Sequence": "4",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_4#0#7",
+        "CustName": "手套空模",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "7",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_4#0#15",
+        "CustName": "检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "15",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_4#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": false,
+    "bytes": null
+  },
+  {
+    "reference": "Model\\03shoutao\\03_2_posun\\model\\ExportModel\\ClsModel_20260702171928902.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_4/AlgoFlowTree_ATOM_4#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_4#0#9",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLClassify-CPU",
+        "Sequence": "9",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_4#0#8",
+        "CustName": "手套破损或撕破",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "8",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_4#0#15",
+        "CustName": "检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "15",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_4#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 44820674
+  },
+  {
+    "reference": "Model\\03shoutao\\03_shoutaofenlei\\model\\ExportModel\\ClsModel_20260706123312343.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_4/AlgoFlowTree_ATOM_4#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_4#0#17",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLClassify-CPU",
+        "Sequence": "17",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_4#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": true,
+    "exists": true,
+    "bytes": 94458228
+  },
+  {
+    "reference": "Model\\04xinpian\\04_xinpianweizhidu\\model\\ExportModel\\xinpianweizhidu.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_5#0#65",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "65",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#7",
+        "CustName": "位置度",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "7",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": true,
+    "exists": true,
+    "bytes": 23842095
+  },
+  {
+    "reference": "Model\\04xinpian\\04_1_juanxian\\model\\ExportModel\\DetModel_20260704193942028.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_5#0#34",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "34",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#33",
+        "CustName": "卷线",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "33",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#32",
+        "CustName": "缺陷检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "32",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23720209
+  },
+  {
+    "reference": "Model\\04xinpian\\04_2_lianxian\\model\\ExportModel\\DetModel_20260704210259531.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_5#0#39",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "39",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#38",
+        "CustName": "连线",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "38",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#32",
+        "CustName": "缺陷检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "32",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23720209
+  },
+  {
+    "reference": "Model\\04xinpian\\04_3_louhan\\model\\ExportModel\\DetModel_20260705085234628.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_5#0#43",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "43",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#42",
+        "CustName": "漏焊",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "42",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#32",
+        "CustName": "缺陷检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "32",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23707702
+  },
+  {
+    "reference": "Model\\04xinpian\\04_4_pianxian\\model\\ExportModel\\DetModel_20260705175425878.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_5#0#47",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "47",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#46",
+        "CustName": "偏线",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "46",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#32",
+        "CustName": "缺陷检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "32",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23702529
+  },
+  {
+    "reference": "Model\\04xinpian\\04_5_wanxian\\model\\ExportModel\\DetModel_20260706083333902.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_5#0#51",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLDetection-CPU",
+        "Sequence": "51",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#50",
+        "CustName": "弯线",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "50",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#32",
+        "CustName": "缺陷检测",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "32",
+        "IsEnabled": "false",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": false,
+    "exists": true,
+    "bytes": 23712881
+  },
+  {
+    "reference": "Model\\04xinpian\\04_xinpianfenlei\\model\\ExportModel\\ClsModel_20260706143049292.bin",
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "atoms": [
+      {
+        "Id": "ATOM_5#0#55",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Algorithm2D_DeepLearning.DLClassify-CPU",
+        "Sequence": "55",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#54",
+        "CustName": "缺陷分类",
+        "BackgroundEnum": "-1",
+        "Key": "Logic.AlgoGroup",
+        "Sequence": "54",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      },
+      {
+        "Id": "ATOM_5#0#1",
+        "CustName": "",
+        "BackgroundEnum": "-1",
+        "Key": "Auto.FlowRoot",
+        "Sequence": "1",
+        "IsEnabled": "true",
+        "IsInteruptIfFailed": "false"
+      }
+    ],
+    "effective_enabled": true,
+    "exists": true,
+    "bytes": 94482847
+  }
+]

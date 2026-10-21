@@ -1,0 +1,3265 @@
+{
+  "scope": "all repository files except this manifest itself",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 143,
+      "sha256": "023dea190244b0d58729f667bc64427f84b71557a9d4019461b663e017ade478"
+    },
+    {
+      "file": ".github/workflows/check.yml",
+      "bytes": 582,
+      "sha256": "88b2395744633bffed1d9feaa53e169be4c2caf7f12b724eac77ca45bde7a643"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 386,
+      "sha256": "3e1338a9e1a6f2b5f9133f51367c6a563f44265ee06d6a8f70a65916fb4da4b4"
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "bytes": 476,
+      "sha256": "438930a3007c3ede3bf7384f8606ac4e376e0e2237c5fd4ff4bea6e9987efb7e"
+    },
+    {
+      "file": "docs/architecture.md",
+      "bytes": 1928,
+      "sha256": "876f6db14c1b09ca5d5792c885d66d2a9fb0a421a795d7407eab0f19a0060fab"
+    },
+    {
+      "file": "docs/gallery.md",
+      "bytes": 3426,
+      "sha256": "57af3901831060c5ecc14c7c98fd962f51804917709186a5cd621249051704f3"
+    },
+    {
+      "file": "docs/images/brief/cable-angle.png",
+      "bytes": 232958,
+      "sha256": "4caa4cae0a91501b7e6986824ce8ad7ecc7b0a804e2ffe1da08e63e9b85c70e7"
+    },
+    {
+      "file": "docs/images/brief/cable-standard.png",
+      "bytes": 237363,
+      "sha256": "40531090772181abac7e8ef3d5d3dedebd6737e7289b7cc601767557f14eb8f6"
+    },
+    {
+      "file": "docs/images/brief/cable-test.png",
+      "bytes": 204367,
+      "sha256": "805217f1d2ceb0326d15b09b7150fd7bf3d86df8949e1de0d7d0b089d6fea1ce"
+    },
+    {
+      "file": "docs/images/brief/chip-bent.png",
+      "bytes": 259626,
+      "sha256": "11bf9bb79eb4aa8d14d6e1512dffbb8fe4e034bb08161923cff2f680bd9b2292"
+    },
+    {
+      "file": "docs/images/brief/chip-coil.png",
+      "bytes": 230587,
+      "sha256": "c224b7f5cf01bd485f2344baf530b20b95867cdae3b7ae3b5bbaf9dff15577e7"
+    },
+    {
+      "file": "docs/images/brief/chip-link.png",
+      "bytes": 228783,
+      "sha256": "43cc567b31195779525a695ae46e40bd716039b9aea46476901bdc1c062d164f"
+    },
+    {
+      "file": "docs/images/brief/chip-missing.png",
+      "bytes": 229281,
+      "sha256": "007a6b2504ee6dd6a4dfcbb66c0b5fbec9a86bb024ec36a3f5268c436f72b361"
+    },
+    {
+      "file": "docs/images/brief/chip-offset.png",
+      "bytes": 232632,
+      "sha256": "73fa6923dda9306773b59f8463e97fe5021e36bc41ca83ac00b575023a7b5267"
+    },
+    {
+      "file": "docs/images/brief/chip-ok.png",
+      "bytes": 233669,
+      "sha256": "cdf9bac384124a17516192b15cfad3e29c68eac0c2a52b0ca0f7802dda17c26f"
+    },
+    {
+      "file": "docs/images/brief/chip-position.png",
+      "bytes": 172637,
+      "sha256": "070204ccd1d7d5da1c738a9db6d9a6316fc3a1d416099b0e96624a8a1d527faa"
+    },
+    {
+      "file": "docs/images/brief/datum-overview.png",
+      "bytes": 170808,
+      "sha256": "8e9f9b20b53daa935a92d6a9ab4e18ffffcc8f75a3183efc70ad5812625e2a22"
+    },
+    {
+      "file": "docs/images/brief/datum-x.png",
+      "bytes": 158052,
+      "sha256": "c7b5ac81e9fa8a1f6d815177c7fec3080cac0192797ed90e107e43056ebeb82a"
+    },
+    {
+      "file": "docs/images/brief/datum-y.png",
+      "bytes": 163347,
+      "sha256": "73241120f0df0dafc1a0c87f4da04a8d1b8220786cd5ed2e980b65b2c50aa6d7"
+    },
+    {
+      "file": "docs/images/brief/electrode-break.png",
+      "bytes": 100797,
+      "sha256": "0edeb920b74282675e709f27bdffdb0995fb9f89ff38ab130c274d0b32e86127"
+    },
+    {
+      "file": "docs/images/brief/electrode-less.png",
+      "bytes": 97694,
+      "sha256": "7dfed2f0074b199e9da6e1140747608d9255c7c4a7c6c6befd7bbced486044ad"
+    },
+    {
+      "file": "docs/images/brief/electrode-more.png",
+      "bytes": 111594,
+      "sha256": "4060dc1eab02da87829e6a8e7b068cd293d2e2d46037fc1c274b1551a77960b2"
+    },
+    {
+      "file": "docs/images/brief/electrode-offset.png",
+      "bytes": 115096,
+      "sha256": "26b09f3fb38898aa8438b69ced39870e80a8e834d41fd0e6dedcbc96755d6064"
+    },
+    {
+      "file": "docs/images/brief/electrode-ok.png",
+      "bytes": 104691,
+      "sha256": "691fab0d9e9c9a914215e3767764841ec777fa0ca50856904199ac4a254400e7"
+    },
+    {
+      "file": "docs/images/brief/electrode-skew.png",
+      "bytes": 111214,
+      "sha256": "ce39ae133f9df751943dce582c81a8002361fff5b65bd330fccf35e971689d15"
+    },
+    {
+      "file": "docs/images/brief/glove-damage.png",
+      "bytes": 65680,
+      "sha256": "704bb891552136393687aabe6d5c87749b95fbb36e8d37220ef3244694392898"
+    },
+    {
+      "file": "docs/images/brief/glove-empty.png",
+      "bytes": 26063,
+      "sha256": "24e7a07dc997475d25bf1277240a6ef42fcb24716d54a1e214871edc631fdcbd"
+    },
+    {
+      "file": "docs/images/brief/glove-ok.png",
+      "bytes": 45105,
+      "sha256": "03efea273058274f3b843b9f24509be63d61cb6168cc47f2192db16bd37a009d"
+    },
+    {
+      "file": "docs/images/cable-pipeline.svg",
+      "bytes": 3517,
+      "sha256": "c30e14a2329f639b3cb85498c73ff1a007f45801678f13ef6d7e6503ead1a062"
+    },
+    {
+      "file": "docs/images/chip-pipeline.svg",
+      "bytes": 3510,
+      "sha256": "3453045322f14b7bd00751f48b5bb17af84165b5ad2ee47d9b7fad71782d4a54"
+    },
+    {
+      "file": "docs/images/electrode-pipeline.svg",
+      "bytes": 3458,
+      "sha256": "9224f48eadaa2736457442ea8aa3ca6f0007a2f10233c2c4096dc7f984ae69e0"
+    },
+    {
+      "file": "docs/images/glove-pipeline.svg",
+      "bytes": 3475,
+      "sha256": "b9dd8cde8c8d754cd0c87dbe0d8537f9d50e9b9cd76c4782fb9c360073ccd77b"
+    },
+    {
+      "file": "docs/images/hmi-final.png",
+      "bytes": 1744295,
+      "sha256": "f1f6e751bd059aa71b37bfedc4976a5330653fda85df363d65901b2b2204f79c"
+    },
+    {
+      "file": "docs/images/original-flow.png",
+      "bytes": 34695,
+      "sha256": "2524ebd80db10192fcf5c68739fe289dd8aa1615abf2e141ebebf811b8d31a37"
+    },
+    {
+      "file": "docs/images/system-overview.svg",
+      "bytes": 3547,
+      "sha256": "74cdee3aa754582b175aa03938cfb24039f3c9c7e4389665dcd2bb25bcf687cd"
+    },
+    {
+      "file": "docs/reference/competition-brief.pdf",
+      "bytes": 1865231,
+      "sha256": "af2ddd46359ed828e844a60d0abf6e411bef15d9870620f9702b3d4232d923e4"
+    },
+    {
+      "file": "docs/reproduction.md",
+      "bytes": 4649,
+      "sha256": "73b9f13135391fb5311a35b02f28c9959efbf4302598286db1fb76198769a381"
+    },
+    {
+      "file": "docs/requirements.md",
+      "bytes": 2165,
+      "sha256": "1739e4a9e1fcea0ec1a61d044bf4d1b40165a122aaa4e26effe9626284a13a7c"
+    },
+    {
+      "file": "docs/resource-validation.json",
+      "bytes": 9231,
+      "sha256": "1085080bc45ff4ecae440bdd80c217a69b0cba2fd2f81ba38579f603593271ae"
+    },
+    {
+      "file": "docs/resources.md",
+      "bytes": 4761,
+      "sha256": "5d0911e9b10738652df677b78a84e7edaff46a532d699c571def04024111053c"
+    },
+    {
+      "file": "docs/static-validation.json",
+      "bytes": 8241,
+      "sha256": "7fbc31b23f6ab1f7ed3701b2d966446bd163510fb55652263debc8069386d061"
+    },
+    {
+      "file": "docs/validation-report.json",
+      "bytes": 1315,
+      "sha256": "22a847c70859336e482a073e82cea139530cb7ec0a084f51121dd3bdd24fd9c3"
+    },
+    {
+      "file": "docs/validation.md",
+      "bytes": 2722,
+      "sha256": "08d227fdeecf9e8d4d64864c23e876872fc09a7cb8f52b6c32bc6fe6f9c0523a"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 1276,
+      "sha256": "15128215d9f3fa3c00552dea17b4583c5f7ca03156adef672711cd38150151be"
+    },
+    {
+      "file": "manifests/core-source.json",
+      "bytes": 14240,
+      "sha256": "1b21a499edafce1cf345c1d8b9c9adc0aa63960df0421128fc720033edc157dd"
+    },
+    {
+      "file": "manifests/dataset-files.json",
+      "bytes": 404105,
+      "sha256": "f530bd78dd0d175e3d894bc6122c080a0d08053fa5489fe78eaf35d8a236acde"
+    },
+    {
+      "file": "manifests/dataset-summary.json",
+      "bytes": 165,
+      "sha256": "2e590c4a45bee26e6d67802532e90ba0b19a0f654b94def57e203cbf968dd33e"
+    },
+    {
+      "file": "manifests/demo-images.json",
+      "bytes": 5267,
+      "sha256": "1ca5b13261d48885ca57bc07fed141dacf587021677f9953a9d64e81ae77b85b"
+    },
+    {
+      "file": "manifests/evidence.json",
+      "bytes": 688,
+      "sha256": "c8563b549fc64c2b51a34ff3564be12245e34cc6f859fd3e2f5d6bb9d263b8c9"
+    },
+    {
+      "file": "manifests/figures.json",
+      "bytes": 7408,
+      "sha256": "9c911d9ac6f854b461c5e37fcef093c882cf445c260efda0e11a34a732266b41"
+    },
+    {
+      "file": "manifests/image-bindings.json",
+      "bytes": 754,
+      "sha256": "56b379706eaef7d376091ba0060f991871626b16e8066a9fd18f5c294151a42f"
+    },
+    {
+      "file": "manifests/model-references.json",
+      "bytes": 19477,
+      "sha256": "2aefe902c049ef2d6a12ed73158653f21c23d579d643f4a38b04e814065ff65c"
+    },
+    {
+      "file": "manifests/models.json",
+      "bytes": 5864,
+      "sha256": "ffc8c93c19081bc60278711fc73d36c8abe8783dd3398c023cc200c9172b3214"
+    },
+    {
+      "file": "manifests/packaging-changes.json",
+      "bytes": 1637,
+      "sha256": "24b366ba332d907ca40b6e032bca170e7147639a3ea04f8d47d35f1eba5c6d77"
+    },
+    {
+      "file": "manifests/resource-bundles.json",
+      "bytes": 3629,
+      "sha256": "3379ef4dce0130abc15ebbb1de354ed51d6a13b33efaf2a09c9ec8e43cfa6590"
+    },
+    {
+      "file": "manifests/training-projects.json",
+      "bytes": 2704,
+      "sha256": "35cccb939c3449376e99f34a1a495728a8365e06bf72ddb43c549f4739e15d56"
+    },
+    {
+      "file": "project/Config/DBManager/DBManager.dbmgr",
+      "bytes": 96,
+      "sha256": "7a8ae94e8371035b269514cd8d60ba6a2a3bce9a341ceac186818cf372086170"
+    },
+    {
+      "file": "project/Config/Device/Device.device",
+      "bytes": 60,
+      "sha256": "555c2624eb69d747647e3caf45f94778c2957cd7544f82428fe2acbe34b4c3a8"
+    },
+    {
+      "file": "project/Config/FlowAndTool/Calibration/005-A0-004_棋盘格标定.calck",
+      "bytes": 6852296,
+      "sha256": "d4be884ce5c4736bc7dfc1d1b2fcce00779fd6f972973f0a480553a42fe3163d"
+    },
+    {
+      "file": "project/Config/FlowAndTool/Flow/MainFlow/Main.page",
+      "bytes": 23503,
+      "sha256": "8b2017b8febc481b77d2c936c9543fbe2c681baf72f9f0a11eaf8bc31a333441"
+    },
+    {
+      "file": "project/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+      "bytes": 9831269,
+      "sha256": "c1729d754402ff24b7b2205bc542e74edbb56c587d49f675cd6ef25276cc70de"
+    },
+    {
+      "file": "project/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_3/AlgoFlowTree_ATOM_3#0.xml",
+      "bytes": 25953,
+      "sha256": "f8f48f202c0e50386eee9efb12ec3a326591d054ed2b1dfcece64a0dfe9a24f0"
+    },
+    {
+      "file": "project/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_4/AlgoFlowTree_ATOM_4#0.xml",
+      "bytes": 34586,
+      "sha256": "052ea1816212399f6fc7af718c59fa403efab1b7b28d03d4ebf86654430e52e2"
+    },
+    {
+      "file": "project/Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+      "bytes": 68592315,
+      "sha256": "48416f84726437329249ab791468a66f31bb9082a62cabb1072097d8b8877e98"
+    },
+    {
+      "file": "project/Config/HMIWindows/HMIWindow.window",
+      "bytes": 57243,
+      "sha256": "b361799f5dcbd4469e12ce55f23ad57f4bac5a67782e221c29b93719ea96d6e5"
+    },
+    {
+      "file": "project/Config/Monitor/Monitor.mont",
+      "bytes": 61,
+      "sha256": "7ecfb7a8fbf20ca9b2750b5ddeb4c86959f11a44b5a8abe27ce690598256c5cd"
+    },
+    {
+      "file": "project/Config/Recipe/Recipe.recipe",
+      "bytes": 99,
+      "sha256": "b9d15e06b47a9ed8a676245e305831e710afaf658a267dcc2c2d0ecd89de7a28"
+    },
+    {
+      "file": "project/Config/Response/Response.rsp",
+      "bytes": 2068,
+      "sha256": "3355d188ee0bd06a24568c6facdbed990882f694b1b00fd6493717afc6d47995"
+    },
+    {
+      "file": "project/Config/Variable/Variable.variable",
+      "bytes": 198,
+      "sha256": "a8f9036995cefde409c0c43654c3a01687d7a2c8330d3c6c2136223fc095baae"
+    },
+    {
+      "file": "project/Config/VpsLog/VpsLog.vpsLog",
+      "bytes": 327,
+      "sha256": "c0deda4e0ff119c6bf0cc9d6b17f6e07b38b8467af8db7a6efca1359b4b6d654"
+    },
+    {
+      "file": "project/FAIs/ATOM_6_cf10248a-17e7-4c15-81e5-d45e19246e3f.csv",
+      "bytes": 307,
+      "sha256": "bbc68682fc72af6a15162a5dbc4861428bb47680150042395af0fdd70b7e3ef4"
+    },
+    {
+      "file": "project/Icons/DCCK-Blue.png",
+      "bytes": 7298,
+      "sha256": "65901947624efdc8b63522e900247279eb57b4856dc7368641283818afde2eca"
+    },
+    {
+      "file": "project/Icons/DCCK-Lite.png",
+      "bytes": 951,
+      "sha256": "5873e8b1d8b4555e297273f1cb52ce8d43c2cf48f774de973c1969eb27186e56"
+    },
+    {
+      "file": "project/Icons/DCCK-White.png",
+      "bytes": 3225,
+      "sha256": "a4cb5d62b3362865ccb95c3a63bf8663d78c1893b6e5ceeabead306f34a001c4"
+    },
+    {
+      "file": "project/Icons/DCCK_logo.png",
+      "bytes": 47214,
+      "sha256": "30a5c7e455687f9ba4050c9080911080ab1372299caf5c485bf4b81624a70d37"
+    },
+    {
+      "file": "project/Icons/V+.png",
+      "bytes": 811,
+      "sha256": "d4215c1b5cee2cc09d5625e84fc2f794056b7878864b77c6462528efa8bf72eb"
+    },
+    {
+      "file": "project/Icons/仿图.png",
+      "bytes": 572,
+      "sha256": "41e77d3c5390debf6c0c268c8df00f1515c8bca25f9a297541251cc583793fd2"
+    },
+    {
+      "file": "project/Icons/保存.png",
+      "bytes": 516,
+      "sha256": "739d5b7eb32319051d8ad73f15834373f128436a1d12daf26f98125c266b51ad"
+    },
+    {
+      "file": "project/Icons/切换.png",
+      "bytes": 311,
+      "sha256": "7d3575564b9ac06a71dd205008921884a5a3eed2979f6b409ed6af56acdae2ab"
+    },
+    {
+      "file": "project/Icons/变量.png",
+      "bytes": 723,
+      "sha256": "c2230a61e5e7966f4cc6ff165f14a101db4eab7aa0cb3b780ac078beba3a3b3a"
+    },
+    {
+      "file": "project/Icons/图片.png",
+      "bytes": 471,
+      "sha256": "df97c5dc061be0b4933b3d51ae05dc28c6a17d2bc49420628246b9de0ca24774"
+    },
+    {
+      "file": "project/Icons/对话框.png",
+      "bytes": 255,
+      "sha256": "ad6ff550ee3c7002c6f0a871f83a088e591baf2c000d99fd39bbdff43ef59093"
+    },
+    {
+      "file": "project/Icons/帮助.png",
+      "bytes": 1007,
+      "sha256": "f37a1d65078b0511230e7988e80dc39f001b6c4d412d9abdaef9924c4fa89120"
+    },
+    {
+      "file": "project/Icons/手动触发.png",
+      "bytes": 812,
+      "sha256": "55c04c00c6d36df8b19a62772ec85035dad22cc9cca8e16addea5e39e78ab82a"
+    },
+    {
+      "file": "project/Icons/手眼标定.png",
+      "bytes": 468,
+      "sha256": "788847d7de303d5a62e2d987dba6def5467bae70a7e2342cb6b97c492a6ac46c"
+    },
+    {
+      "file": "project/Icons/数据表格.png",
+      "bytes": 249,
+      "sha256": "031655276421f54d5aece0e28f658aefb03d2ae9afbc1e1981183774b2b9e31f"
+    },
+    {
+      "file": "project/Icons/文件夹-1.png",
+      "bytes": 373,
+      "sha256": "df521ce841833a24aa252bea777f45b1b8c8f6e31814afe780331801a70e092e"
+    },
+    {
+      "file": "project/Icons/文件夹-2.png",
+      "bytes": 350,
+      "sha256": "0e22009537ac8fc7e397ecae5b1946c0b66ac8c5631b4aed066f40d5505c9f06"
+    },
+    {
+      "file": "project/Icons/日志.png",
+      "bytes": 448,
+      "sha256": "5eb72b98b2999ded058bb1e1fce988f735ca97e1d46136b42876972319e0fb5a"
+    },
+    {
+      "file": "project/Icons/机器视觉-1.png",
+      "bytes": 588,
+      "sha256": "69dd109e6deff12f4d04aa1476260e73fd70f93c240081b7a22c06ec34a1a872"
+    },
+    {
+      "file": "project/Icons/机器视觉-2.png",
+      "bytes": 722,
+      "sha256": "025629c78c66165002feb9076b4608600fecf08d8f254c2cd85eedb30c43199f"
+    },
+    {
+      "file": "project/Icons/用户.png",
+      "bytes": 705,
+      "sha256": "eb898162fc9e4f177b449aa1774da8d2d9ea38512dd48fa82d3d2886422f5f43"
+    },
+    {
+      "file": "project/Icons/用户管理.png",
+      "bytes": 803,
+      "sha256": "ed63e9f460cee7e397a809d5590004d818e485d66855e380df4e86495d3600f6"
+    },
+    {
+      "file": "project/Icons/相机.png",
+      "bytes": 506,
+      "sha256": "9cf18b844d0cd98ee36f54a5a1e8f652dad0e1b1b6b1ac9dc335ea2c60fadb5e"
+    },
+    {
+      "file": "project/Icons/结果图像.png",
+      "bytes": 474,
+      "sha256": "25d4f6de122f7828cc9e1a59687baf8696ed6069b5e821cbc360d71cd09347d5"
+    },
+    {
+      "file": "project/Icons/统计.png",
+      "bytes": 442,
+      "sha256": "58fbf8fcb508e5a4e3dc96d0b03e98609829c8fd5a834b178ae700c3301f18b3"
+    },
+    {
+      "file": "project/Icons/脚本.png",
+      "bytes": 654,
+      "sha256": "0ab423ac5f79218997c7550db6bebd97171655fe39c5914e6a7636875314793d"
+    },
+    {
+      "file": "project/Icons/触发.png",
+      "bytes": 687,
+      "sha256": "8395c537391b74eca5a79541799be038ca82fd9cafe2f5f269848ff768a2288e"
+    },
+    {
+      "file": "project/Icons/计算器.png",
+      "bytes": 320,
+      "sha256": "a0525d3020499b83687395b497ce97667316e9e78a9bf6881b33ffeec4797391"
+    },
+    {
+      "file": "project/Icons/设备.png",
+      "bytes": 1017,
+      "sha256": "bb2250eea6e0473d22492dc1d00a49c6b90b8f1ddb2201f5422667c5a22f4e6e"
+    },
+    {
+      "file": "project/Icons/设置-1.png",
+      "bytes": 501,
+      "sha256": "54fa070ea57fa89dbca21cf308fc2e58a6ba801e98b503297ce7aa0a78a9f343"
+    },
+    {
+      "file": "project/Icons/设置-2.png",
+      "bytes": 782,
+      "sha256": "9bc96ae2e43122732e15674d02a50d614244e27d5ebc4d41045d97152b1b59ee"
+    },
+    {
+      "file": "project/Icons/连接器.png",
+      "bytes": 430,
+      "sha256": "a1ec717397ee004d56ac3296e751dd627917a67d8aebcab7efdb74b9ecbf1935"
+    },
+    {
+      "file": "project/Icons/通讯.png",
+      "bytes": 287,
+      "sha256": "a369626e03df1bf330572e4024d3757dd6201cb03fc559bcc98699a7544d82ee"
+    },
+    {
+      "file": "project/Icons/配方.png",
+      "bytes": 492,
+      "sha256": "e35631b2c84930a90deeecfe84321ce3df79d532600da8ecd96a145631259f07"
+    },
+    {
+      "file": "project/Icons/饼图.png",
+      "bytes": 616,
+      "sha256": "9399f3501df2efdb9a9485102420ce02112403bf11f0930c5de9394702409827"
+    },
+    {
+      "file": "project/Image/01_jipian/01_OK_1045.png",
+      "bytes": 864193,
+      "sha256": "7de74e2297e2482a168c504fd6c5f22d0cfded3b46a069aee48b3f931ae0650f"
+    },
+    {
+      "file": "project/Image/01_jipian/02_NG_break_01.png",
+      "bytes": 771759,
+      "sha256": "aa4cff2744ad9b453e542e2ad500a4b4f02694d8d9a17690fa599f48b600ed5c"
+    },
+    {
+      "file": "project/Image/01_jipian/03_NG_less_1.png",
+      "bytes": 824453,
+      "sha256": "82a4cc971e67a245fb9135a4651045d8bd55125032985f42157a2fec741a0286"
+    },
+    {
+      "file": "project/Image/02_xianlan/01_Image-01.png",
+      "bytes": 6994884,
+      "sha256": "50d61d454173de3166e7eb9c94ea70a1a35e9f34a5cf71fa3e353ec04305057b"
+    },
+    {
+      "file": "project/Image/02_xianlan/02_Image-02.png",
+      "bytes": 6964942,
+      "sha256": "c9c2748de6b858b6b0896497b2768b46be594ab7b2304746d5b431e4832744aa"
+    },
+    {
+      "file": "project/Image/02_xianlan/03_Image-08.png",
+      "bytes": 6860664,
+      "sha256": "26b31e1c7b8b7586630495cfd97a7459283d1b05d4809a243be777eff9f07f74"
+    },
+    {
+      "file": "project/Image/03_shoutao/01_OK (1).png",
+      "bytes": 1056762,
+      "sha256": "8c539a4920ccd75bd3f6f31e9b6f4fe4c9efa3605684afac8744908cd1a2dd87"
+    },
+    {
+      "file": "project/Image/03_shoutao/02_Kong (1).png",
+      "bytes": 841863,
+      "sha256": "90c17eb5cd2f2fb21338294458140ebdc841505bc04755b5588ef8de74d6b974"
+    },
+    {
+      "file": "project/Image/03_shoutao/03_PoSun (1).png",
+      "bytes": 1001513,
+      "sha256": "b02a480344315a66586f5c763d02bffdd4440131255bbd146407e6e908b9b5aa"
+    },
+    {
+      "file": "project/Image/04_xinpian/01_chip-ok_100.png",
+      "bytes": 10152369,
+      "sha256": "671069eeff634ac7fe240609572788b775dc32984e05190711d7258995824c44"
+    },
+    {
+      "file": "project/Image/04_xinpian/02_12.25-chip-卷线_34.png",
+      "bytes": 10570053,
+      "sha256": "251360bd398cee649a07a58958aaaa5a9b58b166e65e2e74e261d2987219d449"
+    },
+    {
+      "file": "project/Image/04_xinpian/03_12.25-chip-漏焊_29.png",
+      "bytes": 10467494,
+      "sha256": "bc1f8bc659ae43d7f097970eb6da1fe712494420d6f37e815be35c88d9eebb75"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/DetModel_20260701155019060/annotations/instance_train.json",
+      "bytes": 6658,
+      "sha256": "d4588ff35dd0ad3c3dde6844174aee384510952aba580f8a942543ef8c1ab0cc"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/DetModel_20260701155019060/annotations/instance_val.json",
+      "bytes": 6658,
+      "sha256": "cf3fa6cb9d13b0aa28211173b9c74844ad831718930cf5f14fe0234ea6a7fe81"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/Keys.txt",
+      "bytes": 8,
+      "sha256": "231ca9f073ccacd5d9f956b2d52cff789b05076b7d4428e8c442697c0fc3fea0"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_1.json",
+      "bytes": 730,
+      "sha256": "0cae598f8eb475b62980455a1d0b31f5fff29e20d361a47c19c0be98a9789f1b"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_10.json",
+      "bytes": 737,
+      "sha256": "9f49c3383775da62cf64481eff2d4f9357f6315d2e092033ae374e4159222733"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_11.json",
+      "bytes": 734,
+      "sha256": "84d5a0e0e942ec91cdbb7d4028a8cbcb48c8a97980335ec2600ebd073a18e565"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_12.json",
+      "bytes": 737,
+      "sha256": "1fbbef6d521f8cb8030edb3d5de8af8d8dc4668fef126a5b9b25e17d91e11c9e"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_14.json",
+      "bytes": 737,
+      "sha256": "67091e89a2c5cac7c37acb50256b84b9277150c6a3794921708b48d34403aaf0"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_17.json",
+      "bytes": 737,
+      "sha256": "71831c05e2552588167777bdfb8a6abb01294070b7926c1dc814210c2652a588"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_18.json",
+      "bytes": 737,
+      "sha256": "a78ac44ba09a05185cd3bd8ad90a356559bf4a0e6226aba375d0dd396e7b8585"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_19.json",
+      "bytes": 731,
+      "sha256": "747326551cfba18f52fe5d27a06ffe80f10c03a6f014e75149c8581d21d4b6fe"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_3.json",
+      "bytes": 736,
+      "sha256": "217781f47d3bf562a7d305e414e79a83e9a1d99a475aba47e626f0790a481b9b"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/label/label/NG_less_5.json",
+      "bytes": 730,
+      "sha256": "8758311fbd181c9388e6737007c3eac187ba3b64bdb3a5e4d09556e5a6133d0c"
+    },
+    {
+      "file": "project/Model/01jipian/01_1_louhan(less)/Project.dls",
+      "bytes": 13381,
+      "sha256": "5cf74f5ee97f2b4e08501be4000bab35b22102e2e6cde3d065630cf0c8e21995"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/DetModel_20260702085909631/annotations/instance_train.json",
+      "bytes": 10560,
+      "sha256": "aaf167cc9fd8e0b215cef7a05cb880803d5414845d5b1d0807c858322da94685"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/DetModel_20260702085909631/annotations/instance_val.json",
+      "bytes": 10560,
+      "sha256": "1382c2b86fc2b45173deae608dc510ad4daa38f04435011bf53c16d06db85e8f"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/Keys.txt",
+      "bytes": 8,
+      "sha256": "1c05e71cba996b5a3d55170a318348e4cfbf8eb9f16f27ce33996cd5a6741b49"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_01.json",
+      "bytes": 740,
+      "sha256": "4d5e6a7c3959afb68aa6f627dc7beb6897c8de5442a20944aad2bc5e7ac8f8e2"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_02.json",
+      "bytes": 734,
+      "sha256": "f7592ce043eb7797aeda81665ebb5ff7f98ead9b53c0d1757053f2a2d83e918b"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_03.json",
+      "bytes": 740,
+      "sha256": "06eabead927a9931e9f9b60815aa487c29a6f66aeb8a58949aa5553c0194c621"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_04.json",
+      "bytes": 734,
+      "sha256": "c76fab909372779f1185725b66ecadd459c676a45e8fa514bbe1a8ef59138229"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_05.json",
+      "bytes": 695,
+      "sha256": "627d6dc38e65648cac1f5678643ad32d530f014ad448f0bd9a455849139c65e0"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_06.json",
+      "bytes": 740,
+      "sha256": "f86ab0865c60317400bffd7ac18fdcf54c4ebd9d310550e03835062e043df421"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_07.json",
+      "bytes": 734,
+      "sha256": "1027caf73c9bbd9c646b8465f3f1eaf550a39524aca1bcac99edf3e27f8aa4fc"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_08.json",
+      "bytes": 731,
+      "sha256": "37d5b6a7ba13dbcf5d62dcd07d2b94bd5750212c7aa988371a1594f0199d952f"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_09.json",
+      "bytes": 734,
+      "sha256": "44a13f297b310cb4747c0102d1948bc0edaa2312e96ba4c6ce79f54cd2054fc9"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_10.json",
+      "bytes": 740,
+      "sha256": "e343241c2eea03d55f41a139453567bbc97807f0a33bd5e7a385116a1bd08fb7"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_11.json",
+      "bytes": 737,
+      "sha256": "192d68eb36127b71ee6af6434c178c8730cdf6340342137d1aa99d961e190c80"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_12.json",
+      "bytes": 737,
+      "sha256": "cb991278162ecd589d25bad4aa9bdcbba91dd71cab31a1606b05a492381b5662"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_14.json",
+      "bytes": 737,
+      "sha256": "8c05c8ef8b390e341a5554177c4a0c518210d3865d56f519b5468bc1acfdadb2"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_15.json",
+      "bytes": 737,
+      "sha256": "08b8ebfe8455d0978b8bd9fa5112a9b82fc0c50d6acf8db63f8c0245b6f2877f"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_17.json",
+      "bytes": 740,
+      "sha256": "2f7cb5d2f4589a5ef3a36cd77abc5cf0a6936292645ccb68bd0e4c93d572d18b"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/label/label/NG_more_18.json",
+      "bytes": 737,
+      "sha256": "5cf5c3b425a5673084da5a5431076c310b160d83bd14316aaf6eb56317f92d36"
+    },
+    {
+      "file": "project/Model/01jipian/01_2_duohan(more)/Project.dls",
+      "bytes": 17381,
+      "sha256": "4e3306f768a99ad4deff52fd816ecb23189be4178fe99ae698ac4711480841bf"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/DetModel_20260702092243642/annotations/instance_train.json",
+      "bytes": 39451,
+      "sha256": "6497471a45041bcd65713807a96d8a5dbd0bb2ebe0a4b5f937e00a08a6c974d1"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/DetModel_20260702092243642/annotations/instance_val.json",
+      "bytes": 10790,
+      "sha256": "3f10142bf3b4fb42a8cad5ed13d46c1b44c36251d04caa50e8b48f69bd0c3bbd"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/Keys.txt",
+      "bytes": 8,
+      "sha256": "9d286c082a8a87460ba657d1717a53a8a28a6aa98954d6ac9230352a320fdac9"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_01.json",
+      "bytes": 737,
+      "sha256": "77b84c52cc4281fcdd8a0fd4e4a9e80cd0a3eb351fb8b25fc13a4d4f1ea094da"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_02.json",
+      "bytes": 737,
+      "sha256": "838d52d58eb01c27e87d1278c7c1c188081e341d77425db75ec3f97a7cf29638"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_03.json",
+      "bytes": 737,
+      "sha256": "38411ea489afe4e7ce16b093d23fe2a4ca9e3cf75afdb2a9fb699c1422bbc0c3"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_04.json",
+      "bytes": 695,
+      "sha256": "b5a24a000e446691b7f95e4e5d3d41da107554153477753663e4072b00ecd47f"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_05.json",
+      "bytes": 737,
+      "sha256": "cd2e7058d9f60b26ccfdc72c18c244d82c5d964037953686583f7c9fe183c7ed"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_06.json",
+      "bytes": 740,
+      "sha256": "fe43ac2fd7ad9d8d910b3879f0b679ec2428e18d4f0249f8a3831cfe130687df"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_07.json",
+      "bytes": 737,
+      "sha256": "b0a8a17f120e4e1c518ba73e0d448e6a471a2a3ddd09c935225f55f274550b6e"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_08.json",
+      "bytes": 737,
+      "sha256": "e3f93d789eb57acc7ded3ce54b73fee802cc45b413f1c3edebb75d9faab30220"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_09.json",
+      "bytes": 1338,
+      "sha256": "79859cae82a727e860e138275d926623a71398e04540ee3ad1413e220db61e3c"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_10.json",
+      "bytes": 734,
+      "sha256": "737098286dd254b0c2e4ce6df4d92d2de173ba231cd282c56331ebd222f0d710"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_11.json",
+      "bytes": 731,
+      "sha256": "94c30d9ca7aa069e824d13dbebb7aaa1897e6fe3cf111f4e92442a0f4ca645ef"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_12.json",
+      "bytes": 737,
+      "sha256": "dc2be14fd1434b63387bfa0481e39267c8d9644e60d8f458c7fe45c2133cc4ce"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_14.json",
+      "bytes": 737,
+      "sha256": "64be036d70b40336484487673abcd49d2df1e6394738afb62cf32cb7a1257864"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_15.json",
+      "bytes": 731,
+      "sha256": "1aa9301104c53e6e42471df0bafcc6b158e60ca2ff1251614c288457bcc93ec1"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_16.json",
+      "bytes": 740,
+      "sha256": "410280f83eab47c639890767a475f917a28005f5d8a0eb8ce18698c59019c086"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_17.json",
+      "bytes": 734,
+      "sha256": "3e246dfb66410600e003d521e7f891c85b2a10fce478d2e6cdad8edaecf8551d"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_18.json",
+      "bytes": 1338,
+      "sha256": "37c3d6f19151460af6cb846ccceae4c4c117f12c1e2284da438f1bbccea7ed57"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_19.json",
+      "bytes": 1329,
+      "sha256": "803c61bcf74207ed31375416165b740cf35a28f9293793f7d9c5127572b61a19"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_20.json",
+      "bytes": 1332,
+      "sha256": "3d890e06a1813e70fa05ffcb3a98a7787602845e0f97085eb188850e0964caf1"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_21.json",
+      "bytes": 1332,
+      "sha256": "4dc652ed8c7802eb5dab5cf645be235f39ab4d9a24c15267e56aef4c7667ac3e"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_22.json",
+      "bytes": 731,
+      "sha256": "e7903bb9bce558083613edc6630985b86f964b87d4bf6be13c10441f6f78b214"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_23.json",
+      "bytes": 734,
+      "sha256": "febaf9c9e8e5106057e593a7ca4404bf968fa42d49742d8223442bc10eba64d5"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_24.json",
+      "bytes": 1341,
+      "sha256": "65bbd97b2ca9c3b22d0b6e555fe191989f73217c3189ec80d9d8ceaa2c2266d4"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_25.json",
+      "bytes": 734,
+      "sha256": "037b01acfe218b4002e0252cf86fdb469b175485baeeb799cc02d29dc199eb0b"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_26.json",
+      "bytes": 737,
+      "sha256": "2f5a2663c406305f87393107c8578db536228a68d5c60029ebdb859aba544f90"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_27.json",
+      "bytes": 737,
+      "sha256": "c723bf5598dabcfb3af8ed08be1b6ba346643b9f581a06f38a04172b68ccfeb1"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_29.json",
+      "bytes": 737,
+      "sha256": "06c1d0dc1d7148a97ba75b18440f8063e76f34b3971398e90f0e8eeb58dce7ed"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_32.json",
+      "bytes": 740,
+      "sha256": "63b0b854f6c9f80cc9db9e92ec27774769c3efe1924bebf0cfe2c7237baaf6ab"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_33.json",
+      "bytes": 737,
+      "sha256": "630c90619350457856a8aa992bfe269fa6638e941ae536e708e34019cfa3b66f"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_34.json",
+      "bytes": 737,
+      "sha256": "60aead6855a2d159352020a5dc784a4d57676c22f1d0c86929b42ded4834c784"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_35.json",
+      "bytes": 731,
+      "sha256": "631fd0cf432ce882f7ad8a5f33265fdc9aa4b26c44f6e6c50616116cb4e2fb1e"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_36.json",
+      "bytes": 1332,
+      "sha256": "be764c5b6cba2228b6499395c12a4eeac6e2389e95fe23d2321afce9735b08c1"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_38.json",
+      "bytes": 740,
+      "sha256": "6c6c45620194e6985e497db675c456fd58d12b8cc749d611d05cbd0119ac8257"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_39.json",
+      "bytes": 737,
+      "sha256": "d61f20493dc327936101c14c4692228219a8dc0dd5566adda89882c1f6d102b5"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_40.json",
+      "bytes": 737,
+      "sha256": "2107c830878aa4f2210f53c35d9b92e9c6efed67d970ce95fd2095aff8c5f292"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_42.json",
+      "bytes": 1335,
+      "sha256": "cadc5721cbf1aa1912a39adb1bbe160ff86755fefaa1f7fda7e1e9f6a0f23f41"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_43.json",
+      "bytes": 737,
+      "sha256": "036844f5672077f2af9628951eb350474eeff5c221e3fc13ae98e5f45581c6cd"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_48.json",
+      "bytes": 1326,
+      "sha256": "bc4596d3a05cc2ce6e9f94501cd4ff662fdd24304f30f73e76f3c599922b6b0f"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_50.json",
+      "bytes": 731,
+      "sha256": "e5ee22578b40d24f93294b2fbdab4312a9cfc7d8a5c4a35fbf2bba992d369417"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_51.json",
+      "bytes": 734,
+      "sha256": "2f6157ea07bb979b2fa1d6981c6aa6095a6982f1f7e4b2946e25a6e105bf903b"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_52.json",
+      "bytes": 728,
+      "sha256": "75480fb65cd2a73c1ccaca05201b525c62ac43a63b147d989a08f80839c8869d"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_53.json",
+      "bytes": 737,
+      "sha256": "4c394f560e509296257d5521cdb78c6e0ee3606e34df511e733cdac27bc54524"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_55.json",
+      "bytes": 734,
+      "sha256": "4eb4e039925e81041e7e062caf1cc66c4fef15327c0865c348a5673c7e07ff6e"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_56.json",
+      "bytes": 734,
+      "sha256": "a17a188dfd1645415f580b8d7570cd576e6098419478be1720cef455d25a7221"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_57.json",
+      "bytes": 1335,
+      "sha256": "2418db064ef12823b6d69ac6dc38571a5bb023e2c629f2318c6a16fc34c63db5"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_58.json",
+      "bytes": 1329,
+      "sha256": "5458735be41dcb08d15dc5b15e12e42e2778fdeed2c246f765424b8dd6c6e946"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_59.json",
+      "bytes": 731,
+      "sha256": "98adbe6c883f31a4a0a16b06c85514b6275c22f010cebf03a82db363f1a269b8"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_61.json",
+      "bytes": 737,
+      "sha256": "c218a9d78cff63f43e2a697232e7731c7dc68526a8dcf52007bd76cc2c38dd93"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_63.json",
+      "bytes": 737,
+      "sha256": "8f2fcd417b5d6210fb6707382086cf0555f0b9839c38b1ef89022c70f95d8561"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_64.json",
+      "bytes": 1332,
+      "sha256": "75db4dc874406edffb46730708457ac375dc476d227c36f7eae8d5fadfe0f0c5"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_65.json",
+      "bytes": 737,
+      "sha256": "68e53ded46abc8885fa280ff4070875b9d7ea8bc00bc8e41c95a09fb8bd7d845"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_67.json",
+      "bytes": 731,
+      "sha256": "3892ce9defc2d788c6d70f755fb5bdf5cedb23f25837dd18b9403ae36314a176"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_69.json",
+      "bytes": 737,
+      "sha256": "a0319c1c192253890575c81119e831c214c4b86b1940d47e8cd3a4fb20dc5589"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_70.json",
+      "bytes": 1332,
+      "sha256": "7330c5a757308bed0f6507468fcdedeefe60ce1739fd21959b8e939358b20c0b"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_71.json",
+      "bytes": 737,
+      "sha256": "e52bd0a7f55c5c20cf1f52d2697a9021edadc1e704de2a128099c8a7e61f9ef5"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_73.json",
+      "bytes": 734,
+      "sha256": "83631d39fe253ad7f1f0323a3bca081428e4b12b0cf5bf3dd02ed21610b2180c"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_74.json",
+      "bytes": 734,
+      "sha256": "cc98f971974002659827294f1e620e0bbb351b85db15e579856c801abb8c0e81"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_75.json",
+      "bytes": 737,
+      "sha256": "fd0ed989a218d42e61bec2d0b1950052959bf9e6a4bfc431ef1b9baff3fdda8e"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_80.json",
+      "bytes": 737,
+      "sha256": "d3647e62629ba43350c7a03aecef5ec32c35241c6263cd80284f2e9cbd51a323"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_83.json",
+      "bytes": 740,
+      "sha256": "c220f37996ad1254b336bc7e01b96885edb917fabd2520a81fd954da11d9540e"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_88.json",
+      "bytes": 737,
+      "sha256": "973e9ba626632d39a94f83cd38717c45fa22676cc0f9fdfab5abaafeeb02bc8a"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_90.json",
+      "bytes": 734,
+      "sha256": "8b60613ffcea62c6343e8703775157765f8f5d647b85ea4ddac4ff18c18dbb19"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_91.json",
+      "bytes": 1329,
+      "sha256": "19c462d3e203ccbc46cc80a79e1839d878a2bbcd06f5ff435e604a68b84f64c9"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/label/label/NG_skew_92.json",
+      "bytes": 1338,
+      "sha256": "13fcff622643f6aa5f589b71d45e17df37cfaf5c5287ddc116c06e8aa5a56833"
+    },
+    {
+      "file": "project/Model/01jipian/01_3_hanpian(skew)/Project.dls",
+      "bytes": 18589,
+      "sha256": "76f6fcd3d40177d09ac6aa6bc6b1a7c954b35fe4d5ada9fe0e333f6c5051f1d8"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/DetModel_20260702100444950/annotations/instance_train.json",
+      "bytes": 33037,
+      "sha256": "ddab908e150fc87ec4908b373043542cc68f69ea9d038ca9e19a75c9a81a8683"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/DetModel_20260702100444950/annotations/instance_val.json",
+      "bytes": 3829,
+      "sha256": "f924bc2cf83ce7a7405a9dc884f632d74da42ec57b55e02d61ac01c092646517"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/Keys.txt",
+      "bytes": 9,
+      "sha256": "73b696f7284ffcd52335f07cfd33b361c28582987adeead52d33da09cf1fc5dc"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_01.json",
+      "bytes": 733,
+      "sha256": "fff55b5554445d522186491285b104e40f40e5838b16e3a47fe0c25cc3fd03b0"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_02.json",
+      "bytes": 1940,
+      "sha256": "e8db616239e7f04377fe8e4ee67ac020dbdffbe829a6177f820994f4aeac331e"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_03.json",
+      "bytes": 1344,
+      "sha256": "f6786b553ca0d1459fdcc46020dacb47c39129ab245beae6c8caf9d6da45bd01"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_04.json",
+      "bytes": 1335,
+      "sha256": "a7ec5a663cc9f3c0a3478f866572d74a3217be27e24735d999e0881c839549c6"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_05.json",
+      "bytes": 1332,
+      "sha256": "2fe007a389ff9132405a32b2bf1e33ba12da4aaef825c45cb5411956278c2d70"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_06.json",
+      "bytes": 1335,
+      "sha256": "318ed80df60d0f858b6230582321cc371576cc5d7f6a860a37ff6e47b03cca3a"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_07.json",
+      "bytes": 1338,
+      "sha256": "f0e560f9d68cb407cddfa17b36d32c2226fe869214e3a3308823b89885c79ac5"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_08.json",
+      "bytes": 733,
+      "sha256": "e32c7597c55e05669b6de0e8227251b1cf6097ded129df2034076b0e4ac19111"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_09.json",
+      "bytes": 1931,
+      "sha256": "c194783d1b7ece83cdb12cb3eac8e093c703fbddd4046959e0e53682719f4190"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_10.json",
+      "bytes": 1335,
+      "sha256": "475ebd64b364ee55e40f42825ff9a9d5ca33bbe4d2301bf78f20a0210e1643fd"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_11.json",
+      "bytes": 1338,
+      "sha256": "1aaa51390998d0470cc9269364a22134bf879de87248689466ebce9672b5a1a5"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_12.json",
+      "bytes": 1937,
+      "sha256": "05033bbb690e56400778f48c2946aac13cb14cd5ef7f85a872fcc7ab5a4c66a5"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_13.json",
+      "bytes": 1335,
+      "sha256": "fce521d357063f47baa8f9b40c1166828b0f1d6f20c4043410cd3971ccfd2899"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_14.json",
+      "bytes": 739,
+      "sha256": "66c9ff888e2e6daff42fb6aca01b4a2d847886a196c588b98778e9958fd0c60c"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_15.json",
+      "bytes": 1296,
+      "sha256": "2e0a9685757c31c2f8f3f85cd7dc06fc7c2a7bd3b8c9bbbd56f159c6a1d4c7d2"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_16.json",
+      "bytes": 1931,
+      "sha256": "62ffcaf404bde8e90b06793dc29a25a8ca32fd5d71fd09a5777c77c1189b20fc"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_17.json",
+      "bytes": 1332,
+      "sha256": "c025e9292e3fdf894f2b02712271db246cf02bb7b3fed78092bbbb91354eb533"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_18.json",
+      "bytes": 733,
+      "sha256": "696f26fe1583b9bd6cce3f3e1ca8699413209fe355657f6bb9c0500b89b45696"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_19.json",
+      "bytes": 733,
+      "sha256": "8453a9c93328751c10e741e3ba9fcdcc6d53c25afb783c671ccd37d511afda4c"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_20.json",
+      "bytes": 739,
+      "sha256": "436d77ef4212c6cd6d15057f12e06fae06705c0ec7ce79675bf13940a808fefa"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_21.json",
+      "bytes": 736,
+      "sha256": "8131ba6ce005b4c8f923cbb6861e2623a7479dcfdeb1ff4f2edc0905eb71f4b1"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_22.json",
+      "bytes": 736,
+      "sha256": "e8bac1079df0e282455337b22f8f0ba6d6c2c222d660288ae320b593bc9f9677"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_23.json",
+      "bytes": 736,
+      "sha256": "e4b616d4b9b354b14e0ed95b34f039c4272cdf2c412660d595ae2fcfa97f82ff"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_24.json",
+      "bytes": 1332,
+      "sha256": "1576212ccf903d45b760d87c2403fa301841bc3ce9df080f8e1c8fecc7d907f8"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_25.json",
+      "bytes": 736,
+      "sha256": "c268b8868edd693ab1201daa6eb99b956e428aea677c2bb925e8ffef82ca172f"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_26.json",
+      "bytes": 1335,
+      "sha256": "42b5f046802f7b4858064f74f0e57f1f3c0194fbfe69518f0efe701a844f683b"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_27.json",
+      "bytes": 736,
+      "sha256": "4c701ee15200e72b51c68bc0fac9d25206b47d2a6a1cd8699fde685234be8bf2"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_28.json",
+      "bytes": 736,
+      "sha256": "644a6e352a36ef46a18a71e7b08b6d309bb6c0df95996add1b257caa4554e567"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_29.json",
+      "bytes": 739,
+      "sha256": "c214e911a11398a359df3e9e441ebc37ed68abd71e529c00e5600102a26193ae"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_30.json",
+      "bytes": 1335,
+      "sha256": "9f7f8e66290dd6609d000b8c60c6b1b2785756a3e4b1c82bcd7f59631e3d65dd"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_31.json",
+      "bytes": 1332,
+      "sha256": "632a7b50cf482614fd3c4e952226eb36538286e12a28022f58ddf0b607d78d94"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_32.json",
+      "bytes": 1335,
+      "sha256": "1f80b31a02e575cbb58bc8e5551aa46a0654218c48675943d39f20a061851393"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_33.json",
+      "bytes": 736,
+      "sha256": "90706c9b6761b2258bb849d186ebe2f629a8f13f4406636f36d201620e784456"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_34.json",
+      "bytes": 1335,
+      "sha256": "fc23fe98d16d1cf5446eff521b13b714d089f7e9ea34541cb20c7f194eb27c54"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_35.json",
+      "bytes": 736,
+      "sha256": "2069f869cd5be7287cc2fb810ba140bbf46213af44243c8a4ea4b8d143f8c4e1"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/label/label/NG_break_36.json",
+      "bytes": 739,
+      "sha256": "71e94c9051274d5a93c6d2966a51cb341779d935dc8f6589f3073031dc163e88"
+    },
+    {
+      "file": "project/Model/01jipian/01_4_hanchuan(break)/Project.dls",
+      "bytes": 17909,
+      "sha256": "6fe11de37ec53b6956dcdc8c14e5ad238a6543b5e4b125f298123cbbf84cb75d"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/DetModel_20260702103305680/annotations/instance_train.json",
+      "bytes": 11268,
+      "sha256": "577d241feac5471f1958cd092c687b1ce71a611a9a711c97e9775d497f401581"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/DetModel_20260702103305680/annotations/instance_val.json",
+      "bytes": 11268,
+      "sha256": "c3e97a128850216d66585298f4265a37a65211fa5b16aa53ad3236bfae7a3577"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/Keys.txt",
+      "bytes": 10,
+      "sha256": "2e94d3c9c494442a1fdf32ff6c8fa6c55a4b9de17ccfa42a85d7e569261cf773"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_01.json",
+      "bytes": 699,
+      "sha256": "300ed2a6be0a5ecfb52c0205f95d6ae68f54871ebba71e1acf6c49facfe79c23"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_02.json",
+      "bytes": 738,
+      "sha256": "a36b2a3b95453d96708bed65c7fb66827bfe096d32d51d086563c18485f7f99c"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_03.json",
+      "bytes": 747,
+      "sha256": "6437146216292d4a8e2a85f829bab98244a5ef45c98d65dda2a0a6ed3494a833"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_04.json",
+      "bytes": 744,
+      "sha256": "bf625254ce6497602f0d2559bf2c452d6168217fca7c318a08a67503df71e455"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_05.json",
+      "bytes": 744,
+      "sha256": "dcb599c2efb18e1a302c46ce4b72cc1022276a9b1475967e242438075e0f9791"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_06.json",
+      "bytes": 744,
+      "sha256": "bf0ef0e5c185d4961c20d06240426974e1a3f5da56b10fec85c4a30afea1ece3"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_07.json",
+      "bytes": 744,
+      "sha256": "1527628498084424740cf7134db9980634c320f2e139af23ea300ac9f705a6c0"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_08.json",
+      "bytes": 738,
+      "sha256": "c264d0c14b5d23892ffd8a5ff717db9726251d3e71ea77d2da569998158bda6f"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_09.json",
+      "bytes": 738,
+      "sha256": "d1813903de0c42afc1027bb109ed94954a259c64956753ecf6953c61f9794e25"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_10.json",
+      "bytes": 738,
+      "sha256": "deae715edc8cde6e925470dfb28367bd9dcdd42c668b20050550673cbeb1da82"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_11.json",
+      "bytes": 738,
+      "sha256": "f29ffad625b2bbe6a0b248cd83eb565ef33b0dfa8c85228a59329347a5e6c075"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_12.json",
+      "bytes": 741,
+      "sha256": "ee68d579903516d1b223988216b1119d82d70ac9732aa010e49f64de4eb170c9"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_13.json",
+      "bytes": 744,
+      "sha256": "93557ea1496429ecf1c710b9bac0bbcbfccef8b6b98b0eea7ed719656bf32ba7"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_14.json",
+      "bytes": 744,
+      "sha256": "f748f2741ab00ce3e05bd835ba46d74254204c535307ce84eb3328ebd87069ca"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_15.json",
+      "bytes": 744,
+      "sha256": "6e9497f740b9cb59e39622a147b849127b20a1136890432059b6804a3daceb56"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_17.json",
+      "bytes": 741,
+      "sha256": "947c4b38d1c0f7865a3ac0f142c9d0492039162094fef356851a10ca4c7d72eb"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/label/label/NG_jipian_18.json",
+      "bytes": 741,
+      "sha256": "28384064a5df78c90d1bcb732dad64523f8de3108489b197af8c4853b382caab"
+    },
+    {
+      "file": "project/Model/01jipian/01_5_pianyi(jipian)/Project.dls",
+      "bytes": 17449,
+      "sha256": "0c75648dac8eabe44b5e200468d9e3ccd276664890cb0fa6c074f594988e0d09"
+    },
+    {
+      "file": "project/Model/01jipian/01_jipianfenlei/label/ClsModel_20260706100808639/Train.txt",
+      "bytes": 3877,
+      "sha256": "deb69026ca35335dd14fd5f2934ff9e6715bc3f2525b04ca93594c30ff589540"
+    },
+    {
+      "file": "project/Model/01jipian/01_jipianfenlei/label/ClsModel_20260706100808639/Valid.txt",
+      "bytes": 3877,
+      "sha256": "6fef0d54472e1a49466b07b8d0aa052f57ef669f55c3631fd7e17eeed0a2b131"
+    },
+    {
+      "file": "project/Model/01jipian/01_jipianfenlei/label/label/Keys.txt",
+      "bytes": 51,
+      "sha256": "067ce692c1dc1619b9c61b1ee235fe82da550a39bce0902e2d4a4b3497024744"
+    },
+    {
+      "file": "project/Model/01jipian/01_jipianfenlei/label/label/Keyscolor.txt",
+      "bytes": 66,
+      "sha256": "069f6f46b9e9f7be44d55e872187651d1bbfadc06953b3d2c5d69f3458e93247"
+    },
+    {
+      "file": "project/Model/01jipian/01_jipianfenlei/label/label/Labels.txt",
+      "bytes": 3877,
+      "sha256": "ecb71737ca5f19ef058c49c05b4ad6f6010affcc2de282ddada63c32ce022258"
+    },
+    {
+      "file": "project/Model/01jipian/01_jipianfenlei/Project.dls",
+      "bytes": 14426,
+      "sha256": "38babb829a39d248e815177c3e9ede72230cc2ec6e0821a1d09fa6d25a6df3f8"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/DetModel_20260707000012260/annotations/instance_train.json",
+      "bytes": 25580,
+      "sha256": "ca1c4429f83a795a78958657d8e98ea8047218ebf73c8a8248ce682e73ca5024"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/DetModel_20260707000012260/annotations/instance_val.json",
+      "bytes": 25580,
+      "sha256": "845c49f541d3400d0e2e4d6c43dbe73b148ff7d234eb8c7696e34618f49ae199"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-01.json",
+      "bytes": 2537,
+      "sha256": "6366c2511bf3cabc08785696c6d1a2ec3e762489129d5f8691e73a50089d35fa"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-02.json",
+      "bytes": 2540,
+      "sha256": "aa876a03ab29821cd8caac752dbec1ea6cd81a84f9dfe3dc809cce53e48ea9df"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-08.json",
+      "bytes": 2549,
+      "sha256": "f9fb49f33ca36f0704b5f8629f60ed2162841ad13a84d75f85b14dc4785b8865"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-09.json",
+      "bytes": 2555,
+      "sha256": "b4596b18aeb5ebdffb3f85ac8ef0044418a00af095632141209d828734a51f92"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-10.json",
+      "bytes": 2528,
+      "sha256": "ea62163f2ccac07cf45d21417d9730315c59ec5b2c3df0a79860256ec9e9af6f"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-11.json",
+      "bytes": 2540,
+      "sha256": "797a056ef2eaab319d7391fe8a9c424efcaca7ea6e40943d9fd615cb15a4a6d5"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-12.json",
+      "bytes": 2540,
+      "sha256": "21e294fdf1dbd3b67b38bae1a307f15040031cb903bc7a81d67d49f6748b422d"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-13.json",
+      "bytes": 2543,
+      "sha256": "50d57012bc8b0ee0c00a2b85ed5bd691462fb76a06dfa678a9adcfcba9cc5835"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-18.json",
+      "bytes": 2546,
+      "sha256": "3cabaff24cda8358323333a69a6730cba64ab7efc6628bfd4bed55c779180c71"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-19.json",
+      "bytes": 2540,
+      "sha256": "90f5553bab610684a2ae20e02a0f0595d8f76e08329ad8493096f58f6c82eff0"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Image-20.json",
+      "bytes": 2531,
+      "sha256": "e7b257fe55091f294911d9fe1118d9ecc335d2ebf9d26850980d72f28f0aa2f6"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Keys.txt",
+      "bytes": 37,
+      "sha256": "1a77cc53fb3c0e9369969b4cc4a88da81b393b822110b118a3f08f2c2cb485c9"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/label/label/Keyscolor.txt",
+      "bytes": 44,
+      "sha256": "bc1658c61135cb19e690c60e2d54a584b1a9367df40a1f6983e700d5e940f406"
+    },
+    {
+      "file": "project/Model/02xianlan/02_xianlan/Project.dls",
+      "bytes": 22278,
+      "sha256": "9d878e779fdabc35dde2ac041b55974ee5065b789009b3dff58db8e252b231f3"
+    },
+    {
+      "file": "project/Model/03shoutao/03_1_kongmo/label/ClsModel_20260702165750049/Train.txt",
+      "bytes": 790,
+      "sha256": "2a59017239c54a45d72c8bf4c79a4e3d2f6d3c2777d5c67b25111fb4276be671"
+    },
+    {
+      "file": "project/Model/03shoutao/03_1_kongmo/label/ClsModel_20260702165750049/Valid.txt",
+      "bytes": 198,
+      "sha256": "9c6278b291e8801dd969bcef13132b8f401135a65e80f7957b8049eea675de64"
+    },
+    {
+      "file": "project/Model/03shoutao/03_1_kongmo/label/label/Keys.txt",
+      "bytes": 16,
+      "sha256": "958d7f9a251c3e7e31c2c734dc52255dca14450f468dc83702b0c80d0c6fd944"
+    },
+    {
+      "file": "project/Model/03shoutao/03_1_kongmo/label/label/Keyscolor.txt",
+      "bytes": 22,
+      "sha256": "92e66a9d6e95887fa15ee2c67de804804b9855fa02bf5bbd2cafcfbf01dbe12e"
+    },
+    {
+      "file": "project/Model/03shoutao/03_1_kongmo/label/label/Labels.txt",
+      "bytes": 988,
+      "sha256": "d5e5929d4a502c519d4aab5c38f4366e4862fde0ba3e2329e4d5bc6864b94a49"
+    },
+    {
+      "file": "project/Model/03shoutao/03_1_kongmo/Project.dls",
+      "bytes": 14283,
+      "sha256": "4650857ff65e2567c3b3fdae236c504aa553968687f8d8b551d6a92f384d0cab"
+    },
+    {
+      "file": "project/Model/03shoutao/03_2_posun/label/ClsModel_20260702171928902/Train.txt",
+      "bytes": 1719,
+      "sha256": "326403fde436f0a730ed6199f45a1b9e080130fe9a6495f65a648fb99c782295"
+    },
+    {
+      "file": "project/Model/03shoutao/03_2_posun/label/ClsModel_20260702171928902/Valid.txt",
+      "bytes": 446,
+      "sha256": "0e0107fd928c0c88784fa1b5e85391b2372758ee4b04c9702e058b6c8ad0c52d"
+    },
+    {
+      "file": "project/Model/03shoutao/03_2_posun/label/label/Keys.txt",
+      "bytes": 15,
+      "sha256": "33f0c2e23ca5587f9ac14350b6d7a9482bd1eab9a108fa2d48486bbf69fdbfc2"
+    },
+    {
+      "file": "project/Model/03shoutao/03_2_posun/label/label/Keyscolor.txt",
+      "bytes": 22,
+      "sha256": "92e66a9d6e95887fa15ee2c67de804804b9855fa02bf5bbd2cafcfbf01dbe12e"
+    },
+    {
+      "file": "project/Model/03shoutao/03_2_posun/label/label/Labels.txt",
+      "bytes": 2165,
+      "sha256": "b7133938ddd1652bf10daa3c129eb9723530acf40e7c5fb3800f672ea494a498"
+    },
+    {
+      "file": "project/Model/03shoutao/03_2_posun/Project.dls",
+      "bytes": 12115,
+      "sha256": "b65629837c1d4c3fda76e3ab075540b439026618fa05c291d74616a54629e111"
+    },
+    {
+      "file": "project/Model/03shoutao/03_shoutaofenlei/label/ClsModel_20260706123312343/Train.txt",
+      "bytes": 2535,
+      "sha256": "86148b49e710cd4919b6efdbdf70d30451a9460d75e078878ff3f9305326369a"
+    },
+    {
+      "file": "project/Model/03shoutao/03_shoutaofenlei/label/ClsModel_20260706123312343/Valid.txt",
+      "bytes": 2535,
+      "sha256": "d42d47daf291cb84f0190f9dfacce848fe2a1b747426e0a73bd4fb639fb8104e"
+    },
+    {
+      "file": "project/Model/03shoutao/03_shoutaofenlei/label/label/Keys.txt",
+      "bytes": 25,
+      "sha256": "10f2339b2c717f7742875ae257626e76cec04f9544151c4f845deaeaf9a756ec"
+    },
+    {
+      "file": "project/Model/03shoutao/03_shoutaofenlei/label/label/Keyscolor.txt",
+      "bytes": 33,
+      "sha256": "416535339325fcef81db97579171643bd7599badeee6422c366d76c1983c3554"
+    },
+    {
+      "file": "project/Model/03shoutao/03_shoutaofenlei/label/label/Labels.txt",
+      "bytes": 2535,
+      "sha256": "f0653558ccb569c26daa398f06c0d8e7ecad32574c9330c815e5595b0a61db22"
+    },
+    {
+      "file": "project/Model/03shoutao/03_shoutaofenlei/Project.dls",
+      "bytes": 12667,
+      "sha256": "0e2eecd414580549ddbb13fea75e301729a117fb910eee162c8885fc47ea4845"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/DetModel_20260704193942028/annotations/instance_train.json",
+      "bytes": 30964,
+      "sha256": "4d5ef1c2cf2e1afa547aae482597b82592e1afe6fab2d97c440846fe3f62f7d6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/DetModel_20260704193942028/annotations/instance_val.json",
+      "bytes": 6748,
+      "sha256": "6d5df42f934cb528a7587536ba1f4ee424e37807e148dbebc6d9909faebf3a1e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_001.json",
+      "bytes": 749,
+      "sha256": "55b173a23a0a8344f19058c07703bd090fe8adc05853727b7d6faf821bc4ef41"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_002.json",
+      "bytes": 746,
+      "sha256": "ba89f3a1ddfb1e5e464af0d44b588e4c4c56c9dcf6ce25825f437b96f647475e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_003.json",
+      "bytes": 1357,
+      "sha256": "7ff867148db80263e468dd506886f717512571eb238ff2212bea2745c3fa8db1"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_004.json",
+      "bytes": 749,
+      "sha256": "f5ea55ac376f8dd8c052af9e1a185d760344c8c803b15d58011d79f04d07cc1c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_005.json",
+      "bytes": 749,
+      "sha256": "06a95065b7cfd078e562f551789ad115feec8814222a9ede33b7e79b0b5247da"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_006.json",
+      "bytes": 752,
+      "sha256": "01eb0dd81383b08ffc1dcea017c8a7103967bfea030fe3e54b1ebe94c99842f3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_007.json",
+      "bytes": 752,
+      "sha256": "b15cf1538e88786859ca8d9bb1987bd5e2feceedb128de3fae012236448acce3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_008.json",
+      "bytes": 1363,
+      "sha256": "b17af75d940c44c6defb7683d5262b984dcf71f324e5fb40d1f240dc8289209e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_009.json",
+      "bytes": 746,
+      "sha256": "94260e71a4aaa5e9ccf3329b3eff21fd6208a75191698215148dc8804ab97d8f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_010.json",
+      "bytes": 746,
+      "sha256": "68bff62904f7a0be839383e4eb953156081ccbc9bfcf46cc60552849cf89a0d0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_011.json",
+      "bytes": 752,
+      "sha256": "36ef96e3fe4a8c8478007c83578846fae85cb7aef1e84ccc736ecb0553eb045c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_012.json",
+      "bytes": 749,
+      "sha256": "8f96577120289c6bf97bc45d43020000170ed1b3fa8cda5b16fe92218e31ea6c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_013.json",
+      "bytes": 743,
+      "sha256": "da8589e15d2e26d9d0a0fe40030c52c42e877cab294c0a20730927689d0a0c5b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_014.json",
+      "bytes": 749,
+      "sha256": "f7460fcbc2bb7dd754ca6c4c2c0f4f8d546223ebda5bf3ec7812802e3097e27a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_015.json",
+      "bytes": 743,
+      "sha256": "dd9c3ac9ec247e4ce5797de27d879a93250d63a9c484564f91eb431f117953a1"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_016.json",
+      "bytes": 749,
+      "sha256": "b4fed8d2cb299c6155839a703badb133301eebe31276b3ac48f934664a6b4626"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_017.json",
+      "bytes": 752,
+      "sha256": "e102f90b4b1a2f43f6e30ec1b9f2ae0aade46dc8c137498099814bfa592f7aa1"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_018.json",
+      "bytes": 749,
+      "sha256": "e68710ae9d7adf16faecb4f07052598995ba6130556b512ffef7e158f86770ed"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_019.json",
+      "bytes": 752,
+      "sha256": "ac18a1b84c28685a8fe9c4082360fb5f477765db47deecf97b539b89a55c9bdb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_020.json",
+      "bytes": 746,
+      "sha256": "c011957680fe90eeb017002e54f2e164c1cff67fe8ab389dc2671f5e8bb20b30"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_021.json",
+      "bytes": 749,
+      "sha256": "39a4b4c3e538331c1ca0d6adb4b92984507f902d0dc9687c7da416ec98210922"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_022.json",
+      "bytes": 752,
+      "sha256": "76acc7658dbbfc1df347ec8918fab526c7868bad617cd972c03f1d4119447566"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_023.json",
+      "bytes": 752,
+      "sha256": "e1c61a92abe8bd7b62e9ede11e72c9f8e7bc541bf8819cf6d915b03be261d7ea"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_024.json",
+      "bytes": 752,
+      "sha256": "7a4b2f1dc5ad88ae20a25138250ba48a0f8e2455f8504297b6c4c35255e20ab1"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_025.json",
+      "bytes": 746,
+      "sha256": "77343a36d203225d8a4e0a0e41ca3502712abef7fbb831accff6b7de4d1c25af"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_026.json",
+      "bytes": 752,
+      "sha256": "5ce56824580decb03ca1bb75eac37455a06fceea843a7adbf4a862b59de8cee4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_027.json",
+      "bytes": 749,
+      "sha256": "c7114c1581ad994187eff34bd5ab0360f78cc7d85d21ede9f997b1cc170b5d3b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_028.json",
+      "bytes": 743,
+      "sha256": "023b4857840c4ed84b1e4d852c70bc688a5a3ad4667fb2c2fda3b8984c669786"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_029.json",
+      "bytes": 749,
+      "sha256": "cd3902295bfb78260ca8a3da15fb250f3dbbc835ad0a4de3f90bad119cc301aa"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_030.json",
+      "bytes": 743,
+      "sha256": "1907b9e9c56de2be9255129b5d55c5b2bed851f2bfe306c57f8add0b80c951b4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_031.json",
+      "bytes": 749,
+      "sha256": "e7f1452b1b6fd710c7cbc23c3be9a8a78e57dca72a8753b3f410bee0c242170a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_032.json",
+      "bytes": 1363,
+      "sha256": "47b356ad9d100fa2f1a275aaa906284b041b296034edcab6f6dce4689834297f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_033.json",
+      "bytes": 1360,
+      "sha256": "8562ed0c0b067c48eac40d04709828d9debaccb63aa0254dcfc2f8ab60503d89"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_034.json",
+      "bytes": 743,
+      "sha256": "89fd6aac832a250c0ff72a2f1efa30c46ebb8de99e036a6dbae8653a30ffc0b3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_035.json",
+      "bytes": 1974,
+      "sha256": "e46dcc7705f6e9e69611b4f5271a91bc4f2102f7444c0cea3ed77d767bfd1c93"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_036.json",
+      "bytes": 749,
+      "sha256": "a89813897d75be0b46317db2325e2964528070b7412d5d4b8defa330de2ed9a4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_037.json",
+      "bytes": 749,
+      "sha256": "4e03b74fa99e0a580721c2d29ab4924bdb31b54f67fbd55aa5fc1bc1a604cb93"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_038.json",
+      "bytes": 746,
+      "sha256": "3f556d07b6341231d3384441a1d593c03de7edcfab0cbe682861d400b9e66256"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_039.json",
+      "bytes": 752,
+      "sha256": "b0cd05612f12826a2f3b631a188f66c97e165b85633635c7c2bc6f6f4525dc50"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_040.json",
+      "bytes": 743,
+      "sha256": "f910d4542875758ea0727812af6c255f318b6bcc106a26a8ce58c7454b8b04cb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_041.json",
+      "bytes": 1363,
+      "sha256": "1f0a83f31988e5730167742d01cd44de1fe59b5885f03bcf599d30c6629953c7"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_042.json",
+      "bytes": 746,
+      "sha256": "c1068b54c8ebd3c785afa8bd44d4bba6766523821dc4e985aa91775e220e1a17"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_043.json",
+      "bytes": 749,
+      "sha256": "4cba291e768654a13bf09ba64e2b935b18f915b63be6c1a350942b0f41eb8c91"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_044.json",
+      "bytes": 746,
+      "sha256": "d9d098e72abccdf99e904b6ea96fe42acf9307c2f321fef03057f036355cd83b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_045.json",
+      "bytes": 1360,
+      "sha256": "f6d3d4f64d8b2a309de4d35424cb81f667339420bf293925a4ccb88811d31fb9"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_046.json",
+      "bytes": 746,
+      "sha256": "5d56ae4b462bad030e52173eba38e106f2452908285bbcaf0ee59498209b2e71"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_047.json",
+      "bytes": 752,
+      "sha256": "bef17ee897153d54ce5dd96baaa113425abc33e6976c2267648b8d902bcddcce"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_048.json",
+      "bytes": 740,
+      "sha256": "48f931ff1cbe509fcb5e1147864daa4fb3e145acf245bb6a5d6ca599d5c30ae4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_049.json",
+      "bytes": 749,
+      "sha256": "e18f33523bf0c8fa280139a270c4ba62b75377208cdbc1bb2c137cf634c72044"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/juanxian_050.json",
+      "bytes": 749,
+      "sha256": "4bd8353c69a79f7ba6a337f42e10db08e41252cf7544cffa662f277217242c08"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/Keys.txt",
+      "bytes": 12,
+      "sha256": "287e2f4e8c54d99e14365b494afb0f67a9172a8884e7aaff992530b4048aeb10"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/04xinpian/04_1_juanxian/Project.dls",
+      "bytes": 10533,
+      "sha256": "332bc98031ad3405e4569ef2ea39a18dc0ace17575bc803ac70268797b00b1aa"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/DetModel_20260704210259531/annotations/instance_train.json",
+      "bytes": 24242,
+      "sha256": "f83d023b2265d7c9bda18f22a071841f4f35c89e0c38c7be6f804fa0d184a928"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/DetModel_20260704210259531/annotations/instance_val.json",
+      "bytes": 15656,
+      "sha256": "82cbe392388f6949b79978a77bc42dfb4099919d44291bda80b3edc636431964"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/Keys.txt",
+      "bytes": 12,
+      "sha256": "14c04dc8ee59020662a2b054a5223d74d3bc8a0ae6a1ce4826a66bf09176afb0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_001.json",
+      "bytes": 746,
+      "sha256": "c8078d36d423e53d303743092548d020dcdafd8b5ae2360d9b4a93d740449a9c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_002.json",
+      "bytes": 737,
+      "sha256": "43a5b43f9fd4f62c69fb2973361ce2a5882e738e597762cb74e56350be7a2eb7"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_003.json",
+      "bytes": 746,
+      "sha256": "f98f1885d83fdd9798a6127edec0e348a79cec48952d3971f4b2c83fa161b660"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_004.json",
+      "bytes": 743,
+      "sha256": "6d52b14bd0ba8adbefb85a3f068525bc20998237eb8c8cdbe3c8e5d00fd66d0d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_005.json",
+      "bytes": 746,
+      "sha256": "dd8dea35bd92462c954356e2a627fd4204e5cf1923d0da7961aac3aab52a564f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_006.json",
+      "bytes": 752,
+      "sha256": "40e4b518ddb8c414a16bce9d7c694ed4baeb5fb20115b6f05bbc91541a6a21cf"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_007.json",
+      "bytes": 1965,
+      "sha256": "431a92c7e2a2d2a3e2f8245f94d10d326de7c418bb42cea750060c25ce0d9a3f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_008.json",
+      "bytes": 1962,
+      "sha256": "e3413afccd166ee97ce0c46d66387204d293d9493bb95884993b8adb8888c7ee"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_009.json",
+      "bytes": 1351,
+      "sha256": "65773e8b2fe116bcd9d6a20970b158657ddb38815fed94b9f851410eba0d3362"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_010.json",
+      "bytes": 1354,
+      "sha256": "1f279d2677452c1abfcad48ae1e908a8547eea2e5528da2c0d4a1c72903785bb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_011.json",
+      "bytes": 743,
+      "sha256": "caaf10d0ecc83003dff9fffb911bce21731482ecf614f7eb32f9eec157a3c616"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_012.json",
+      "bytes": 1962,
+      "sha256": "d460bc95cc643584d6eee302936de16a575662801b26c0ef6f1eba62d8e9caa2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_014.json",
+      "bytes": 743,
+      "sha256": "e8327d2bb37a569b36ff9ee9dc1ef53e66d6d7f7e0ac2bec5cc6c2622c074834"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_015.json",
+      "bytes": 743,
+      "sha256": "b99c57545d1e538113799907cec3985ce7399f3dc3d7058c6f0203855237afda"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_016.json",
+      "bytes": 1357,
+      "sha256": "831b20b7320054ff4c2cf2c8bdb2b67a9e15dbd47817a2fec3bfab0eae63e27e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_017.json",
+      "bytes": 749,
+      "sha256": "2c92897a0d026069f74bc9f53a931a1625399e9eba8cc3d1bfe0d752dd3e076d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_018.json",
+      "bytes": 740,
+      "sha256": "1fb15aa0866d38dce13c2fb0a3ed81e7f852287617115886824b675ade9decae"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_019.json",
+      "bytes": 749,
+      "sha256": "167ecabbdd651514043f41c3479d3b944ea7a2ce2c975c3bb7a3fe4cf6422f8d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_020.json",
+      "bytes": 743,
+      "sha256": "43a2e69168378ae43d2ce046554ee0ec96c05ef5d74a7bcc38d021f5c93f7ea0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_021.json",
+      "bytes": 746,
+      "sha256": "e2ab41a27e6109e494b629d143d2f84785e59e3288067953cbde868e6923353a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_022.json",
+      "bytes": 743,
+      "sha256": "77efaee00b782de20e97e73d2d06768f11bf9917b03650acb31626504bd82a91"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_023.json",
+      "bytes": 6185,
+      "sha256": "c7a93b2f3e353881645e5f611d6f8f5dda4e543fab78ccf05d5dd996560eb2c6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_024.json",
+      "bytes": 9866,
+      "sha256": "88fa441aa7ebf975429aba4c76c84bc07e2f7869813df6c1bea074d30f6f69b9"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_025.json",
+      "bytes": 743,
+      "sha256": "82c2447b7d3ffa9fe4152eeb269de390b9d88d36ef045840bc40e73422d752ec"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_026.json",
+      "bytes": 737,
+      "sha256": "e5965810548bed0cda6a2cc086248c327ea1babd24fa20d1c7c7251bd0978e34"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_027.json",
+      "bytes": 752,
+      "sha256": "b302ef5a558da0a57d35af5794f1db546aac6c64d80cd94d5c8ff15ac946d32a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_028.json",
+      "bytes": 749,
+      "sha256": "0659436ee99dbecf92bdf40b9d93030c91f369b5347f90f4ac28f827de8a10cd"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_029.json",
+      "bytes": 746,
+      "sha256": "da6cd956e47be0ac6e387b54aeba7baece42197ba7427e6e206d473b5ea88f53"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_030.json",
+      "bytes": 1348,
+      "sha256": "809f01b08f8eb2abafbe90fd9205675e7eef863222ba5fc581e647459891e0ae"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_031.json",
+      "bytes": 746,
+      "sha256": "50cdc723402401c0715abb11220129070b6b3e976cb8f341ba00f7a6b3776a76"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_032.json",
+      "bytes": 746,
+      "sha256": "2405d9f550159e587f1d14900b35c604f399ac620e7dc9d9f0d9bde41c50bb91"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/label/label/lianxian_033.json",
+      "bytes": 752,
+      "sha256": "90227d3985041400d4dbd3e469d91addc16293f8b031eee5105be7c7ae45774b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_2_lianxian/Project.dls",
+      "bytes": 10049,
+      "sha256": "9880cf67aa88ae0590412ef0bc0c041deabf60ddbb37360c2bcf88067ae34ac4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/DetModel_20260705085234628/annotations/instance_train.json",
+      "bytes": 122118,
+      "sha256": "ec9da995a313d06b63168bb48c6a5abcc01e092f83ca3d7b95123bb41824d04a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/DetModel_20260705085234628/annotations/instance_val.json",
+      "bytes": 58653,
+      "sha256": "8de0ca7f7050e58d89158247ee7f83f74985e5db6ab96813278ee0992a6c3fa2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/Keys.txt",
+      "bytes": 33,
+      "sha256": "5669af634b41f80ab538a722c6d1c56d750753ee85ea26d0ea34492cabbdf0af"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/Keyscolor.txt",
+      "bytes": 33,
+      "sha256": "416535339325fcef81db97579171643bd7599badeee6422c366d76c1983c3554"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_001.json",
+      "bytes": 1353,
+      "sha256": "74d3462c3d24a6a43403acf342dbce177ca96493723eabe8e5ebb5369e5fc477"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_002.json",
+      "bytes": 2558,
+      "sha256": "aac8af24e31d3402238edb3f6708c9f60430d78bc401f33bc1226f8edde34d5a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_003.json",
+      "bytes": 1344,
+      "sha256": "b2bd57c9808e2a249a045c846db460f4bd1e77d31cba8d5d312a909e3095de77"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_004.json",
+      "bytes": 1353,
+      "sha256": "1111b032e5b813feac5277222c32b12f189ae91a1542a7c9fdfef8c61f9d311b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_005.json",
+      "bytes": 1353,
+      "sha256": "a9ce15233ad652d49acd15ae2e5264858dbe4943bd336cb6869692a9158cd04a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_006.json",
+      "bytes": 2555,
+      "sha256": "b508c923473c2212893ddc4b617268dd777a7aa42641fc9154c1fad581b59857"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_007.json",
+      "bytes": 2564,
+      "sha256": "ca1baceef5df6b4b2af06f32efea0759d8c0080eb732daf8c49f272323bfd1b9"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_008.json",
+      "bytes": 737,
+      "sha256": "f3d7c35153cab1bc9870b4564549a74fbee2eead658dd0c6b4bd2ad75fe5b74c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_009.json",
+      "bytes": 2558,
+      "sha256": "f813958fff554676cd27c28331e17ec3c456a816d46ab41b92b30e39b4f9fbbe"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_010.json",
+      "bytes": 737,
+      "sha256": "4f4bbf60720c91d1494d147ba54a9ed419113c5c8af9102c5726fba517d6d7d7"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_011.json",
+      "bytes": 1353,
+      "sha256": "345995fd1aa7f7ead4f490a236436a692cf4dea5c67d213fe68b442bea600b75"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_012.json",
+      "bytes": 13472,
+      "sha256": "6f558595e2a6a7c82e97934a2448759516f6dce1869bf02178ca4da794a6cbe6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_013.json",
+      "bytes": 747,
+      "sha256": "b23015833200066cc2e3096904708ae7d1f9965f0f8badab63c137ddf65910a5"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_014.json",
+      "bytes": 6224,
+      "sha256": "697cf15445be1b6d0f094fe0c43edc815059c2f161a00bfaa662e12858b84420"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_015.json",
+      "bytes": 8634,
+      "sha256": "3f500f22b35f52947ff2624b26eb501af23e0990d47f5b4dc1a1cdd3de239b13"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_016.json",
+      "bytes": 1344,
+      "sha256": "d0dbb14b628d761cbb0dbec12c64215886f3873403c98e2c07ad2bc91f924043"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_017.json",
+      "bytes": 749,
+      "sha256": "f6f1e77e0e3a8f9683867065e996b0a8ee66a994864ca6d0ba1946b6acbd4733"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_018.json",
+      "bytes": 746,
+      "sha256": "92f26cd7816c4b2ec66a12a8198d0e1ed41d26324fd56e4c0440d90820e584be"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_019.json",
+      "bytes": 746,
+      "sha256": "f3fd984f6e5f026e3540b23949c91fdbdbe5fa56c32d0660b183c72ba22ec476"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_020.json",
+      "bytes": 1353,
+      "sha256": "f85436b15e2374bc2811f3f439284b114cbd316def25894e396bdb3c614904cf"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_021.json",
+      "bytes": 1353,
+      "sha256": "bad2e49f58bc4806dfa5fe67171d90678407b8e407b1b4f7f035b416bcfe6ec8"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_022.json",
+      "bytes": 1350,
+      "sha256": "60f12956707d7aed7c629045cb30839a8c7a979025c3db31a45c586d90ea9729"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_023.json",
+      "bytes": 19596,
+      "sha256": "7d577893a6233b8890fd030042b0e73a49a5206aa5d73a5a586344efbdfffacc"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_024.json",
+      "bytes": 19587,
+      "sha256": "466728d2360cf3c185dcf9ab0ee18cd9c57b56fe82a5f597f0655cb89eccb018"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_025.json",
+      "bytes": 18364,
+      "sha256": "b6aa1a727bf40dce6ed62b831415f1c40873614968db092c69d3a96c6e7fa940"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_026.json",
+      "bytes": 1351,
+      "sha256": "991469b037ef21b4fa356f0c112c0569331282cda24a6c0ec182bc43a7f4b8b7"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_027.json",
+      "bytes": 1344,
+      "sha256": "5b5eba00e6ab1b22292f3463c27f50a29af550f1734fbe72c06a74de7b56947d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_028.json",
+      "bytes": 2570,
+      "sha256": "f994dae69be168ec927bc3e48bd01a284f7c26df0019befd2d4cd3ec117deb27"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_029.json",
+      "bytes": 742,
+      "sha256": "d729699f90a374a64355f5b2f58bcd6e06d0c4d8b5838cf477b0be7b5959ced3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_031.json",
+      "bytes": 3170,
+      "sha256": "ea2e627e156d1fb415a5f4a1fb05f086f5809032554bdb550067b2cba2c6cda1"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_032.json",
+      "bytes": 1352,
+      "sha256": "4d0a9aad33a0f9a77ad004f088aa5a52141d3fea4423ace3ee2242581a44adc2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_033.json",
+      "bytes": 3782,
+      "sha256": "9802ef9aed8a1cf8d3baeb527de71a791dbd24e8c6655c803a59073b6227690a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_034.json",
+      "bytes": 1350,
+      "sha256": "61e86ab7ee94787b9e6303c16782ba9ca8550dd44f185f2be55bd57f2fd3acb2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_035.json",
+      "bytes": 1356,
+      "sha256": "d4c6ff354877746e67a6aa654fc2cc21b0ddad953e9886a59160db2229303584"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_036.json",
+      "bytes": 1338,
+      "sha256": "5a3b0ba5bc48102e08cafaa4ba61ff5aa755a39a5572aa330a32a0fdb37c4acb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_037.json",
+      "bytes": 741,
+      "sha256": "7b66af0155f45ebc8aa70e40abde29edbb2036c91ab59dbc0c11bcd4ecf0d3fa"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_038.json",
+      "bytes": 3766,
+      "sha256": "fdc1e708ecdcf6b6113c150838da1b267ea7c03270c312df5cc05ef94f94b3b3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_040.json",
+      "bytes": 1353,
+      "sha256": "3fa51756b62a0b4dedc2e83f604e07c635994125d8a3dbe612a50d37b8561f17"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_041.json",
+      "bytes": 4383,
+      "sha256": "6bbbead1cc74300a1573e8832554d31015dd94a307e3059ef4d1f513652f61d6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_042.json",
+      "bytes": 744,
+      "sha256": "5047e313179eef73f3d0def6834f909a9f030d7dbd7302937ba3140e470bc007"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_043.json",
+      "bytes": 11077,
+      "sha256": "948b8800b1a8d8c2689d371332f9361eeef06ff11873441f6833dc31eba4efda"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_044.json",
+      "bytes": 3167,
+      "sha256": "b0fcbe91ef51d08a67a7ac3f86ee18cac9f8e3c9cc884f4ec51a6cc4154a5b9d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_045.json",
+      "bytes": 19623,
+      "sha256": "4d3c9a4d4d19d414d6a7eb18c4b4c76a58321ea5ac26c9720455e537642a9271"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_046.json",
+      "bytes": 1352,
+      "sha256": "57006aed54defff328d7fc7fd3bda16b70d1a0b17d0b30ed70ad1a141321ff67"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_047.json",
+      "bytes": 745,
+      "sha256": "ad73c224638e590b470403c9bc75f3540260eb8e5d0efbbaca1fb4faa5bdbd28"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_048.json",
+      "bytes": 738,
+      "sha256": "3b8bfcaa4e14dde2d7b443b571fa14f933565de196ba2f9aa55dfbdc66ffabfc"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_049.json",
+      "bytes": 19581,
+      "sha256": "c3076491f5ea21fa0717ebbf5b827b25875d2a754cbc967bcf757bfb5126e087"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/label/label/louhan_050.json",
+      "bytes": 1350,
+      "sha256": "dfe3480f8ad995d8dfde36a098cd17b2f67778eb5802fd84e1b77c6002f1fb26"
+    },
+    {
+      "file": "project/Model/04xinpian/04_3_louhan/Project.dls",
+      "bytes": 10378,
+      "sha256": "d58ab8dddc6b2eb4266d361a066735ff1fcb7b761711f7fd6e84e208f16ac878"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/DetModel_20260705175425878/annotations/instance_train.json",
+      "bytes": 44934,
+      "sha256": "27c8d19f0913f860f8aa5392ace0b8778c69eae9025bd1975c99dec5bb5c0b45"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/DetModel_20260705175425878/annotations/instance_val.json",
+      "bytes": 11690,
+      "sha256": "7530593413b1c120a5381cad74e0fe4fa277bd87a8150b30386ef072ce246d0d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/Keys.txt",
+      "bytes": 12,
+      "sha256": "0ddd45616f37c118a35e5c2897b794f4fb9b47a9c3d575c8ee8261f2c2888e1b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_001.json",
+      "bytes": 749,
+      "sha256": "af5a2f203f1f2d374613f915c436d74989076caaa0433ad7e9c479ca1d084802"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_002.json",
+      "bytes": 749,
+      "sha256": "32ef682bda7f0c737ffee4f511dc95dbe48b97fc45b128fcddf8bb5e5475832a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_003.json",
+      "bytes": 1968,
+      "sha256": "acdb934a0c883a324b3387734d1c6c933e40b9b8badb43f85c701ef6cef25f6b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_004.json",
+      "bytes": 1965,
+      "sha256": "a01ab5419275cebf976bf698e56b2d80cdcfe554df61cdef281f4811fd3b568a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_005.json",
+      "bytes": 1968,
+      "sha256": "00dde01aced677914f266bfcbdd89194e5e4eb6ae9d3afe3255496be5d5c8bf3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_006.json",
+      "bytes": 1363,
+      "sha256": "8c34d5533deaf478df381cd065c195aa55d53d00e6cdabfbcbcc5fee67fe6fa0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_007.json",
+      "bytes": 1345,
+      "sha256": "59b262320a1c0dfe0ffa964b251f49ccace23c92707d7384c78a7abc0577ba39"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_008.json",
+      "bytes": 1357,
+      "sha256": "b969429b6e4ff6b84fa17ba3d5e13ba7d783769a90f58c1ff69b524cb326bb68"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_009.json",
+      "bytes": 749,
+      "sha256": "1d67f760df1138040c9bb53834d067754b6ae0ff9a4bde90e0dca89cf13f182c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_010.json",
+      "bytes": 746,
+      "sha256": "5f031f13b706c1c8301e4915e3ce08680920eda5972122d6db821ba1edf93224"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_011.json",
+      "bytes": 1357,
+      "sha256": "7eb99a1626f1e0e97425236e1098d4b72d6a6e6fe49cb0d3b1c47ed370c508e0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_012.json",
+      "bytes": 1971,
+      "sha256": "86daad52a98410241daa01b53dc08d006aef0fb6406082ed13738512c2de2a85"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_013.json",
+      "bytes": 1974,
+      "sha256": "368b2f47b0b8e8124f487d253ea898d7903574b9d46757f59a5ce93e49b61a79"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_014.json",
+      "bytes": 1354,
+      "sha256": "78b2fae5df5e84601c948d033b3b7e41b788395b24125dd2f848cbbe97a66fd3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_015.json",
+      "bytes": 1354,
+      "sha256": "f22f8af2601bf4717262a287cb1e063c57ca2db39d9472943bd7ee96fc1d3001"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_016.json",
+      "bytes": 1974,
+      "sha256": "22b5cc327531d500a3d97e97b558795b8302480aa8cc8d51daa22672d6791d72"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_017.json",
+      "bytes": 1360,
+      "sha256": "0001694538f858b93c039b2fd7b0d4bd0c39e6de6cd0f8e6b0920e1ddffb5b2c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_018.json",
+      "bytes": 1965,
+      "sha256": "091d8ca745e19d50c41d9ff71cfa09be44b2f55f8a6bd9f82caf6516aa70a8e8"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_019.json",
+      "bytes": 1354,
+      "sha256": "211a9cb9049db0555cbb93481e8f771cd4705ed151733768566ffde644d3a0f4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_020.json",
+      "bytes": 1354,
+      "sha256": "52fdb431bb1169fbdb1c0a9a781c4458ba7721b20079b3bc4b6bc4c10fbef1ae"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_021.json",
+      "bytes": 1354,
+      "sha256": "55739ece3949851876978bb9b0ce950b41506dfabcc9c58290e57ba65cc7030d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_022.json",
+      "bytes": 1351,
+      "sha256": "88fca4b6a9c13c587319a7c3e3d1b2b96e26ee0fdfb522c1f50a76655a63bc45"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_024.json",
+      "bytes": 1351,
+      "sha256": "6f5aaf0f19d42bace0c3f68aeaa9cb077d70da6c65c4ff3555b91b4b675d98bb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_025.json",
+      "bytes": 1351,
+      "sha256": "4cd1943a697c4c5f3d48e9ac1b796d66834fc1f43775b8bd8d03cea803ca3b51"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_026.json",
+      "bytes": 1360,
+      "sha256": "a361e7f6220979f43a89934939517cbce7fed0fe7c512cca7f78e1d0ed032394"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_027.json",
+      "bytes": 1354,
+      "sha256": "0e5e62f2d0833085298b2e986794268bf37026cb1873f31a45452e8d0b8ecc39"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_028.json",
+      "bytes": 746,
+      "sha256": "90fbcf49e392d810daed867ae9ca8ee3f678d5dfebe498d87a7273d35daf7dec"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_029.json",
+      "bytes": 1354,
+      "sha256": "e348f450d8c1d8c0c24bb718aa86456571bcf5edd0e708184eb034cafc1ca77e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_030.json",
+      "bytes": 1354,
+      "sha256": "42d4c41a3a779bbb98133dc7a727e64c071890e70d28117ed32504b9ead3e673"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_031.json",
+      "bytes": 1348,
+      "sha256": "65a4d0382a7630f97601ecb9876ae8105c8f07e29405c108f775f4494b9ddcbb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_032.json",
+      "bytes": 1357,
+      "sha256": "d42431496ff7c805842300f28479cf1dda9727abea3b5437eccac26870f5562b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_033.json",
+      "bytes": 1354,
+      "sha256": "715ae3400b622a62fe345e04657a60e371182197c99796b77760a5fa58c61f13"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_034.json",
+      "bytes": 1360,
+      "sha256": "52cc36e9a7bba3abdd15f413bff7ab784ceb158bd53f1b01f358053cccd6e81b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_035.json",
+      "bytes": 1354,
+      "sha256": "38c95d9cf4b5e581bd1e1e55016447faef75694bcb5d2629a5c9663dfacb7014"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_036.json",
+      "bytes": 1354,
+      "sha256": "ed3b741b1071341099dbbd0cb4c7fc19bddb4c2365ba22ab10cb59ad45312fed"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_039.json",
+      "bytes": 1360,
+      "sha256": "13bc7fd0621c61f9896ddc55b6b8a49660d399ef438a58dc71f470ac817222b6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_040.json",
+      "bytes": 1363,
+      "sha256": "6f4966aef8443997ab5e6b61a0c164e110c367cff6b4df376a3e662f9cbdc29e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_041.json",
+      "bytes": 1357,
+      "sha256": "a3a290c9fefd8207a09536a2c754f8f95cc2410781081a7c22e416a81128710d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_042.json",
+      "bytes": 1354,
+      "sha256": "50276b955635cb16acc4bdcd9d158885aef65c88b81ecd90ca3f0ab297d9e0eb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_043.json",
+      "bytes": 1357,
+      "sha256": "e819231da5a9f8ab3864980930f53f776a68c8ffde29399572a1bdff55dd690a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_044.json",
+      "bytes": 746,
+      "sha256": "18ef7b1eb868ddfae1f69aad104aa0386107f105fe7686539241eee2c13784b0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_045.json",
+      "bytes": 752,
+      "sha256": "b682a2a3050b8347d91c839aece5072ae7c2f1f9059a0c725e089ddd8297771b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_046.json",
+      "bytes": 746,
+      "sha256": "7e2b9ffd35f692b9a08d99d7fed51738527f0a4e3f40f6022ad914df894a6ef2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_047.json",
+      "bytes": 1360,
+      "sha256": "b490da56abfcaebfc5c0c09e5b9e2ab0949c076d4fc5bb38a9d0fbcdaea0e963"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_048.json",
+      "bytes": 1354,
+      "sha256": "2532a749997f60503d5f40b691d89c5b27cfb3fb333ec404358bc76aab9af329"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_049.json",
+      "bytes": 1351,
+      "sha256": "04634a6a885463e2e1408e91a5b8046fb620a5510eede3d46bb91ae4905b5205"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/label/label/pianxian_050.json",
+      "bytes": 1360,
+      "sha256": "bb40dad5ab861c0aae29a7ae07210eda7ffb307419ca03d9eb369cf079713a7f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_4_pianxian/Project.dls",
+      "bytes": 10487,
+      "sha256": "3f10986b8e30e933d0a22ab942db719e97c6938b0d62fc95189e8ac7b9fc1eb8"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/DetModel_20260706083333902/annotations/instance_train.json",
+      "bytes": 35486,
+      "sha256": "ea313102b7cbac9f1db1c50c4dc262c327266d5175cb138cf6f1106421a16d25"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/DetModel_20260706083333902/annotations/instance_val.json",
+      "bytes": 41005,
+      "sha256": "171b44e3c2d5b927ba73eebf0b6986fdf7cd9cdc22bcc9b2a9700eff4dae8ead"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/Keys.txt",
+      "bytes": 60,
+      "sha256": "d5e026c17aee6f54b8db7a47378bd47504de069e05a1cd860cb9e315ec0c1be2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/Keyscolor.txt",
+      "bytes": 55,
+      "sha256": "d8b244dff2823eb85e6fb1241429a5ea018d23410c9bffec36f810b4784855d6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_001.json",
+      "bytes": 3186,
+      "sha256": "6c206731961b7f224323365064fa1d468a6242767e538d6b76c6bdc36a13276e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_002.json",
+      "bytes": 745,
+      "sha256": "262d6656c1bbfa3f4cbe7c885734f809ce61c8426b3d7deb99b4bf2316539227"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_003.json",
+      "bytes": 745,
+      "sha256": "58ba62b5d3d8289c5ac6fe1c57064acbea9a55dc0993781a3f2fc43b898d0216"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_004.json",
+      "bytes": 3174,
+      "sha256": "7f217f2ba754f6ded2d49b7444c916c947d76dc94c90dc65463e114148ad1ced"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_005.json",
+      "bytes": 748,
+      "sha256": "dff4133d9a2891f6fc835a9cabcace31ac71d91fffcddbed5e24967f236edfda"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_006.json",
+      "bytes": 745,
+      "sha256": "cffc753c5ad25022ff2ad503d53ac7fd6b320efe4e06ab27dcf8cbfb63d755ea"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_007.json",
+      "bytes": 748,
+      "sha256": "894ea8d07bacc235cff7a1d336004fddd470d7f30192ecbbd9c4a730520ac32f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_008.json",
+      "bytes": 745,
+      "sha256": "626b0ff410b50870aa60658336fbd45c80ea377ed0c9777823038043d99103fa"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_009.json",
+      "bytes": 1961,
+      "sha256": "95a03045449ea6e520e320d615dffc2ab6d91fd49a634d67400f5b1a4527d234"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_010.json",
+      "bytes": 1964,
+      "sha256": "2be0a785aa814c9cfe4184667657ac9a8b227402e7d0c426a2f3ae561c851208"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_011.json",
+      "bytes": 742,
+      "sha256": "2c036aa17c7badc9361da879977bd21a543d78fa59e0264c84e26ebb5cc0d6e0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_012.json",
+      "bytes": 1347,
+      "sha256": "587806b6393e3ebcd83185179b8e763d98a694b257c0e3e6b7324e107575741c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_013.json",
+      "bytes": 748,
+      "sha256": "a071c8dac45d2b8e21d0275ba3c614a84097f8e83aabc5555f85d717a7f53044"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_014.json",
+      "bytes": 1958,
+      "sha256": "ea023e15cd1f7c461ad202a8254cb61a4f56bc630210d410129f8f5fa2a9688a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_015.json",
+      "bytes": 2566,
+      "sha256": "3ef469b16996271520bc04e7e22290f3584d3dab2954a4d915ab2945eaf097c2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_016.json",
+      "bytes": 742,
+      "sha256": "de967cd734b0a257fdfb968259b3b24f96de5b7c65e44493c3f616f1825f0724"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_017.json",
+      "bytes": 1958,
+      "sha256": "a1f45654fb582276e189df4543d3160f078d1fdc7304acece590c2ebf7157731"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_018.json",
+      "bytes": 745,
+      "sha256": "4c597604c0531bd500c82f9b1088a142cd6ab30f46185c7408e61e7bb1f7bb79"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_019.json",
+      "bytes": 1946,
+      "sha256": "a944bc7905a202b349bd69228e5426f4fa215bdaff19f5c156069cbb0e307fa5"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_020.json",
+      "bytes": 739,
+      "sha256": "60bd8e55d875b715a21ff06c757c015fd305f90dfbe2d068cc25767cd2f5ef1e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_021.json",
+      "bytes": 3165,
+      "sha256": "105734de31240a24f09a040e45640700034caefd308ecf2e95375d1c102085dd"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_022.json",
+      "bytes": 2566,
+      "sha256": "eed5144993df6b47047518bad7b253888f6385ebe5553fa6ae7fd50b1a693903"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_023.json",
+      "bytes": 745,
+      "sha256": "7d0435a25d32094cd48342a47829e25504ddee87c93bc5c221f28904d9682a81"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_024.json",
+      "bytes": 1955,
+      "sha256": "1fa2907260ef18094255cba436525d286c142f43f574b3cccf2aae007b1577e6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_025.json",
+      "bytes": 1347,
+      "sha256": "0c2c022f519d04bc4f9fb4992c278f13cecb408964d6ac8871b8dcc74a26349e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_026.json",
+      "bytes": 3177,
+      "sha256": "d010912bcf116436db627cd3912ca3ad1f3b7596b11bea7af3a49eb0c48d07bb"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_027.json",
+      "bytes": 745,
+      "sha256": "c246542ff9e7ac97631c9a823123bd8623805928ff8f2f4ac227a9fc40fa2794"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_028.json",
+      "bytes": 1964,
+      "sha256": "4bb5541ade2198156767b62ffdbcd1bf2eecee5e28c253e15edbacfdd64d6b52"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_029.json",
+      "bytes": 1961,
+      "sha256": "1b505c2c20978bdcbf93b98d3a735be01f2f805026e95f04c93d7ee17725a925"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_030.json",
+      "bytes": 1350,
+      "sha256": "f287971c1a00910710beac1bd92b3ccefd89ccf099c4404ca0d763721d783b26"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_031.json",
+      "bytes": 1967,
+      "sha256": "9517c752270365b2e4e0fb6847df32859f654c647a98911f1a903e9a31a7e123"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_032.json",
+      "bytes": 1952,
+      "sha256": "af81152a41f4d58d7f52702db3ec3d78e73623ffc12379818731164b10888d03"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_033.json",
+      "bytes": 1961,
+      "sha256": "9b0e16eccb02cce4bb4f2295348fc1a908c6e687e7af4ac1fa1508ac9320cb50"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_034.json",
+      "bytes": 3183,
+      "sha256": "7a3b6c0437a4562ceab5913a673396fe35ad84a3d227cbd0c34a277e558e9ca0"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_035.json",
+      "bytes": 1356,
+      "sha256": "1aa2f63b88bfb6a49860baf82a058a4a72bb7388dc42db1590ff444787a5d8ae"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_036.json",
+      "bytes": 1961,
+      "sha256": "d8899732d304a30fe054f8f5b04a3aba9298c4aa86d0f9e2c54a6de9c41a3f9a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_037.json",
+      "bytes": 745,
+      "sha256": "f1be76589f8327409f67dd5b1de011bfcd8ae5c48e102ce3aae99e92c0857893"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_038.json",
+      "bytes": 1359,
+      "sha256": "f3114010753daf23c43a1d4c219a1301a913b959cba129ca6200354a6fbd0a65"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_039.json",
+      "bytes": 1961,
+      "sha256": "2d19b148962c9bb7731b49476582661d8a56ae78e226b262d894dbcc444597ea"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_040.json",
+      "bytes": 1353,
+      "sha256": "3fee75da8f3462725d549fa9be6dfa28e3bd972110da4b39d37189f24a3ecc9b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_041.json",
+      "bytes": 748,
+      "sha256": "ea6611d7e47ba1ece0ba5be864fb367359ef2c502e32d11446305749799c48dd"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_042.json",
+      "bytes": 1356,
+      "sha256": "f0c6625f2f176382622e0bcd66301e4e6ae89be299f4c037faa281afeaf00c5c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_043.json",
+      "bytes": 2566,
+      "sha256": "44556bfae5a24310dd206c691d38d385f9a9b022c4ac53b9b7c0f593a8a9efa6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_044.json",
+      "bytes": 1347,
+      "sha256": "5f4b4e8c02875f1e42d8f5178c489818db9ebdb83bd27584f6a2ef69c00c822b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_045.json",
+      "bytes": 1958,
+      "sha256": "dc0fd67baab8ff2bc14adf2fdc29233bc4b57b46de0dcb6bcc7c697f1bc0a9b5"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_046.json",
+      "bytes": 3186,
+      "sha256": "6e41b94a1569b17b8e7aea294a06efea9ed4dadccbfd2b4b752fd83a24c4305c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_047.json",
+      "bytes": 1952,
+      "sha256": "87b5473474328914d34d5357e6597668905ac2314ee6863d69624f456b00d21d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_048.json",
+      "bytes": 1356,
+      "sha256": "6a8fec587e37bc3c7884577e14c1c56b48ec25a5985c6d730860c7096d1cd1d2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_049.json",
+      "bytes": 3186,
+      "sha256": "2308fe188a3d042fe91651a81fcad2380ee940bf894039665161c8332d191fbe"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/label/label/wanxian_050.json",
+      "bytes": 1958,
+      "sha256": "34c148de4b1b3355b9f3ef1a7691695f5e14aa20c2c59e5298e89753a333d535"
+    },
+    {
+      "file": "project/Model/04xinpian/04_5_wanxian/Project.dls",
+      "bytes": 26063,
+      "sha256": "b3296fd28d0fb65e3e93873336cb793b9c281ac7e84142d4c5d404cb72ca39ab"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianfenlei/label/ClsModel_20260706143049292/Train.txt",
+      "bytes": 5443,
+      "sha256": "ce5b47c4698c683d7ae81ce6d6f3914bbb7f24e1c54c3307562e1015ce8f1877"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianfenlei/label/ClsModel_20260706143049292/Valid.txt",
+      "bytes": 5443,
+      "sha256": "ec2aa64c471f3311a317fca3c8441d6a713b6278c9ac7f001be982e2ac2a6637"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianfenlei/label/label/Keys.txt",
+      "bytes": 56,
+      "sha256": "4bd0e3dec574350cdbcf9f95079ba6c70ec274b38be1a3bc8ce08010866c3069"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianfenlei/label/label/Keyscolor.txt",
+      "bytes": 66,
+      "sha256": "d7e0a599763167fa63675e2a193e14b9e6cb15a5ee44267473ed287f3990832e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianfenlei/label/label/Labels.txt",
+      "bytes": 5443,
+      "sha256": "b2c7dbfd6a203df32f6596d41727a78f82756d651d067903b39e15a9be755778"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianfenlei/Project.dls",
+      "bytes": 20312,
+      "sha256": "c4313c5a0fcd66d96b4d734647d3c9899529dc8fe5b28106c8917c07ca53509f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/DetModel_20260706223415634/annotations/instance_train.json",
+      "bytes": 7380,
+      "sha256": "2d739c7d76e0b1121f824d05270e6f6d348f2f7181c4e288d2f3ab0c6389cc4c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/DetModel_20260706223415634/annotations/instance_val.json",
+      "bytes": 7380,
+      "sha256": "1b6f966552ba07ca53ff7ad48e86ab0778f567c32a983f3fecb4cf99085e0326"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_100.json",
+      "bytes": 758,
+      "sha256": "8942c1c49e045d741cca6f1e60c55f7c0af6f58b07f1dca5bf90002f69dfa26c"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_105.json",
+      "bytes": 758,
+      "sha256": "94c3fbce3cff12c7106f0f1779be4925f203da18df75d4b1365dbdbf0447b838"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_109.json",
+      "bytes": 755,
+      "sha256": "259c62672a52ce80a1f23d59423a29f1699298a0ec911533fcc1ec57c9fe3f1f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_113.json",
+      "bytes": 752,
+      "sha256": "8748081833a0474891ebddd80d6fdb5445ccab1845c768df8dcc93420a1f1822"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_116.json",
+      "bytes": 755,
+      "sha256": "a866f849e7b97e759bc0909966b61b373a2bf14760571d9288a4446a8a14a936"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_119.json",
+      "bytes": 752,
+      "sha256": "fd306db5e080321e722d613e625f110eb3f0a979251bb06762f77f1ccd184779"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_123.json",
+      "bytes": 749,
+      "sha256": "648d0f4095245259cebf80ee33db241d128bace25e7522eadbdc0b359fd947f5"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_127.json",
+      "bytes": 752,
+      "sha256": "040ba4f4b005807697bda11412a1ec8995fb59c4e244472d7f4aaa713337d5e7"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_132.json",
+      "bytes": 749,
+      "sha256": "b2f7c57e60741df695d7aace4a3a955f3c8a1b9375a3305c3fa25dce279db7e7"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_134.json",
+      "bytes": 755,
+      "sha256": "559f0729ef6f3cb8552a99a4c30ad7c2a90ca2d884cdb9b66bb7cf2a13c51677"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_138.json",
+      "bytes": 752,
+      "sha256": "6c1e9f2e10d3d8048bed6b2a95c36cf9243ee6b64c5354bfee24760bc0b759c6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_14.json",
+      "bytes": 748,
+      "sha256": "ebe263c40cdf9d977ffff204c98551fd918a6e3c102e2bf2cbd8f0a6954e4373"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_143.json",
+      "bytes": 749,
+      "sha256": "0360d57fdf829af3b73ad3bf2aa392bd942c361272a451c3acba82c6f2252ba6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_148.json",
+      "bytes": 755,
+      "sha256": "826dae56bc671085e13c1d0344b112478a0edd369bfc2dfe486daaea1f6cb214"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_152.json",
+      "bytes": 752,
+      "sha256": "5c5ef65d717b2c75818fa0f48713751698b90906fa30c48c514708a0f7eefec8"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_154.json",
+      "bytes": 758,
+      "sha256": "da81c99db62985c596607b883d58df52fa7c95570c8fddafb511aa4845c77e69"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_159.json",
+      "bytes": 752,
+      "sha256": "21141048246ec4d98a6c5729eb8ea4d15c9215af15c8752e899915fd9ef92f5e"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_163.json",
+      "bytes": 752,
+      "sha256": "6d250ddd9aee1a2542217d51823f264be8a90080b8ec8d316c309d6f46b83624"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_167.json",
+      "bytes": 752,
+      "sha256": "e72e85f05b6c45e35ee6bdb89d8c924da015356e6398ed3e750a196027a7f292"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_170.json",
+      "bytes": 749,
+      "sha256": "e281fcb32c348ef500f332711e0c2a34c41c2b2577be0d307e249d84cfcfdf2f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_173.json",
+      "bytes": 752,
+      "sha256": "486ca3fcf9b464940fbe43c7459394cdd9fe48279eab4bb0b9e4cf4f28ca6f3d"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_179.json",
+      "bytes": 758,
+      "sha256": "158197151ff2329b472230de6c87fc3270d9926c0e22c314379ed470cd68f7da"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_183.json",
+      "bytes": 749,
+      "sha256": "a693ef01195ea8bf7bf5cede1f189840e90005c8c1ef61908b3a6c73e3ba6aa4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_186.json",
+      "bytes": 755,
+      "sha256": "289ade00ade6c80e303d5de0a8b0f4949c1a3afe695eca569c7d5a5652dc68c3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_189.json",
+      "bytes": 746,
+      "sha256": "fd2f64516a6cae00f35cfd2b580cb064d468beb0f6b4427c67c210acb2ce52bd"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_192.json",
+      "bytes": 749,
+      "sha256": "6067d7a2f078e44178b07082a9a2785da50d3ab1290d2fadbee5a9c838cd431b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_200.json",
+      "bytes": 749,
+      "sha256": "b7cde3f3b86c07fc7b67df2b641712f2306d6608c7414d05906f98963e8a9f4b"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_202.json",
+      "bytes": 755,
+      "sha256": "e315bb1b53fa57885bc83866571da7eb55bd4fa478daf31fb491669ff602e858"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_205.json",
+      "bytes": 749,
+      "sha256": "e8260ea2afa2f280a87a74d0f9f8365adb40f29faa88485b409c40587cb02727"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_209.json",
+      "bytes": 755,
+      "sha256": "938344eae08cc0d71b0dc8509bd24f6cb5d891814880ef2d58468cc7e2beca74"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_21.json",
+      "bytes": 757,
+      "sha256": "5b2cf9b3df26ca7e86ac696e8fd479e6ef7a7d89deccd7e63fd8bfabbe21d9f6"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_213.json",
+      "bytes": 752,
+      "sha256": "3ac0e74f3f7fd3289c3f74d519701eb98e2cb904e87802d68c33b98eeae52879"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_217.json",
+      "bytes": 752,
+      "sha256": "8b072b277c448be6936f046a35237f4c7058d94ff27bfd119d89cc6a0432f2f8"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_223.json",
+      "bytes": 749,
+      "sha256": "a775da58f6a541754b882679755999b7980d48e499a48c057a741cdd72699076"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_231.json",
+      "bytes": 752,
+      "sha256": "703fe3e9c3cabbc024ab15dc3e1458dc782ee91ff87a13652911944d2ddce8c2"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_239.json",
+      "bytes": 752,
+      "sha256": "d259ac06973eece9c92d18f9de2c232cb6a399b0ea0caa7a445336fd8d03665f"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_38.json",
+      "bytes": 751,
+      "sha256": "ac9279bf7b229c257fd04c71edb3edd1820374b8bf46242498e084e7c85011d4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_4.json",
+      "bytes": 756,
+      "sha256": "5a64331bbe62a6dbcbeb21f067054f5946a116c94cda3480549455100edd6b24"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_44.json",
+      "bytes": 748,
+      "sha256": "086320a790945aec8e3f3efbcd98fd45be27aeaad2d89115a80773d8f7f61e42"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_48.json",
+      "bytes": 748,
+      "sha256": "f5720c667c31f4e593f7fe2237bfb7eaf384924be6f4f3f7dc994adccab66e76"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_496.json",
+      "bytes": 746,
+      "sha256": "b1e90b804172ad89b89aec3ec6fe1b5bfd4dd43e41685cb21a49e18ab4d947da"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_5.json",
+      "bytes": 750,
+      "sha256": "056f21611725a502dd0cb4241d15e9bede231d40e3b424420627c4f50d31ef6a"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_55.json",
+      "bytes": 757,
+      "sha256": "d0d653f449d1428af258009721d8f1e6806101db830067ec75779908de8cb834"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_60.json",
+      "bytes": 754,
+      "sha256": "efa45ab3c76290c534b894fc7ab84d4f4ace8bb846022d55fc63c4a776a857dd"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_63.json",
+      "bytes": 754,
+      "sha256": "e91c133e0fb23013366ea39192a6562ee74d9f33ea7c6e2085eb4ea8934703d4"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_66.json",
+      "bytes": 757,
+      "sha256": "39c73302035ca7185505f4f38586ef5f8fe430827805b932be747bb05e718546"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_72.json",
+      "bytes": 757,
+      "sha256": "cbcc9fd011e0e7e5394cb0cd7a216d80e9770aac85302268ccb82e103dc2d7b3"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_78.json",
+      "bytes": 754,
+      "sha256": "50405c24dacb277b92f9c085bdc3459e7c96d4c7fadb89610bdaf762bd6dcd41"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_94.json",
+      "bytes": 742,
+      "sha256": "320cfa3d6cc2f9e6fc350f869c095656daccbd3d63566b38017204c29c72d187"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/chip-ok_98.json",
+      "bytes": 751,
+      "sha256": "528a1319b0bbea772df212471bee58370180e9b2d183ca1380088c1e3c4b1a67"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/Keys.txt",
+      "bytes": 19,
+      "sha256": "3dbb5180c01cae5096e6531d13e76b5148613ff46dfcf3a2d9c34403b520be77"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/label/label/Keyscolor.txt",
+      "bytes": 11,
+      "sha256": "59332eabf92ae1e363d09fee12734925e4135abbb55e68bdc6b7a27d642d1448"
+    },
+    {
+      "file": "project/Model/04xinpian/04_xinpianweizhidu/Project.dls",
+      "bytes": 14624,
+      "sha256": "e22ece928f89942f59491fbeef33214b1e4adbc27343d5e5137f68f87c416a42"
+    },
+    {
+      "file": "project/program1.5.png",
+      "bytes": 34695,
+      "sha256": "2524ebd80db10192fcf5c68739fe289dd8aa1615abf2e141ebebf811b8d31a37"
+    },
+    {
+      "file": "project/program1.5.vpsx",
+      "bytes": 1104,
+      "sha256": "9f3ebe0991a63040eb95e78aaa7354564c53c643a1726d19ba2165cbe80b8d0a"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6049,
+      "sha256": "b1665689315564661a384c3dc9d4d8a0909cfd0c9ff669d2d6d318415501043d"
+    },
+    {
+      "file": "requirements-dev.txt",
+      "bytes": 13,
+      "sha256": "beea49f077fc00047671f0088a02d0f03e741782da9e939e661b309cba746207"
+    },
+    {
+      "file": "SECURITY.md",
+      "bytes": 357,
+      "sha256": "f324c79db9d31bb6455628682d5994dcedbbf844b0efba08268c96543443a229"
+    },
+    {
+      "file": "src/cable_rotation.cs",
+      "bytes": 11146,
+      "sha256": "f9efcdf71af33864bbfb41bc7a66409041bde271df6ded4a66e92fdfe86f0622"
+    },
+    {
+      "file": "tests/CableRotationTests.cs",
+      "bytes": 3100,
+      "sha256": "2071ca43ec9889fdad0062269845342ba75dc0db1faf8f95281e444539a26bab"
+    },
+    {
+      "file": "tests/CableRotationTests.csproj",
+      "bytes": 245,
+      "sha256": "f2a927be344df2d3be8b8a2c7f2a406152d35d2e7b253d3b4ed7a5670db681ad"
+    },
+    {
+      "file": "tests/PlatformShims.cs",
+      "bytes": 822,
+      "sha256": "6a0abf32c7e220c130f976a4362b18e57343021fdb15161d5a363bfcc025d835"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2127,
+      "sha256": "ea33b3e9ef675df8be1724ff2d36606cff0f9f59660bb42e1b9da813fb9bb1ed"
+    },
+    {
+      "file": "tools/prepare.py",
+      "bytes": 7691,
+      "sha256": "09f827e2128e934aa7c4e8a54a8b56c7ea0415dbd97cc977672894eacd6fe9aa"
+    },
+    {
+      "file": "tools/verify.py",
+      "bytes": 6941,
+      "sha256": "70e0a82bf0335ddca198dc924d69b04a2e10d873a3b7c6cb4aa44f4e57f3d99e"
+    },
+    {
+      "file": "项目预览.html",
+      "bytes": 8119,
+      "sha256": "edbd6a11f118f79cf441cfc920c72645daffa724c2acea799d950e0b33ac31fb"
+    }
+  ]
+}

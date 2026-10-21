@@ -1,0 +1,3 @@
+0	posun
+1	ok
+2	kongmo

@@ -1,0 +1,146 @@
+[
+  {
+    "file": "project/Model/01jipian/01_1_louhan(less)/model/ExportModel/DetModel_20260701155019060.bin",
+    "bytes": 23720205,
+    "sha256": "c2942630b1867a60499f4c9731c4fdaf81e3ee906be12ad7d2d77060842d5c1c",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/01jipian/01_2_duohan(more)/model/ExportModel/DetModel_20260702081405785.bin",
+    "bytes": 23720205,
+    "sha256": "53ba2b475df2dadca0ab93f4eacdc474a55bb9c84de5ad854b7112b477ce91c8",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/01jipian/01_2_duohan(more)/model/ExportModel/DetModel_20260702085909631.bin",
+    "bytes": 23720205,
+    "sha256": "e6d02258a9bc1f5b293bca78f69a4a05eb37ccf576cac2550020eed59dca0128",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/01jipian/01_3_hanpian(skew)/model/ExportModel/DetModel_20260702092243642.bin",
+    "bytes": 23720205,
+    "sha256": "dad28caaac04643f413241241aa42519ff7bb41fb07fae0760be939d55e762e9",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/01jipian/01_4_hanchuan(break)/model/ExportModel/DetModel_20260702100444950.bin",
+    "bytes": 23720206,
+    "sha256": "fe38157920f4f0678c5c8f08fbf7a59518db45349cd8824c3014c74917881a33",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/01jipian/01_5_pianyi(jipian)/model/ExportModel/DetModel_20260702103305680.bin",
+    "bytes": 23720207,
+    "sha256": "59d054f9a604188feb0e583e51d838282473a04378b8e0944d7dddf146d3e731",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/01jipian/01_jipianfenlei/model/ExportModel/ClsModel_20260706100808639.bin",
+    "bytes": 94482842,
+    "sha256": "6a98393664568a6081bf1df3d90bd3af35f7e5169d414202e5f303e5e585e47c",
+    "active_default": true
+  },
+  {
+    "file": "project/Model/02xianlan/02_xianlan/model/ExportModel/DetModel_20260706133003893.bin",
+    "bytes": 23853072,
+    "sha256": "27dee87b79d63f03c6d4a8fa7c3a6abdc37ed2c66d055d2090df870e5965caa1",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/02xianlan/02_xianlan/model/ExportModel/DetModel_20260706134759540.bin",
+    "bytes": 23849842,
+    "sha256": "cedc44dd14a0ec5df659762cccff32eff9b12b54d29faa9edbb55320984cb418",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/02xianlan/02_xianlan/model/ExportModel/DetModel_20260706235201921.bin",
+    "bytes": 23786810,
+    "sha256": "6e70a0c23e90b1447c75818fe8399cb187ec790ea8ea481f2fb4f5ce78937a37",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/02xianlan/02_xianlan/model/ExportModel/DetModel_20260707000012260.bin",
+    "bytes": 23849842,
+    "sha256": "cf088ea0b9d08e4fa42e9dac6addd5e82efca0c0c2e65bf03f5d34fcf18cbc88",
+    "active_default": true
+  },
+  {
+    "file": "project/Model/03shoutao/03_1_kongmo/model/ExportModel/ClsModel_20260702165750049.bin",
+    "bytes": 44820675,
+    "sha256": "d284fd80c1bc57ff2c46fbbe3a99f3c2c3c3e984da68c95be1f8e03ed33bc3c0",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/03shoutao/03_2_posun/model/ExportModel/ClsModel_20260702171928902.bin",
+    "bytes": 44820674,
+    "sha256": "b0b9fafdb2f2d716f31c61eaebd3d5a25550ca009b420092001b48038938ad2d",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/03shoutao/03_shoutaofenlei/model/ExportModel/ClsModel_20260706123312343.bin",
+    "bytes": 94458228,
+    "sha256": "4daca89b68bdcd48a95d814eb9df48a168765b5ed9c5289294a050018dbd4a6e",
+    "active_default": true
+  },
+  {
+    "file": "project/Model/04xinpian/04_1_juanxian/model/ExportModel/DetModel_20260704183801100.bin",
+    "bytes": 23720209,
+    "sha256": "1766a11c2c9a0ec0549a801f65cd917f37be45a3d58b8c6c2398ab01a1d872a3",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_1_juanxian/model/ExportModel/DetModel_20260704193942028.bin",
+    "bytes": 23720209,
+    "sha256": "17c9d006c28dfa9199761128119bee5ada7d059fd39499303f4b02d79e69d64d",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_2_lianxian/model/ExportModel/DetModel_20260704210259531.bin",
+    "bytes": 23720209,
+    "sha256": "2686e88dd331a1c7ff928c05272acc5586ec14d7ce3d9d6969077e535a572924",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_3_louhan/model/ExportModel/DetModel_20260705085234628.bin",
+    "bytes": 23707702,
+    "sha256": "3099674cf7d8bb3d3e4b0fe10576021f4b7dd182185d6bee02a7a4dce1df910f",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_4_pianxian/model/ExportModel/DetModel_20260705165709041.bin",
+    "bytes": 23720209,
+    "sha256": "cba3ee48ce2b2c941ec8b21d5acf79c90070ccf50341fcf16fd83110bce9ff92",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_4_pianxian/model/ExportModel/DetModel_20260705175425878.bin",
+    "bytes": 23702529,
+    "sha256": "57cb649c3eb74e06910cd754882e0c91fc5169bd3d19824ad7b67a7d74a93bb3",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_5_wanxian/model/ExportModel/DetModel_20260706083333902.bin",
+    "bytes": 23712881,
+    "sha256": "05b52c0e8068b0ef550e77fb30fcf201a7c9c1c6a8b74289e5744029c3dc4282",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_xinpianfenlei/model/ExportModel/ClsModel_20260706143049292.bin",
+    "bytes": 94482847,
+    "sha256": "585a311161a6e23d7f2921dfb4825fd145cf8bd69817c9aefc4ae412d8292951",
+    "active_default": true
+  },
+  {
+    "file": "project/Model/04xinpian/04_xinpianweizhidu/model/ExportModel/DetModel_20260706223415634.bin",
+    "bytes": 23779064,
+    "sha256": "6193c3fde9848e41065cbaeced2a2004cc332550dea0eed06cb1054cab281603",
+    "active_default": false
+  },
+  {
+    "file": "project/Model/04xinpian/04_xinpianweizhidu/model/ExportModel/xinpianweizhidu.bin",
+    "bytes": 23842095,
+    "sha256": "f4437409cbb550a8b89c2bcf57b47c89c280aef03792339d6f9c637f4a9b2a29",
+    "active_default": true
+  }
+]

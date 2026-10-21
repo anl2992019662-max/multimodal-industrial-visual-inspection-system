@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_2/AlgoFlowTree_ATOM_2#0.xml",
+    "ref_id": "REF_1a353ff9-27bc-4d67-a390-dfcfa0868e10",
+    "folder": "Image\\01_jipian\\"
+  },
+  {
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_3/AlgoFlowTree_ATOM_3#0.xml",
+    "ref_id": "REF_68f14137-802a-4010-a125-aae5332a3aa9",
+    "folder": "Image\\02_xianlan\\"
+  },
+  {
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_4/AlgoFlowTree_ATOM_4#0.xml",
+    "ref_id": "REF_3d23cddd-b4b7-4b7a-a393-4cb93d3e645d",
+    "folder": "Image\\03_shoutao\\"
+  },
+  {
+    "file": "Config/FlowAndTool/Flow/ToolBox/Algo_ATOM_5/AlgoFlowTree_ATOM_5#0.xml",
+    "ref_id": "REF_7b3bc7f8-358c-48dc-b152-317d13b34dcc",
+    "folder": "Image\\04_xinpian\\"
+  }
+]

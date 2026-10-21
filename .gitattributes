@@ -1,0 +1,6 @@
+# Preserve original platform/label bytes, including their original line endings.
+* -text
+*.vpsx binary
+*.png binary
+*.pdf binary
+*.calck -diff

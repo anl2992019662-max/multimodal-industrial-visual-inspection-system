@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HMIWindow ID="HMIWindow_1" Width="1920" Height="1080" Title="HMIWindow" AutoStart="false" IsModal="false" IsMainWindow="true" MinWidth="10" MaxWidth="9999" MinHeight="10" MaxHeight="9999" UserValid="true" FullScreenValid="true" LicenseValid="true" VpsValid="true" AdjustSizeValid="true" Background="#272727">
+  <HMIRuntime Width="1613" Height="965" X="0.5" Y="0.5" FullScreen="false" WindowState="2" />
+  <Tools>
+    <Tool Key="Basic.HMIShape">
+      <Display Height="351" Width="950" Top="717.85930735932834" Left="3.4999999999977263" Angle="0" Background="#FF343434" BorderBrush="#FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="25" Locked="false" />
+      <Setting Shape="Square" RotateAngle="0" InsideBorderThickness="1" LineColor="#FFFFFF" FillColor="#00FFFFFF" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.HMIShape">
+      <Display Height="555" Width="950" Top="154.00000000000705" Left="965" Angle="0" Background="#FF343434" BorderBrush="#FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="25" Locked="false" />
+      <Setting Shape="Square" RotateAngle="0" InsideBorderThickness="1" LineColor="#FFFFFF" FillColor="#00FFFFFF" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.HMIShape">
+      <Display Height="354.14069264067166" Width="950" Top="717" Left="965" Angle="0" Background="#FF343434" BorderBrush="#FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="25" Locked="false" />
+      <Setting Shape="Square" RotateAngle="0" InsideBorderThickness="1" LineColor="#FFFFFF" FillColor="#00FFFFFF" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.HMIShape">
+      <Display Height="129" Width="1911.5000000000023" Top="2.5000000000140403" Left="3.4999999999977263" Angle="0" Background="#FF1350C3" BorderBrush="#FF005DFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="5" Locked="false" />
+      <Setting Shape="Square" RotateAngle="0" InsideBorderThickness="1" LineColor="#FFFFFF" FillColor="#00FFFFFF" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.VPRecord">
+      <Display Height="473.45021645016624" Width="483.49999999999386" Top="216.21428571427049" Left="14.166666666660319" Angle="0" Background="#343434" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting DisplayItemId="" WindowLeft="0" WindowTop="0" WindowWidth="0" WindowHeight="0" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <InputItems>
+          <Item Id="1d3e3c1e-e5cf-456a-b401-aaaeeba6c641">
+            <RefItem Type="Object" Id="REF_7627c13f-b90c-44c5-9761-a9991095ac7c" IsReferenceMode="true" />
+          </Item>
+        </InputItems>
+        <RefSources>
+          <RefSources Key="REF_7627c13f-b90c-44c5-9761-a9991095ac7c">
+            <RefInfo RefItemId="REF_7627c13f-b90c-44c5-9761-a9991095ac7c" SourceId="ATOM_2_OUTPUT_17" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.VPRecord">
+      <Display Height="284.83333333331382" Width="329.77651515150455" Top="784.02597402601452" Left="14.166666666660319" Angle="0" Background="#343434" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting DisplayItemId="" WindowLeft="0" WindowTop="0" WindowWidth="0" WindowHeight="0" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <InputItems>
+          <Item Id="71247d1b-0d0a-4c27-8712-a46329a311a7">
+            <RefItem Type="Object" Id="REF_0ec4d441-465c-4c18-86ba-ebe71238ed2b" IsReferenceMode="true" />
+          </Item>
+        </InputItems>
+        <RefSources>
+          <RefSources Key="REF_0ec4d441-465c-4c18-86ba-ebe71238ed2b">
+            <RefInfo RefItemId="REF_0ec4d441-465c-4c18-86ba-ebe71238ed2b" SourceId="ATOM_3_OUTPUT_3" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.VPRecord">
+      <Display Height="284" Width="380" Top="772.35930735932459" Left="982.50000000002046" Angle="0" Background="#343434" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting DisplayItemId="" WindowLeft="0" WindowTop="0" WindowWidth="0" WindowHeight="0" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <InputItems>
+          <Item Id="105089ac-1fed-42be-8169-dc33308ca6b6">
+            <RefItem Type="Object" Id="REF_b54ae8c4-ee40-419d-834e-30e7ee528565" IsReferenceMode="true" />
+          </Item>
+        </InputItems>
+        <RefSources>
+          <RefSources Key="REF_b54ae8c4-ee40-419d-834e-30e7ee528565">
+            <RefInfo RefItemId="REF_b54ae8c4-ee40-419d-834e-30e7ee528565" SourceId="ATOM_4_OUTPUT_9" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.VPRecord">
+      <Display Height="347.1428571429318" Width="380" Top="211.80952380941892" Left="982.50000000002046" Angle="0" Background="#343434" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting DisplayItemId="" WindowLeft="0" WindowTop="0" WindowWidth="0" WindowHeight="0" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <InputItems>
+          <Item Id="aa5d9d9b-a0e7-4f80-a291-1f22db66cc69">
+            <RefItem Type="Object" Id="REF_895e8279-6e8c-43dc-9c42-9fe3721c951e" IsReferenceMode="true" />
+          </Item>
+        </InputItems>
+        <RefSources>
+          <RefSources Key="REF_895e8279-6e8c-43dc-9c42-9fe3721c951e">
+            <RefInfo RefItemId="REF_895e8279-6e8c-43dc-9c42-9fe3721c951e" SourceId="ATOM_5_OUTPUT_20" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="47.545454545454788" Width="459.83333333333167" Top="154.00000000000705" Left="19.999999999992269" Angle="0" Background="#00000000" BorderBrush="#18FFFFFF" BorderThickness="0" FontFamily="Microsoft YaHei" FontSize="40" FontStyle="Italic" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="Underline" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="0" Locked="false" />
+      <Setting Text="① 极片焊点检测" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="47.545454545454788" Width="460.04166666666356" Top="728.69264069266" Left="19.791666666660376" Angle="0" Background="#00000000" BorderBrush="#18FFFFFF" BorderThickness="0" FontFamily="Microsoft YaHei" FontSize="40" FontStyle="Italic" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="Underline" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="0" Locked="false" />
+      <Setting Text="② 线序姿态调整" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="47.545454545454788" Width="465.66666666666356" Top="728.69264069266" Left="982.50000000002046" Angle="0" Background="#00000000" BorderBrush="#18FFFFFF" BorderThickness="0" FontFamily="Microsoft YaHei" FontSize="40" FontStyle="Italic" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="Underline" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="0" Locked="false" />
+      <Setting Text="④ CPE手套质量检测" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="47.545454545454788" Width="460.04166666666356" Top="154.00000000000705" Left="976" Angle="0" Background="#00000000" BorderBrush="#18FFFFFF" BorderThickness="0" FontFamily="Microsoft YaHei" FontSize="40" FontStyle="Italic" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="Underline" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="0" Locked="false" />
+      <Setting Text="③ 鼠标芯片缺陷检测" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="82.500000000002672" Width="624.166666666694" Top="23.833333333333314" Left="686.44318181813924" Angle="0" Background="#00000000" BorderBrush="#18FFFFFF" BorderThickness="0" FontFamily="Microsoft YaHei" FontSize="72" FontStyle="Italic" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="0" Locked="false" />
+      <Setting Text="工业视觉检测系统" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.StaticImage">
+      <Display Height="127" Width="502.33333333332621" Top="3.6666666666666856" Left="3.4999999999977263" Angle="0" Background="#FFFFFFFF" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="4" Locked="false" />
+      <Setting Stretch="None" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <ImagePath>
+          <RefItem Type="String" Id="REF_32beaf24-345e-453d-9f32-17e079e5f101" IsReferenceMode="false" CustomValue="Icons\DCCK_logo.png" />
+        </ImagePath>
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.RunButton">
+      <Display Height="65" Width="160" Top="41.333333333335986" Left="1700.4999999999188" Angle="0" Background="#54baf9" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="0" CornerRadius="15" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.Button">
+      <Display Height="70" Width="165.49999999999704" Top="37.333333333335986" Left="1476.4999999999686" Angle="0" Background="#393939" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="26" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="15" Locked="false" />
+      <Setting ImageStretch="None" Interval="100" IsPressed="false" PressMills="500" Content="触发拍照" Handler="TriggerSignal" IsModal="false" SelectedSignal="ATOM_1" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <ImagePath>
+          <RefItem Type="String" Id="REF_027554f9-a757-4c10-bf7d-67cc41c5020c" IsReferenceMode="false" />
+        </ImagePath>
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="619.94318181814344" Angle="0" Background="#FF009F08" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="36" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_3361a68b-f312-4b99-9ffd-a256263bbccb" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_3361a68b-f312-4b99-9ffd-a256263bbccb">
+            <RefInfo RefItemId="REF_3361a68b-f312-4b99-9ffd-a256263bbccb" SourceId="ATOM_2_OUTPUT_10" ItemInfo="Output6" />
+          </RefSources>
+          <RefSources Key="REF_84bd3ddc-7802-4378-a356-278cae562d83">
+            <RefInfo RefItemId="REF_84bd3ddc-7802-4378-a356-278cae562d83" SourceId="ATOM_2_OUTPUT_11" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_9f9c9550-5e60-4a28-b348-57a34879b344">
+            <RefInfo RefItemId="REF_9f9c9550-5e60-4a28-b348-57a34879b344" SourceId="ATOM_2_OUTPUT_12" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_ab16e6e4-9708-4875-9840-dcdff8917faf">
+            <RefInfo RefItemId="REF_ab16e6e4-9708-4875-9840-dcdff8917faf" SourceId="ATOM_2_OUTPUT_16" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="true">
+              <RefItem Type="Boolean" Id="REF_ab16e6e4-9708-4875-9840-dcdff8917faf" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="202.66666666669596" Width="49.238095238082451" Top="318.14285714282852" Left="525.91937229432608" Angle="0" Background="#000E3BF2" BorderBrush="#FF0E3BF2" BorderThickness="5" FontFamily="Microsoft YaHei" FontSize="36" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="5" Locked="false" />
+      <Setting Text="检&#xD;&#xA;测&#xD;&#xA;结&#xD;&#xA;果" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="619.94318181814344" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_c255ee71-764a-49ce-8ac3-3370ac68d18e" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_c255ee71-764a-49ce-8ac3-3370ac68d18e">
+            <RefInfo RefItemId="REF_c255ee71-764a-49ce-8ac3-3370ac68d18e" SourceId="ATOM_2_OUTPUT_4" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_4f367954-1a53-4f85-82ef-c501af5dc4db">
+            <RefInfo RefItemId="REF_4f367954-1a53-4f85-82ef-c501af5dc4db" SourceId="ATOM_2_OUTPUT_11" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_4f367954-1a53-4f85-82ef-c501af5dc4db" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="619.94318181814344" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_c810d979-c20d-4ba5-8745-222b9fe1c602" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_c810d979-c20d-4ba5-8745-222b9fe1c602">
+            <RefInfo RefItemId="REF_c810d979-c20d-4ba5-8745-222b9fe1c602" SourceId="ATOM_2_OUTPUT_5" ItemInfo="Output2" />
+          </RefSources>
+          <RefSources Key="REF_b2a67291-27c6-4b8a-9dbe-d3fef2c33ba1">
+            <RefInfo RefItemId="REF_b2a67291-27c6-4b8a-9dbe-d3fef2c33ba1" SourceId="ATOM_2_OUTPUT_12" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_b2a67291-27c6-4b8a-9dbe-d3fef2c33ba1" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="619.94318181814344" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_f248b093-b581-4916-a4d1-42a7a721f315" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_f248b093-b581-4916-a4d1-42a7a721f315">
+            <RefInfo RefItemId="REF_f248b093-b581-4916-a4d1-42a7a721f315" SourceId="ATOM_2_OUTPUT_7" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_e9c0f98f-eb7e-4adb-b62b-e5e4535dfe43">
+            <RefInfo RefItemId="REF_e9c0f98f-eb7e-4adb-b62b-e5e4535dfe43" SourceId="ATOM_2_OUTPUT_13" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_e9c0f98f-eb7e-4adb-b62b-e5e4535dfe43" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="619.94318181814344" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_7e448acd-ca68-456b-acfd-6af0b054b80f" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_7e448acd-ca68-456b-acfd-6af0b054b80f">
+            <RefInfo RefItemId="REF_7e448acd-ca68-456b-acfd-6af0b054b80f" SourceId="ATOM_2_OUTPUT_8" ItemInfo="Output4" />
+          </RefSources>
+          <RefSources Key="REF_50f16e70-1385-4812-92d2-b37daf4cdc33">
+            <RefInfo RefItemId="REF_50f16e70-1385-4812-92d2-b37daf4cdc33" SourceId="ATOM_2_OUTPUT_14" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_50f16e70-1385-4812-92d2-b37daf4cdc33" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="619.94318181814344" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_fe5ff5ad-0ea0-48f5-abe3-faa6c83156ee" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_fe5ff5ad-0ea0-48f5-abe3-faa6c83156ee">
+            <RefInfo RefItemId="REF_fe5ff5ad-0ea0-48f5-abe3-faa6c83156ee" SourceId="ATOM_2_OUTPUT_9" ItemInfo="Output5" />
+          </RefSources>
+          <RefSources Key="REF_1db4812d-be50-425e-90a1-4686fd7d727c">
+            <RefInfo RefItemId="REF_1db4812d-be50-425e-90a1-4686fd7d727c" SourceId="ATOM_2_OUTPUT_15" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_2cacd7b0-025d-4980-8485-bd19126d77fa">
+            <RefInfo RefItemId="REF_2cacd7b0-025d-4980-8485-bd19126d77fa" SourceId="ATOM_2_OUTPUT_15" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_2cacd7b0-025d-4980-8485-bd19126d77fa" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="473.30952380954545" Top="882.45238095242439" Left="458.69047619045034" Angle="0" Background="#FF009F08" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_886c42e2-8761-43ab-9d11-e92bf3f7136a" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_886c42e2-8761-43ab-9d11-e92bf3f7136a">
+            <RefInfo RefItemId="REF_886c42e2-8761-43ab-9d11-e92bf3f7136a" SourceId="ATOM_3_OUTPUT_1" ItemInfo="Output1" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="202.66666666669596" Width="49.238095238082451" Top="818.192640692694" Left="1398.9285714286016" Angle="0" Background="#000E3BF2" BorderBrush="#FF0E3BF2" BorderThickness="5" FontFamily="Microsoft YaHei" FontSize="36" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="5" Locked="false" />
+      <Setting Text="检&#xD;&#xA;测&#xD;&#xA;结&#xD;&#xA;果" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="882.45238095242439" Left="1522.785714285701" Angle="0" Background="#FF009F08" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9">
+            <RefInfo RefItemId="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" SourceId="ATOM_4_OUTPUT_8" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_823ff170-1540-43e7-b1b0-1cc6d9dec51c">
+            <RefInfo RefItemId="REF_823ff170-1540-43e7-b1b0-1cc6d9dec51c" SourceId="ATOM_4_OUTPUT_7" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="true">
+              <RefItem Type="Boolean" Id="REF_823ff170-1540-43e7-b1b0-1cc6d9dec51c" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and">
+            <Item CompairValue="true">
+              <RefItem Type="Boolean" Id="REF_9add1767-7ce0-4831-8795-cbd5a00c79a4" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="882.45238095242439" Left="1522.785714285701" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_c255ee71-764a-49ce-8ac3-3370ac68d18e" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_c255ee71-764a-49ce-8ac3-3370ac68d18e">
+            <RefInfo RefItemId="REF_c255ee71-764a-49ce-8ac3-3370ac68d18e" SourceId="ATOM_4_OUTPUT_1" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_88401911-d787-41f9-bfe8-4e7bfde901da">
+            <RefInfo RefItemId="REF_88401911-d787-41f9-bfe8-4e7bfde901da" SourceId="ATOM_4_OUTPUT_3" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_88401911-d787-41f9-bfe8-4e7bfde901da" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="882.45238095242439" Left="1522.785714285701" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_f248b093-b581-4916-a4d1-42a7a721f315" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_f248b093-b581-4916-a4d1-42a7a721f315">
+            <RefInfo RefItemId="REF_f248b093-b581-4916-a4d1-42a7a721f315" SourceId="ATOM_4_OUTPUT_2" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_bf79524d-dc44-4e96-88ae-d949309acd2e">
+            <RefInfo RefItemId="REF_bf79524d-dc44-4e96-88ae-d949309acd2e" SourceId="ATOM_4_OUTPUT_4" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_bf79524d-dc44-4e96-88ae-d949309acd2e" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="202.66666666669596" Width="49.238095238082451" Top="318.14285714282857" Left="1398.9285714286016" Angle="0" Background="#000E3BF2" BorderBrush="#FF0E3BF2" BorderThickness="5" FontFamily="Microsoft YaHei" FontSize="36" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="5" Locked="false" />
+      <Setting Text="检&#xD;&#xA;测&#xD;&#xA;结&#xD;&#xA;果" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Table.CommonReport">
+      <Display Height="147.50000000000352" Width="909.8333333333112" Top="559.50000000000352" Left="982.50000000002046" Angle="0" Background="#343434" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Right" VerticalAlignment="Center" ZIndex="0" CornerRadius="4" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefData>
+          <RefItem Type="Object" Id="REF_391a5927-7585-4854-8eb5-ed250d93e317" IsReferenceMode="true" />
+        </RefData>
+        <RefDecimalPlaces>
+          <RefItem Type="Int32" Id="REF_9d96584e-59e6-4e42-9b22-42ea56069258" IsReferenceMode="false" CustomValue="3" />
+        </RefDecimalPlaces>
+        <FilterSetting OrderByName_Ascending="false" OrderByName_Descending="false" OrderByMeasureValue_Ascending="false" OrderByMeasureValue_Descending="false" OrderByDifference_Ascending="false" OrderByDifference_Descending="false">
+          <NameFilter StringFilter_Contains_Enabled="false" StringFilter_Equal_Enabled="false" StringFilter_NotContains_Enabled="false" StringFilter_RegularExpression_Enabled="false" StringFilter_Contains_Constraint="" StringFilter_Equal_Constraint="" StringFilter_NotContains_Constraint="" StringFilter_RegularExpression_Constraint="" ColunmVisible="true" />
+          <MeasureValueFilter NumberFilter_Equal_Enabled="false" NumberFilter_GreaterThan_Enabled="false" NumberFilter_LessThan_Enabled="false" NumberFilter_RegularExpression_Enabled="false" NumberFilter_Equal_Constraint="0.0" NumberFilter_GreaterThan_Constraint="0.0" NumberFilter_LessThan_Constraint="0.0" NumberFilter_RegularExpression_Constraint="" ColunmVisible="true" />
+          <StanderValueFilter NumberFilter_Equal_Enabled="false" NumberFilter_GreaterThan_Enabled="false" NumberFilter_LessThan_Enabled="false" NumberFilter_RegularExpression_Enabled="false" NumberFilter_Equal_Constraint="0.0" NumberFilter_GreaterThan_Constraint="0.0" NumberFilter_LessThan_Constraint="0.0" NumberFilter_RegularExpression_Constraint="" ColunmVisible="true" />
+          <UpFilter NumberFilter_Equal_Enabled="false" NumberFilter_GreaterThan_Enabled="false" NumberFilter_LessThan_Enabled="false" NumberFilter_RegularExpression_Enabled="false" NumberFilter_Equal_Constraint="0.0" NumberFilter_GreaterThan_Constraint="0.0" NumberFilter_LessThan_Constraint="0.0" NumberFilter_RegularExpression_Constraint="" ColunmVisible="true" />
+          <DownFilter NumberFilter_Equal_Enabled="false" NumberFilter_GreaterThan_Enabled="false" NumberFilter_LessThan_Enabled="false" NumberFilter_RegularExpression_Enabled="false" NumberFilter_Equal_Constraint="0.0" NumberFilter_GreaterThan_Constraint="0.0" NumberFilter_LessThan_Constraint="0.0" NumberFilter_RegularExpression_Constraint="" ColunmVisible="true" />
+          <DifferenceFilter NumberFilter_Equal_Enabled="false" NumberFilter_GreaterThan_Enabled="false" NumberFilter_LessThan_Enabled="false" NumberFilter_RegularExpression_Enabled="false" NumberFilter_Equal_Constraint="0.0" NumberFilter_GreaterThan_Constraint="0.0" NumberFilter_LessThan_Constraint="0.0" NumberFilter_RegularExpression_Constraint="" ColunmVisible="true" />
+          <JudgementFilter BoolFilter_Contains_Enabled="false" BoolFilter_Equal_Constraint="OK,NG" ColunmVisible="true" />
+          <EnabledFilter BoolFilter_Contains_Enabled="false" BoolFilter_Equal_Constraint="True,False" ColunmVisible="true" />
+        </FilterSetting>
+        <GridColunmSettings>
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.DataName" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.MeasureValue" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.UpperTolerance" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.DownTolerance" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.Diffrence" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.StandardValue" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.Judgement" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.EnableJudgement" Visible="true" Filting="false" />
+          <GridColunmSetting ColunmName="Hmi.ResultDataAnalysis.DataGridColumn.IsNumber" Visible="true" Filting="false" />
+        </GridColunmSettings>
+        <RefSources>
+          <RefSources Key="REF_391a5927-7585-4854-8eb5-ed250d93e317">
+            <RefInfo RefItemId="REF_391a5927-7585-4854-8eb5-ed250d93e317" SourceId="ATOM_6_OUTPUT_1" ItemInfo="HMI.CommonReport.DataSource" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="1522.785714285701" Angle="0" Background="#FF009F08" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9">
+            <RefInfo RefItemId="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" SourceId="ATOM_5_OUTPUT_18" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_33966d2e-8925-47e5-bfaa-bc2d073f6cb0">
+            <RefInfo RefItemId="REF_33966d2e-8925-47e5-bfaa-bc2d073f6cb0" SourceId="ATOM_5_OUTPUT_19" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="true">
+              <RefItem Type="Boolean" Id="REF_33966d2e-8925-47e5-bfaa-bc2d073f6cb0" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="384.14285714285757" Left="1522.785714285701" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9">
+            <RefInfo RefItemId="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" SourceId="ATOM_5_OUTPUT_6" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_2a2a540a-5442-4417-9423-10a7ec6462a2">
+            <RefInfo RefItemId="REF_2a2a540a-5442-4417-9423-10a7ec6462a2" SourceId="ATOM_5_OUTPUT_7" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_2a2a540a-5442-4417-9423-10a7ec6462a2" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="1522.785714285701" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9">
+            <RefInfo RefItemId="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" SourceId="ATOM_5_OUTPUT_10" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_b64ac93e-9c3b-402f-88f6-dafbd829d410">
+            <RefInfo RefItemId="REF_b64ac93e-9c3b-402f-88f6-dafbd829d410" SourceId="ATOM_5_OUTPUT_11" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_b64ac93e-9c3b-402f-88f6-dafbd829d410" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="1522.785714285701" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9">
+            <RefInfo RefItemId="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" SourceId="ATOM_5_OUTPUT_12" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_5fb6b269-c73c-4053-a253-69bb5556a122">
+            <RefInfo RefItemId="REF_5fb6b269-c73c-4053-a253-69bb5556a122" SourceId="ATOM_5_OUTPUT_13" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_5fb6b269-c73c-4053-a253-69bb5556a122" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="1522.785714285701" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9">
+            <RefInfo RefItemId="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" SourceId="ATOM_5_OUTPUT_14" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_664de408-62a9-41f6-8622-06e25ba4ffbf">
+            <RefInfo RefItemId="REF_664de408-62a9-41f6-8622-06e25ba4ffbf" SourceId="ATOM_5_OUTPUT_15" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_664de408-62a9-41f6-8622-06e25ba4ffbf" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Result.Label">
+      <Display Height="70" Width="250" Top="378.14285714283113" Left="1522.785714285701" Angle="0" Background="#FFDA0514" BorderBrush="#18FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="32" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Center" VerticalAlignment="Center" ZIndex="0" CornerRadius="10" Locked="false" />
+      <Setting HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <Inputs DecimalDigit="3">
+          <Input>
+            <RefItem Type="Object" Id="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" IsReferenceMode="true" />
+          </Input>
+        </Inputs>
+        <RefSources>
+          <RefSources Key="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9">
+            <RefInfo RefItemId="REF_25b4fd84-e027-4cec-a3cb-e63581e92ab9" SourceId="ATOM_5_OUTPUT_16" ItemInfo="Output1" />
+          </RefSources>
+          <RefSources Key="REF_103728d1-3273-496d-82bf-5d606d7d03ab">
+            <RefInfo RefItemId="REF_103728d1-3273-496d-82bf-5d606d7d03ab" SourceId="ATOM_5_OUTPUT_17" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and">
+            <Item CompairValue="false">
+              <RefItem Type="Boolean" Id="REF_103728d1-3273-496d-82bf-5d606d7d03ab" IsReferenceMode="true" CustomValue="false" />
+            </Item>
+          </AccountCoditionItems>
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="true" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.TextBlock">
+      <Display Height="202.66666666669596" Width="49.238095238082451" Top="818.192640692694" Left="378.76190476190368" Angle="0" Background="#000E3BF2" BorderBrush="#FF0E3BF2" BorderThickness="5" FontFamily="Microsoft YaHei" FontSize="36" FontStyle="Normal" FontWeight="Bold" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Top" ZIndex="0" CornerRadius="5" Locked="false" />
+      <Setting Text="检&#xD;&#xA;测&#xD;&#xA;结&#xD;&#xA;果" IsWrap="true" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+    <Tool Key="Basic.HMIShape">
+      <Display Height="555" Width="950" Top="154.00000000000705" Left="3.4999999999977263" Angle="0" Background="#FF343434" BorderBrush="#FFFFFF" BorderThickness="1" FontFamily="Microsoft YaHei" FontSize="13" FontStyle="Normal" FontWeight="Normal" Foreground="#FFFFFFFF" TextDecoration="" HorizontalAlignment="Left" VerticalAlignment="Center" ZIndex="-1" CornerRadius="25" Locked="false" />
+      <Setting Shape="Square" RotateAngle="0" InsideBorderThickness="1" LineColor="#FFFFFF" FillColor="#00FFFFFF" HMIEnableMinimumLevel="100" HMIEnableEveryone="true" HMIVisibleMinimumLevel="100" HMIVisibleEveryone="true">
+        <RefSources />
+        <DisplayConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </DisplayConditionRefItems>
+        <EditConditionRefItems>
+          <AccountCoditionItems IsOn="false" ConditionSymbol="and" />
+        </EditConditionRefItems>
+      </Setting>
+    </Tool>
+  </Tools>
+</HMIWindow>

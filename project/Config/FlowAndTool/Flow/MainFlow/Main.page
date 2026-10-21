@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlowPage>
+  <Atoms>
+    <Atom Id="ATOM_1" CustName="" BackgroundEnum="-1" Key="Signal.Button" Sequence="1" IsEnabled="true" IsInteruptIfFailed="false">
+      <Display Height="72" Width="72" Top="5619.4378240719443" Left="9494.2294085257527" Angle="0" />
+      <OutputItems />
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_2" CustName="极片焊点检测" BackgroundEnum="0" Key="Algorithm.AlgorithmGroup" Sequence="2" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <RefSources>
+          <RefSources Key="REF_8937c7ce-40d8-4bde-9488-45ca0f2ec4b9">
+            <RefInfo RefItemId="REF_8937c7ce-40d8-4bde-9488-45ca0f2ec4b9" SourceId="ATOM_2#0#12_OUTPUT_1" ItemInfo="极片原图" />
+          </RefSources>
+          <RefSources Key="REF_0047a558-ac3d-4af7-a12d-29a703b5c4c3">
+            <RefInfo RefItemId="REF_0047a558-ac3d-4af7-a12d-29a703b5c4c3" SourceId="ATOM_2#0#36_OUTPUT_2" ItemInfo="极片漏焊" />
+          </RefSources>
+          <RefSources Key="REF_40a45429-6669-45f2-85d7-86b3361bc000">
+            <RefInfo RefItemId="REF_40a45429-6669-45f2-85d7-86b3361bc000" SourceId="ATOM_2#0#36_OUTPUT_3" ItemInfo="极片多焊" />
+          </RefSources>
+          <RefSources Key="REF_11694b9a-e90f-42f4-a3e9-6180d6dbc41b">
+            <RefInfo RefItemId="REF_11694b9a-e90f-42f4-a3e9-6180d6dbc41b" SourceId="ATOM_2#0#36_OUTPUT_4" ItemInfo="极片焊偏" />
+          </RefSources>
+          <RefSources Key="REF_39c04c6d-d9ff-41ba-ac42-d025ac6c4680">
+            <RefInfo RefItemId="REF_39c04c6d-d9ff-41ba-ac42-d025ac6c4680" SourceId="ATOM_2#0#36_OUTPUT_6" ItemInfo="极片焊穿" />
+          </RefSources>
+          <RefSources Key="REF_c68a4fca-fbd7-44e0-bc27-d4a652109ca4">
+            <RefInfo RefItemId="REF_c68a4fca-fbd7-44e0-bc27-d4a652109ca4" SourceId="ATOM_2#0#36_OUTPUT_5" ItemInfo="极片偏移" />
+          </RefSources>
+          <RefSources Key="REF_09a5093e-233f-4890-ab4a-512c0e89053f">
+            <RefInfo RefItemId="REF_09a5093e-233f-4890-ab4a-512c0e89053f" SourceId="ATOM_2#0#36_OUTPUT_1" ItemInfo="极片焊点合格" />
+          </RefSources>
+          <RefSources Key="REF_94a723e3-261e-49e9-af34-27fc3e14aa22">
+            <RefInfo RefItemId="REF_94a723e3-261e-49e9-af34-27fc3e14aa22" SourceId="ATOM_2#0#35_OUTPUT_14" ItemInfo="less" />
+          </RefSources>
+          <RefSources Key="REF_f62c072c-516e-436b-afe5-f558397ad5c4">
+            <RefInfo RefItemId="REF_f62c072c-516e-436b-afe5-f558397ad5c4" SourceId="ATOM_2#0#35_OUTPUT_15" ItemInfo="more" />
+          </RefSources>
+          <RefSources Key="REF_8b894484-61a3-4272-91b3-7cc3540f8b7d">
+            <RefInfo RefItemId="REF_8b894484-61a3-4272-91b3-7cc3540f8b7d" SourceId="ATOM_2#0#35_OUTPUT_16" ItemInfo="skew" />
+          </RefSources>
+          <RefSources Key="REF_ad7463d7-c7db-409e-98a4-d27fda9f41b3">
+            <RefInfo RefItemId="REF_ad7463d7-c7db-409e-98a4-d27fda9f41b3" SourceId="ATOM_2#0#35_OUTPUT_18" ItemInfo="break" />
+          </RefSources>
+          <RefSources Key="REF_77a36501-fab3-4f83-84f8-a95d0404d8d7">
+            <RefInfo RefItemId="REF_77a36501-fab3-4f83-84f8-a95d0404d8d7" SourceId="ATOM_2#0#35_OUTPUT_17" ItemInfo="jipian" />
+          </RefSources>
+          <RefSources Key="REF_795f92d9-f86b-4c19-99ff-236ea0c26b4e">
+            <RefInfo RefItemId="REF_795f92d9-f86b-4c19-99ff-236ea0c26b4e" SourceId="ATOM_2#0#35_OUTPUT_8" ItemInfo="OK" />
+          </RefSources>
+          <RefSources Key="REF_ea0c444d-2685-4b1e-8426-301c1f8534d7">
+            <RefInfo RefItemId="REF_ea0c444d-2685-4b1e-8426-301c1f8534d7" SourceId="ATOM_2#0#37_OUTPUT_1" ItemInfo="分类_结果图像" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5501.4032258064535" Left="9794.7741935483846" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_2_OUTPUT_2" Name="极片原图" DisplayName="极片原图" Type="IVPRecord" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_4" Name="极片漏焊" DisplayName="极片漏焊" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_5" Name="极片多焊" DisplayName="极片多焊" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_7" Name="极片焊偏" DisplayName="极片焊偏" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_8" Name="极片焊穿" DisplayName="极片焊穿" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_9" Name="极片偏移" DisplayName="极片偏移" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_10" Name="极片焊点合格" DisplayName="极片焊点合格" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_11" Name="less" DisplayName="less" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_12" Name="more" DisplayName="more" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_13" Name="skew" DisplayName="skew" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_14" Name="break" DisplayName="break" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_15" Name="jipian" DisplayName="jipian" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_16" Name="OK" DisplayName="OK" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_2_OUTPUT_17" Name="分类_结果图像" DisplayName="分类_结果图像" Type="IVPRecord" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_3" CustName="线序姿态调整" BackgroundEnum="1" Key="Algorithm.AlgorithmGroup" Sequence="3" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <RefSources>
+          <RefSources Key="REF_3a34d000-1346-4939-9120-2fe8ed1719b3">
+            <RefInfo RefItemId="REF_3a34d000-1346-4939-9120-2fe8ed1719b3" SourceId="ATOM_3#0#4_OUTPUT_1" ItemInfo="线缆角度" />
+          </RefSources>
+          <RefSources Key="REF_d16a239d-15ba-4cb6-beea-29f7cd17a5bd">
+            <RefInfo RefItemId="REF_d16a239d-15ba-4cb6-beea-29f7cd17a5bd" SourceId="ATOM_3#0#4_OUTPUT_3" ItemInfo="线缆方向" />
+          </RefSources>
+          <RefSources Key="REF_50f488a9-f052-4660-a552-7fcdecc5958a">
+            <RefInfo RefItemId="REF_50f488a9-f052-4660-a552-7fcdecc5958a" SourceId="ATOM_3#0#5_OUTPUT_1" ItemInfo="线缆图像" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5581.7499999999973" Left="9798.0161290322558" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_3_OUTPUT_1" Name="线缆角度" DisplayName="线缆角度" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_3_OUTPUT_2" Name="线缆方向" DisplayName="线缆方向" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_3_OUTPUT_3" Name="线缆图像" DisplayName="线缆图像" Type="IVPRecord" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_4" CustName="CPE手套质量检测" BackgroundEnum="2" Key="Algorithm.AlgorithmGroup" Sequence="4" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <RefSources>
+          <RefSources Key="REF_74210598-bc36-4784-bc68-9238461c3ba5">
+            <RefInfo RefItemId="REF_74210598-bc36-4784-bc68-9238461c3ba5" SourceId="ATOM_4#0#19_OUTPUT_8" ItemInfo="手套空模" />
+          </RefSources>
+          <RefSources Key="REF_ff0d7881-37b3-464c-a9c8-d4b6077803bc">
+            <RefInfo RefItemId="REF_ff0d7881-37b3-464c-a9c8-d4b6077803bc" SourceId="ATOM_4#0#19_OUTPUT_7" ItemInfo="手套破损或撕破" />
+          </RefSources>
+          <RefSources Key="REF_76e81d66-4de6-4b9a-aea7-b283e350132b">
+            <RefInfo RefItemId="REF_76e81d66-4de6-4b9a-aea7-b283e350132b" SourceId="ATOM_4#0#18_OUTPUT_5" ItemInfo="kongmo" />
+          </RefSources>
+          <RefSources Key="REF_92a087ef-505c-47d8-b26f-d49541ce5db6">
+            <RefInfo RefItemId="REF_92a087ef-505c-47d8-b26f-d49541ce5db6" SourceId="ATOM_4#0#18_OUTPUT_4" ItemInfo="posun" />
+          </RefSources>
+          <RefSources Key="REF_1fb99bd5-c987-49ce-976c-9e8b2dc0cfe5">
+            <RefInfo RefItemId="REF_1fb99bd5-c987-49ce-976c-9e8b2dc0cfe5" SourceId="ATOM_4#0#12_OUTPUT_1" ItemInfo="手套原图" />
+          </RefSources>
+          <RefSources Key="REF_30147ef4-35d0-48d4-bf00-9606b6e4042a">
+            <RefInfo RefItemId="REF_30147ef4-35d0-48d4-bf00-9606b6e4042a" SourceId="ATOM_4#0#19_OUTPUT_4" ItemInfo="手套质检合格" />
+          </RefSources>
+          <RefSources Key="REF_547e82da-71ee-4d6c-b082-195bc2023975">
+            <RefInfo RefItemId="REF_547e82da-71ee-4d6c-b082-195bc2023975" SourceId="ATOM_4#0#18_OUTPUT_1" ItemInfo="OK" />
+          </RefSources>
+          <RefSources Key="REF_66027d31-8c88-4263-acdb-afd770f68927">
+            <RefInfo RefItemId="REF_66027d31-8c88-4263-acdb-afd770f68927" SourceId="ATOM_4#0#20_OUTPUT_1" ItemInfo="分类_手套结果" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5665.7338709677379" Left="9795.4193548387211" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_4_OUTPUT_1" Name="手套空模" DisplayName="手套空模" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_4_OUTPUT_2" Name="手套破损或撕破" DisplayName="手套破损或撕破" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_4_OUTPUT_3" Name="kongmo" DisplayName="kongmo" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_4_OUTPUT_4" Name="posun" DisplayName="posun" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_4_OUTPUT_5" Name="手套原图" DisplayName="手套原图" Type="IVPRecord" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_4_OUTPUT_7" Name="OK" DisplayName="OK" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_4_OUTPUT_8" Name="手套质检合格" DisplayName="手套质检合格" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_4_OUTPUT_9" Name="分类_手套结果" DisplayName="分类_手套结果" Type="IVPRecord" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_5" CustName="鼠标芯片缺陷检测" BackgroundEnum="3" Key="Algorithm.AlgorithmGroup" Sequence="5" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting>
+        <RefSources>
+          <RefSources Key="REF_bac90611-142d-4d74-b943-abaafb8fbb78">
+            <RefInfo RefItemId="REF_bac90611-142d-4d74-b943-abaafb8fbb78" SourceId="ATOM_5#0#25_OUTPUT_11" ItemInfo="中心X" />
+          </RefSources>
+          <RefSources Key="REF_61c973a3-605b-4736-9ab4-d1ac42a8960d">
+            <RefInfo RefItemId="REF_61c973a3-605b-4736-9ab4-d1ac42a8960d" SourceId="ATOM_5#0#25_OUTPUT_12" ItemInfo="中心Y" />
+          </RefSources>
+          <RefSources Key="REF_9aff2c95-11bb-40f9-96ef-c7115fc9c8a9">
+            <RefInfo RefItemId="REF_9aff2c95-11bb-40f9-96ef-c7115fc9c8a9" SourceId="ATOM_5#0#27_OUTPUT_1" ItemInfo="位置度判断" />
+          </RefSources>
+          <RefSources Key="REF_8c996031-7b87-4058-8946-06d7bae987a3">
+            <RefInfo RefItemId="REF_8c996031-7b87-4058-8946-06d7bae987a3" SourceId="ATOM_5#0#31_OUTPUT_1" ItemInfo="芯片结果图像" />
+          </RefSources>
+          <RefSources Key="REF_143ef323-43d3-460a-b45f-ac4ff8101c61">
+            <RefInfo RefItemId="REF_143ef323-43d3-460a-b45f-ac4ff8101c61" SourceId="ATOM_5#0#59_OUTPUT_2" ItemInfo="芯片卷线" />
+          </RefSources>
+          <RefSources Key="REF_72a85017-c2a0-46d6-9bfd-4e669bb60758">
+            <RefInfo RefItemId="REF_72a85017-c2a0-46d6-9bfd-4e669bb60758" SourceId="ATOM_5#0#58_OUTPUT_2" ItemInfo="卷线判断" />
+          </RefSources>
+          <RefSources Key="REF_0beac0ec-3265-4e62-a597-eb04deba762f">
+            <RefInfo RefItemId="REF_0beac0ec-3265-4e62-a597-eb04deba762f" SourceId="ATOM_5#0#58_OUTPUT_3" ItemInfo="连线判断" />
+          </RefSources>
+          <RefSources Key="REF_3476eb8c-fe4f-45ee-9b37-b74a68cb6149">
+            <RefInfo RefItemId="REF_3476eb8c-fe4f-45ee-9b37-b74a68cb6149" SourceId="ATOM_5#0#59_OUTPUT_3" ItemInfo="芯片连线" />
+          </RefSources>
+          <RefSources Key="REF_f6d410e2-9e97-4da6-9d75-92edc529fc7f">
+            <RefInfo RefItemId="REF_f6d410e2-9e97-4da6-9d75-92edc529fc7f" SourceId="ATOM_5#0#59_OUTPUT_4" ItemInfo="芯片漏焊" />
+          </RefSources>
+          <RefSources Key="REF_9d9c733b-a407-4bbc-943e-5b41e29e8cf2">
+            <RefInfo RefItemId="REF_9d9c733b-a407-4bbc-943e-5b41e29e8cf2" SourceId="ATOM_5#0#58_OUTPUT_4" ItemInfo="漏焊判断" />
+          </RefSources>
+          <RefSources Key="REF_bad59e38-6108-4876-b180-b0fa6fa7049a">
+            <RefInfo RefItemId="REF_bad59e38-6108-4876-b180-b0fa6fa7049a" SourceId="ATOM_5#0#59_OUTPUT_5" ItemInfo="芯片偏线" />
+          </RefSources>
+          <RefSources Key="REF_f59b706d-362a-44a1-9070-b19b579fa296">
+            <RefInfo RefItemId="REF_f59b706d-362a-44a1-9070-b19b579fa296" SourceId="ATOM_5#0#58_OUTPUT_5" ItemInfo="偏线判断" />
+          </RefSources>
+          <RefSources Key="REF_ffe6ef20-296d-4751-93b9-6ab36c34881c">
+            <RefInfo RefItemId="REF_ffe6ef20-296d-4751-93b9-6ab36c34881c" SourceId="ATOM_5#0#59_OUTPUT_7" ItemInfo="芯片弯线" />
+          </RefSources>
+          <RefSources Key="REF_b68aab25-f9a5-4407-b464-be2635eea30a">
+            <RefInfo RefItemId="REF_b68aab25-f9a5-4407-b464-be2635eea30a" SourceId="ATOM_5#0#58_OUTPUT_6" ItemInfo="弯线判断" />
+          </RefSources>
+          <RefSources Key="REF_6b11df47-e269-448a-a791-0105598d293b">
+            <RefInfo RefItemId="REF_6b11df47-e269-448a-a791-0105598d293b" SourceId="ATOM_5#0#59_OUTPUT_1" ItemInfo="芯片合格" />
+          </RefSources>
+          <RefSources Key="REF_e24c8e0c-feda-45f0-bb5f-33e7274dcc0d">
+            <RefInfo RefItemId="REF_e24c8e0c-feda-45f0-bb5f-33e7274dcc0d" SourceId="ATOM_5#0#58_OUTPUT_1" ItemInfo="合格判断" />
+          </RefSources>
+          <RefSources Key="REF_64dcd63e-f6cd-4e80-bade-7d336e3a54a5">
+            <RefInfo RefItemId="REF_64dcd63e-f6cd-4e80-bade-7d336e3a54a5" SourceId="ATOM_5#0#60_OUTPUT_1" ItemInfo="分类_芯片结果" />
+          </RefSources>
+          <RefSources Key="REF_8b8f3ae5-5c0f-461a-bdb0-924ca8c586e5">
+            <RefInfo RefItemId="REF_8b8f3ae5-5c0f-461a-bdb0-924ca8c586e5" SourceId="ATOM_5#0#66_OUTPUT_2" ItemInfo="X" />
+          </RefSources>
+          <RefSources Key="REF_622d602d-903e-463b-b9f5-9336653af203">
+            <RefInfo RefItemId="REF_622d602d-903e-463b-b9f5-9336653af203" SourceId="ATOM_5#0#66_OUTPUT_3" ItemInfo="Y" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5751.0252016131108" Left="9797.290322580815" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_5_OUTPUT_1" Name="中心X" DisplayName="中心X" Type="Double" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_2" Name="中心Y" DisplayName="中心Y" Type="Double" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_3" Name="位置度判断" DisplayName="位置度判断" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_5" Name="芯片结果图像" DisplayName="芯片结果图像" Type="IVPRecord" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_6" Name="芯片卷线" DisplayName="芯片卷线" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_7" Name="卷线判断" DisplayName="卷线判断" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_10" Name="芯片连线" DisplayName="芯片连线" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_11" Name="连线判断" DisplayName="连线判断" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_12" Name="芯片漏焊" DisplayName="芯片漏焊" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_13" Name="漏焊判断" DisplayName="漏焊判断" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_14" Name="芯片偏线" DisplayName="芯片偏线" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_15" Name="偏线判断" DisplayName="偏线判断" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_16" Name="芯片弯线" DisplayName="芯片弯线" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_17" Name="弯线判断" DisplayName="弯线判断" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_18" Name="芯片合格" DisplayName="芯片合格" Type="String" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_19" Name="合格判断" DisplayName="合格判断" Type="Boolean" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_20" Name="分类_芯片结果" DisplayName="分类_芯片结果" Type="IVPRecord" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_21" Name="X" DisplayName="X" Type="Double" IsFixed="false" IsOtherItem="false" />
+        <DataItem Id="ATOM_5_OUTPUT_22" Name="Y" DisplayName="Y" Type="Double" IsFixed="false" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+    <Atom Id="ATOM_6" CustName="" BackgroundEnum="3" Key="ResultDataAnalysis.ResultDataAnalysis" Sequence="6" IsEnabled="true" IsInteruptIfFailed="false">
+      <Setting EnableDatasourceInput="false" ID="cf10248a-17e7-4c15-81e5-d45e19246e3f" EnableCsvOutput="true" OutputFileName="ATOM_6_cf10248a-17e7-4c15-81e5-d45e19246e3f.csv">
+        <InputDataSource>
+          <RefItem Type="{System.Collections.Generic.List`1$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}&lt;{VP.Services.Vps.Procedure.Atoms.ResultDataAnalysis.FAIData$VP.Services.Vps$D:\VisionPlus\bin\VP.Services.Vps.dll}&gt;" Id="FAI_INPUT" IsReferenceMode="true" />
+        </InputDataSource>
+        <Items>
+          <RsultDataAnalyseItem Name="X" IsNumber="true" EnabledForJudgement="true" ID="0890e495-b448-4b03-b1fd-4e0c37911f61">
+            <MeasuredValue CustomValue="0">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_e27da3c6-b231-47ac-888e-d63f5021d843" IsReferenceMode="true" />
+            </MeasuredValue>
+            <StandardValue CustomValue="42.98">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_2a7362ec-361c-409c-a02f-5b3f934bdf47" IsReferenceMode="false" />
+            </StandardValue>
+            <UpperToleranceValue CustomValue="1">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_61563fb0-84b4-4c26-9bd0-bbb3e42a9b42" IsReferenceMode="false" />
+            </UpperToleranceValue>
+            <DownToleranceValue CustomValue="-1">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_d3e4dbac-fa69-4975-823f-0adb0838f37f" IsReferenceMode="false" />
+            </DownToleranceValue>
+          </RsultDataAnalyseItem>
+          <RsultDataAnalyseItem Name="Y" IsNumber="true" EnabledForJudgement="true" ID="573ea04b-f28b-427f-ba7e-3b4474b244da">
+            <MeasuredValue CustomValue="0">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_7acb965f-42b4-41fa-bf40-047083cff16e" IsReferenceMode="true" />
+            </MeasuredValue>
+            <StandardValue CustomValue="1.56">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_17880ac8-b22a-441d-abc5-69519010b5e8" IsReferenceMode="false" />
+            </StandardValue>
+            <UpperToleranceValue CustomValue="1">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_8809272b-343e-40b2-b88f-54066643c602" IsReferenceMode="false" />
+            </UpperToleranceValue>
+            <DownToleranceValue CustomValue="-1">
+              <RefItem Type="{System.ValueType$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}" Id="REF_5c0959bf-1153-4611-a3e2-11dc8c5ebc14" IsReferenceMode="false" />
+            </DownToleranceValue>
+          </RsultDataAnalyseItem>
+        </Items>
+        <ItemsInput />
+        <RefSources>
+          <RefSources Key="REF_e27da3c6-b231-47ac-888e-d63f5021d843">
+            <RefInfo RefItemId="REF_e27da3c6-b231-47ac-888e-d63f5021d843" SourceId="ATOM_5_OUTPUT_21" ItemInfo="" />
+          </RefSources>
+          <RefSources Key="REF_7acb965f-42b4-41fa-bf40-047083cff16e">
+            <RefInfo RefItemId="REF_7acb965f-42b4-41fa-bf40-047083cff16e" SourceId="ATOM_5_OUTPUT_22" ItemInfo="" />
+          </RefSources>
+        </RefSources>
+      </Setting>
+      <Display Height="72" Width="72" Top="5753.6129032257986" Left="9935.4193548387484" Angle="0" />
+      <OutputItems>
+        <DataItem Id="ATOM_6_OUTPUT_1" Name="FAI" DisplayName="FAI" Type="{System.Collections.Generic.List`1$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}&lt;{VP.Services.Vps.Procedure.Atoms.ResultDataAnalysis.FAIData$VP.Services.Vps$D:\VisionPlus\bin\VP.Services.Vps.dll}&gt;" IsFixed="true" IsOtherItem="false" />
+        <DataItem Id="ATOM_6_OUTPUT_2" Name="Result" DisplayName="Result" Type="Boolean" IsFixed="true" IsOtherItem="false" />
+        <DataItem Id="ATOM_6_OUTPUT_3" Name="Results" DisplayName="Results" Type="{System.Collections.Generic.Dictionary`2$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}&lt;{System.String$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll},{System.Boolean$mscorlib$C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll}&gt;" IsFixed="true" IsOtherItem="false" />
+      </OutputItems>
+      <SpecialProperties />
+    </Atom>
+  </Atoms>
+  <Connectors>
+    <Connector Source="ATOM_1" Target="ATOM_2" SignalType="None" />
+    <Connector Source="ATOM_1" Target="ATOM_3" SignalType="None" />
+    <Connector Source="ATOM_1" Target="ATOM_4" SignalType="None" />
+    <Connector Source="ATOM_1" Target="ATOM_5" SignalType="None" />
+    <Connector Source="ATOM_5" Target="ATOM_6" />
+  </Connectors>
+  <Notes />
+</FlowPage>

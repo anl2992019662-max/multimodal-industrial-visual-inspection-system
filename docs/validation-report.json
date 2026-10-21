@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "original_csharp_cases": {
+    "passed": 10,
+    "compiler": "Local .NET Framework 4.x C# compiler; test-only platform type declarations",
+    "scope": "math and input error handling; no image inference"
+  },
+  "resource_preparation": {
+    "model_only": "passed",
+    "complete_dataset": "passed",
+    "restored_logical_images": 2084,
+    "verified_hardlink_mappings": 0,
+    "active_model_files_found": 5
+  },
+  "demo_pixels": {
+    "passed": 12,
+    "scope": "full dimensions, pixel mode, and every pixel identical to original after lossless PNG conversion"
+  },
+  "credentials": {
+    "excluded": "account database, MPA protection config, logs and license materials",
+    "populated_sensitive_config_attributes_found": 0,
+    "limitation": "opaque vendor binary header retained; no claim of complete binary audit"
+  },
+  "platform_execution": "not performed; author supplied historical HMI screenshot is separate evidence",
+  "github_publication": {
+    "author_approved": true,
+    "repository": "https://github.com/anl2992019662-max/industrial-vision-prelim",
+    "release": "https://github.com/anl2992019662-max/industrial-vision-prelim/releases/tag/v1.0.0",
+    "note": "Publication links; runtime validation scope is unchanged. Live release state is available on GitHub."
+  }
+}

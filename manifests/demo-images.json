@@ -1,0 +1,134 @@
+[
+  {
+    "file": "project/Image/01_jipian/01_OK_1045.png",
+    "source": "Image/01_极片焊点检测/OK/OK_1045.bmp",
+    "source_sha256": "2b779669a64245049840af7b0ef7e2969449457145cec46700d9bb9bc4492eb5",
+    "sha256": "7de74e2297e2482a168c504fd6c5f22d0cfded3b46a069aee48b3f931ae0650f",
+    "dimensions": [
+      1100,
+      1500
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/01_jipian/02_NG_break_01.png",
+    "source": "Image/01_极片焊点检测/NG/NG_break_01.bmp",
+    "source_sha256": "a0b7f896902d94b80491d9a8abff9ca07e86483dc3c27c32c80c5cc04cc8343d",
+    "sha256": "aa4cff2744ad9b453e542e2ad500a4b4f02694d8d9a17690fa599f48b600ed5c",
+    "dimensions": [
+      1100,
+      1500
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/01_jipian/03_NG_less_1.png",
+    "source": "Image/01_极片焊点检测/NG/NG_less_1.bmp",
+    "source_sha256": "78690c980db8ec2ee703710f19527ab06c063a2bb61c26ab968a51142a1b573c",
+    "sha256": "82a4cc971e67a245fb9135a4651045d8bd55125032985f42157a2fec741a0286",
+    "dimensions": [
+      1100,
+      1500
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/02_xianlan/01_Image-01.png",
+    "source": "Image/02_线缆姿态调整/Image/Image-01.bmp",
+    "source_sha256": "5490f5a14298b70fcee53a03b65a35e17c6e53d7be453e9ed3cdd5cfa8ef8527",
+    "sha256": "50d61d454173de3166e7eb9c94ea70a1a35e9f34a5cf71fa3e353ec04305057b",
+    "dimensions": [
+      3840,
+      2746
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/02_xianlan/02_Image-02.png",
+    "source": "Image/02_线缆姿态调整/Image/Image-02.bmp",
+    "source_sha256": "2c7f7f281414f39f14692c4ad9e9938af478d5354db2ee7360e0f03454e59aa7",
+    "sha256": "c9c2748de6b858b6b0896497b2768b46be594ab7b2304746d5b431e4832744aa",
+    "dimensions": [
+      3840,
+      2746
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/02_xianlan/03_Image-08.png",
+    "source": "Image/02_线缆姿态调整/Image/Image-08.bmp",
+    "source_sha256": "c6c4d8321fa64069a8f7e2d3a40fc954f1ea76591476ce4b7c049b9ca6092c2f",
+    "sha256": "26b31e1c7b8b7586630495cfd97a7459283d1b05d4809a243be777eff9f07f74",
+    "dimensions": [
+      3840,
+      2746
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/03_shoutao/01_OK (1).png",
+    "source": "Image/03_CPE手套质检/OK/OK (1).bmp",
+    "source_sha256": "43e724048de2e563860a690298abdbfb4b7fcff2ba047102fb476a11537e024d",
+    "sha256": "8c539a4920ccd75bd3f6f31e9b6f4fe4c9efa3605684afac8744908cd1a2dd87",
+    "dimensions": [
+      972,
+      1200
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/03_shoutao/02_Kong (1).png",
+    "source": "Image/03_CPE手套质检/空/Kong (1).bmp",
+    "source_sha256": "21f70021d21455b36f74059377fb50250b4f55acd9d8748eac5e444da7ae357b",
+    "sha256": "90c17eb5cd2f2fb21338294458140ebdc841505bc04755b5588ef8de74d6b974",
+    "dimensions": [
+      972,
+      1200
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/03_shoutao/03_PoSun (1).png",
+    "source": "Image/03_CPE手套质检/破损/PoSun (1).bmp",
+    "source_sha256": "7f7dfe839c96575911d5fc72766200aa3ab722c80a21a0edcdd0ff414d9d0e81",
+    "sha256": "b02a480344315a66586f5c763d02bffdd4440131255bbd146407e6e908b9b5aa",
+    "dimensions": [
+      972,
+      1200
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/04_xinpian/01_chip-ok_100.png",
+    "source": "Image/04_芯片焊点检测/chip-ok(位置度不一定ok)/chip-ok_100.bmp",
+    "source_sha256": "130964e2588657177d28f4aea839fa8c4a30163c50d462e368325fc3a46b84ce",
+    "sha256": "671069eeff634ac7fe240609572788b775dc32984e05190711d7258995824c44",
+    "dimensions": [
+      4022,
+      3034
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/04_xinpian/02_12.25-chip-卷线_34.png",
+    "source": "Image/04_芯片焊点检测/chip-卷线/12.25-chip-卷线_34.bmp",
+    "source_sha256": "b6bc862619f59171dc237478070b98cde43b75cfe75f2600b6d3e6f705a2336f",
+    "sha256": "251360bd398cee649a07a58958aaaa5a9b58b166e65e2e74e261d2987219d449",
+    "dimensions": [
+      4022,
+      3034
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  },
+  {
+    "file": "project/Image/04_xinpian/03_12.25-chip-漏焊_29.png",
+    "source": "Image/04_芯片焊点检测/chip-漏焊/12.25-chip-漏焊_29.bmp",
+    "source_sha256": "d865fa84614266fb85cca69bc415aa2ab848ade461c98c410625848f9fb2ebae",
+    "sha256": "bc1f8bc659ae43d7f097970eb6da1fe712494420d6f37e815be35c88d9eebb75",
+    "dimensions": [
+      4022,
+      3034
+    ],
+    "conversion": "lossless PNG; full frame; no resize; pixels checked"
+  }
+]

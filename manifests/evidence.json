@@ -1,0 +1,21 @@
+{
+  "hmi": {
+    "file": "docs/images/hmi-final.png",
+    "source": "user supplied final running screenshot",
+    "sha256": "f1f6e751bd059aa71b37bfedc4976a5330653fda85df363d65901b2b2204f79c",
+    "dimensions": [
+      3196,
+      1812
+    ],
+    "scope": "single historical running screen; not a full-dataset benchmark"
+  },
+  "brief": {
+    "file": "docs/reference/competition-brief.pdf",
+    "sha256": "af2ddd46359ed828e844a60d0abf6e411bef15d9870620f9702b3d4232d923e4"
+  },
+  "project_header": {
+    "file": "project/program1.5.vpsx",
+    "sha256": "9f3ebe0991a63040eb95e78aaa7354564c53c643a1726d19ba2165cbe80b8d0a",
+    "format": "opaque vendor binary; original bytes preserved"
+  }
+}

@@ -1,0 +1,932 @@
+{
+  "name": "01_3_hanpian(skew)",
+  "type": 1,
+  "lastOpenedTime": "2026-07-02T10:20:17.2420453+08:00",
+  "projectFolder": "Model\\01jipian\\01_3_hanpian(skew)",
+  "currentDataSetName": "DetModel_20260702092243642",
+  "currentModelName": "DetModel_20260702092243642",
+  "currentTestName": null,
+  "imageFolders": [],
+  "curImageFolder": "Model\\01jipian\\01_3_hanpian(skew)\\images\\default",
+  "isAILabel": {
+    "NG_skew_01.bmp": 1,
+    "NG_skew_02.bmp": 1,
+    "NG_skew_03.bmp": 1,
+    "NG_skew_04.bmp": 1,
+    "NG_skew_05.bmp": 1,
+    "NG_skew_06.bmp": 1,
+    "NG_skew_07.bmp": 1,
+    "NG_skew_08.bmp": 1,
+    "NG_skew_09.bmp": 1,
+    "NG_skew_10.bmp": 1,
+    "NG_skew_11.bmp": 1,
+    "NG_skew_12.bmp": 1,
+    "NG_skew_14.bmp": 1,
+    "NG_skew_15.bmp": 1,
+    "NG_skew_16.bmp": 1,
+    "NG_skew_17.bmp": 1,
+    "NG_skew_18.bmp": 1,
+    "NG_skew_19.bmp": 1,
+    "NG_skew_20.bmp": 1,
+    "NG_skew_21.bmp": 1,
+    "NG_skew_22.bmp": 1,
+    "NG_skew_23.bmp": 1,
+    "NG_skew_24.bmp": 1,
+    "NG_skew_25.bmp": 1,
+    "NG_skew_26.bmp": 1,
+    "NG_skew_27.bmp": 1,
+    "NG_skew_29.bmp": 1,
+    "NG_skew_32.bmp": 1,
+    "NG_skew_33.bmp": 1,
+    "NG_skew_34.bmp": 1,
+    "NG_skew_35.bmp": 1,
+    "NG_skew_36.bmp": 1,
+    "NG_skew_38.bmp": 1,
+    "NG_skew_39.bmp": 1,
+    "NG_skew_40.bmp": 1,
+    "NG_skew_42.bmp": 1,
+    "NG_skew_43.bmp": 1,
+    "NG_skew_48.bmp": 1,
+    "NG_skew_50.bmp": 1,
+    "NG_skew_51.bmp": 1,
+    "NG_skew_52.bmp": 1,
+    "NG_skew_53.bmp": 1,
+    "NG_skew_55.bmp": 1,
+    "NG_skew_56.bmp": 1,
+    "NG_skew_57.bmp": 1,
+    "NG_skew_58.bmp": 1,
+    "NG_skew_59.bmp": 1,
+    "NG_skew_61.bmp": 1,
+    "NG_skew_63.bmp": 1,
+    "NG_skew_64.bmp": 1,
+    "NG_skew_65.bmp": 1,
+    "NG_skew_67.bmp": 1,
+    "NG_skew_69.bmp": 1,
+    "NG_skew_70.bmp": 1,
+    "NG_skew_71.bmp": 1,
+    "NG_skew_73.bmp": 1,
+    "NG_skew_74.bmp": 1,
+    "NG_skew_75.bmp": 1,
+    "NG_skew_80.bmp": 1,
+    "NG_skew_83.bmp": 1,
+    "NG_skew_88.bmp": 1,
+    "NG_skew_90.bmp": 1,
+    "NG_skew_91.bmp": 1,
+    "NG_skew_92.bmp": 1
+  },
+  "dataSetInfos": {
+    "DetModel_20260702092243642": {
+      "name": "DetModel_20260702092243642",
+      "state": 0,
+      "imageCount": 64,
+      "trainCount": 51,
+      "validCount": 13,
+      "testCount": 0,
+      "needToReCreateDataSet": false
+    }
+  },
+  "classificationModels": null,
+  "detectionModels": {
+    "DetModel_20260702092243642": {
+      "dataSet": "",
+      "trainDataRatio": 0.8,
+      "networkType": 1,
+      "trainHW": 1,
+      "epoch": [
+        300,
+        200,
+        250,
+        200,
+        200
+      ],
+      "batchSize": [
+        12,
+        12,
+        24,
+        24,
+        12
+      ],
+      "learningRate": [
+        0.03,
+        0.015,
+        0.03,
+        0.03,
+        0.015
+      ],
+      "f1": 0.534,
+      "precision": 0.497,
+      "recall": 0.412,
+      "trainStatus": 0,
+      "lastTrainingTime": "0001-01-01T00:00:00",
+      "testResults": [],
+      "lossResult": [
+        {
+          "loss": 4.224601,
+          "trainNumber": -1
+        },
+        {
+          "loss": 4.425881,
+          "trainNumber": 0
+        },
+        {
+          "loss": 4.347533,
+          "trainNumber": 1
+        },
+        {
+          "loss": 4.177444,
+          "trainNumber": 2
+        },
+        {
+          "loss": 3.674564,
+          "trainNumber": 3
+        },
+        {
+          "loss": 3.544811,
+          "trainNumber": 4
+        },
+        {
+          "loss": 3.156367,
+          "trainNumber": 5
+        },
+        {
+          "loss": 2.822974,
+          "trainNumber": 6
+        },
+        {
+          "loss": 2.547593,
+          "trainNumber": 7
+        },
+        {
+          "loss": 2.45245,
+          "trainNumber": 8
+        },
+        {
+          "loss": 2.341228,
+          "trainNumber": 9
+        },
+        {
+          "loss": 2.301978,
+          "trainNumber": 10
+        },
+        {
+          "loss": 2.231968,
+          "trainNumber": 11
+        },
+        {
+          "loss": 2.190405,
+          "trainNumber": 12
+        },
+        {
+          "loss": 2.159581,
+          "trainNumber": 13
+        },
+        {
+          "loss": 2.017031,
+          "trainNumber": 14
+        },
+        {
+          "loss": 1.989843,
+          "trainNumber": 15
+        },
+        {
+          "loss": 1.914325,
+          "trainNumber": 16
+        },
+        {
+          "loss": 1.888938,
+          "trainNumber": 17
+        },
+        {
+          "loss": 1.816451,
+          "trainNumber": 18
+        },
+        {
+          "loss": 1.795954,
+          "trainNumber": 19
+        },
+        {
+          "loss": 1.795954,
+          "trainNumber": 20
+        },
+        {
+          "loss": 1.794994,
+          "trainNumber": 21
+        },
+        {
+          "loss": 1.777164,
+          "trainNumber": 22
+        },
+        {
+          "loss": 1.777164,
+          "trainNumber": 23
+        },
+        {
+          "loss": 1.777164,
+          "trainNumber": 24
+        },
+        {
+          "loss": 1.740209,
+          "trainNumber": 25
+        },
+        {
+          "loss": 1.720252,
+          "trainNumber": 26
+        },
+        {
+          "loss": 1.699027,
+          "trainNumber": 27
+        },
+        {
+          "loss": 1.653594,
+          "trainNumber": 28
+        },
+        {
+          "loss": 1.678537,
+          "trainNumber": 29
+        },
+        {
+          "loss": 1.678031,
+          "trainNumber": 30
+        },
+        {
+          "loss": 1.648249,
+          "trainNumber": 31
+        },
+        {
+          "loss": 1.66121,
+          "trainNumber": 32
+        },
+        {
+          "loss": 1.649557,
+          "trainNumber": 33
+        },
+        {
+          "loss": 1.578071,
+          "trainNumber": 34
+        },
+        {
+          "loss": 1.575972,
+          "trainNumber": 35
+        },
+        {
+          "loss": 1.636635,
+          "trainNumber": 36
+        },
+        {
+          "loss": 1.504906,
+          "trainNumber": 37
+        },
+        {
+          "loss": 1.504906,
+          "trainNumber": 38
+        },
+        {
+          "loss": 1.537623,
+          "trainNumber": 39
+        },
+        {
+          "loss": 1.515513,
+          "trainNumber": 40
+        },
+        {
+          "loss": 1.515513,
+          "trainNumber": 41
+        },
+        {
+          "loss": 1.517576,
+          "trainNumber": 42
+        },
+        {
+          "loss": 1.531046,
+          "trainNumber": 43
+        },
+        {
+          "loss": 1.514414,
+          "trainNumber": 44
+        },
+        {
+          "loss": 1.514414,
+          "trainNumber": 45
+        },
+        {
+          "loss": 1.512607,
+          "trainNumber": 46
+        },
+        {
+          "loss": 1.492741,
+          "trainNumber": 47
+        },
+        {
+          "loss": 1.399329,
+          "trainNumber": 48
+        },
+        {
+          "loss": 1.391613,
+          "trainNumber": 49
+        },
+        {
+          "loss": 1.399329,
+          "trainNumber": 50
+        },
+        {
+          "loss": 1.399329,
+          "trainNumber": 51
+        },
+        {
+          "loss": 1.410571,
+          "trainNumber": 52
+        },
+        {
+          "loss": 1.437288,
+          "trainNumber": 53
+        },
+        {
+          "loss": 1.437288,
+          "trainNumber": 54
+        },
+        {
+          "loss": 1.419435,
+          "trainNumber": 55
+        },
+        {
+          "loss": 1.406475,
+          "trainNumber": 56
+        },
+        {
+          "loss": 1.392069,
+          "trainNumber": 57
+        },
+        {
+          "loss": 1.351609,
+          "trainNumber": 58
+        },
+        {
+          "loss": 1.341739,
+          "trainNumber": 59
+        },
+        {
+          "loss": 1.36307,
+          "trainNumber": 60
+        },
+        {
+          "loss": 1.36307,
+          "trainNumber": 61
+        },
+        {
+          "loss": 1.368692,
+          "trainNumber": 62
+        },
+        {
+          "loss": 1.388608,
+          "trainNumber": 63
+        },
+        {
+          "loss": 1.407851,
+          "trainNumber": 64
+        },
+        {
+          "loss": 1.369629,
+          "trainNumber": 65
+        },
+        {
+          "loss": 1.379701,
+          "trainNumber": 66
+        },
+        {
+          "loss": 1.379701,
+          "trainNumber": 67
+        },
+        {
+          "loss": 1.347132,
+          "trainNumber": 68
+        },
+        {
+          "loss": 1.364407,
+          "trainNumber": 69
+        },
+        {
+          "loss": 1.341421,
+          "trainNumber": 70
+        },
+        {
+          "loss": 1.331305,
+          "trainNumber": 71
+        },
+        {
+          "loss": 1.335916,
+          "trainNumber": 72
+        },
+        {
+          "loss": 1.324495,
+          "trainNumber": 73
+        },
+        {
+          "loss": 1.303473,
+          "trainNumber": 74
+        },
+        {
+          "loss": 1.303473,
+          "trainNumber": 75
+        },
+        {
+          "loss": 1.291916,
+          "trainNumber": 76
+        },
+        {
+          "loss": 1.291916,
+          "trainNumber": 77
+        },
+        {
+          "loss": 1.274711,
+          "trainNumber": 78
+        },
+        {
+          "loss": 1.269653,
+          "trainNumber": 79
+        },
+        {
+          "loss": 1.269653,
+          "trainNumber": 80
+        },
+        {
+          "loss": 1.268517,
+          "trainNumber": 81
+        },
+        {
+          "loss": 1.242837,
+          "trainNumber": 82
+        },
+        {
+          "loss": 1.254904,
+          "trainNumber": 83
+        },
+        {
+          "loss": 1.228312,
+          "trainNumber": 84
+        },
+        {
+          "loss": 1.227552,
+          "trainNumber": 85
+        },
+        {
+          "loss": 1.222405,
+          "trainNumber": 86
+        },
+        {
+          "loss": 1.228312,
+          "trainNumber": 87
+        },
+        {
+          "loss": 1.225687,
+          "trainNumber": 88
+        },
+        {
+          "loss": 1.260122,
+          "trainNumber": 89
+        },
+        {
+          "loss": 1.224602,
+          "trainNumber": 90
+        },
+        {
+          "loss": 1.224602,
+          "trainNumber": 91
+        },
+        {
+          "loss": 1.224602,
+          "trainNumber": 92
+        },
+        {
+          "loss": 1.205618,
+          "trainNumber": 93
+        },
+        {
+          "loss": 1.201449,
+          "trainNumber": 94
+        },
+        {
+          "loss": 1.203167,
+          "trainNumber": 95
+        },
+        {
+          "loss": 1.205312,
+          "trainNumber": 96
+        },
+        {
+          "loss": 1.190525,
+          "trainNumber": 97
+        },
+        {
+          "loss": 1.243477,
+          "trainNumber": 98
+        },
+        {
+          "loss": 1.273543,
+          "trainNumber": 99
+        },
+        {
+          "loss": 1.284745,
+          "trainNumber": 100
+        },
+        {
+          "loss": 1.262654,
+          "trainNumber": 101
+        },
+        {
+          "loss": 1.241584,
+          "trainNumber": 102
+        },
+        {
+          "loss": 1.208315,
+          "trainNumber": 103
+        },
+        {
+          "loss": 1.189313,
+          "trainNumber": 104
+        },
+        {
+          "loss": 1.167052,
+          "trainNumber": 105
+        },
+        {
+          "loss": 1.150929,
+          "trainNumber": 106
+        },
+        {
+          "loss": 1.139439,
+          "trainNumber": 107
+        },
+        {
+          "loss": 1.124195,
+          "trainNumber": 108
+        },
+        {
+          "loss": 1.11938,
+          "trainNumber": 109
+        },
+        {
+          "loss": 1.112138,
+          "trainNumber": 110
+        },
+        {
+          "loss": 1.112138,
+          "trainNumber": 111
+        },
+        {
+          "loss": 1.092846,
+          "trainNumber": 112
+        },
+        {
+          "loss": 1.103503,
+          "trainNumber": 113
+        },
+        {
+          "loss": 1.088015,
+          "trainNumber": 114
+        },
+        {
+          "loss": 1.090618,
+          "trainNumber": 115
+        },
+        {
+          "loss": 1.070566,
+          "trainNumber": 116
+        },
+        {
+          "loss": 1.070642,
+          "trainNumber": 117
+        },
+        {
+          "loss": 1.061069,
+          "trainNumber": 118
+        },
+        {
+          "loss": 1.076758,
+          "trainNumber": 119
+        },
+        {
+          "loss": 1.062078,
+          "trainNumber": 120
+        },
+        {
+          "loss": 1.050423,
+          "trainNumber": 121
+        },
+        {
+          "loss": 1.044043,
+          "trainNumber": 122
+        },
+        {
+          "loss": 1.043583,
+          "trainNumber": 123
+        },
+        {
+          "loss": 1.009694,
+          "trainNumber": 124
+        },
+        {
+          "loss": 1.01844,
+          "trainNumber": 125
+        },
+        {
+          "loss": 1.00552,
+          "trainNumber": 126
+        },
+        {
+          "loss": 1.00552,
+          "trainNumber": 127
+        },
+        {
+          "loss": 0.993602,
+          "trainNumber": 128
+        },
+        {
+          "loss": 1.013848,
+          "trainNumber": 129
+        },
+        {
+          "loss": 1.000929,
+          "trainNumber": 130
+        },
+        {
+          "loss": 1.000929,
+          "trainNumber": 131
+        },
+        {
+          "loss": 0.991981,
+          "trainNumber": 132
+        },
+        {
+          "loss": 0.998216,
+          "trainNumber": 133
+        },
+        {
+          "loss": 0.998216,
+          "trainNumber": 134
+        },
+        {
+          "loss": 0.989608,
+          "trainNumber": 135
+        },
+        {
+          "loss": 0.99035,
+          "trainNumber": 136
+        },
+        {
+          "loss": 0.991157,
+          "trainNumber": 137
+        },
+        {
+          "loss": 0.991157,
+          "trainNumber": 138
+        },
+        {
+          "loss": 0.991157,
+          "trainNumber": 139
+        },
+        {
+          "loss": 0.993057,
+          "trainNumber": 140
+        },
+        {
+          "loss": 0.986749,
+          "trainNumber": 141
+        },
+        {
+          "loss": 0.986749,
+          "trainNumber": 142
+        },
+        {
+          "loss": 0.97844,
+          "trainNumber": 143
+        },
+        {
+          "loss": 0.968447,
+          "trainNumber": 144
+        },
+        {
+          "loss": 0.968447,
+          "trainNumber": 145
+        },
+        {
+          "loss": 0.973906,
+          "trainNumber": 146
+        },
+        {
+          "loss": 0.964303,
+          "trainNumber": 147
+        },
+        {
+          "loss": 0.982816,
+          "trainNumber": 148
+        },
+        {
+          "loss": 0.996862,
+          "trainNumber": 149
+        },
+        {
+          "loss": 0.996393,
+          "trainNumber": 150
+        },
+        {
+          "loss": 0.999609,
+          "trainNumber": 151
+        },
+        {
+          "loss": 1.017362,
+          "trainNumber": 152
+        },
+        {
+          "loss": 0.992469,
+          "trainNumber": 153
+        },
+        {
+          "loss": 0.990957,
+          "trainNumber": 154
+        },
+        {
+          "loss": 0.995353,
+          "trainNumber": 155
+        },
+        {
+          "loss": 0.995294,
+          "trainNumber": 156
+        },
+        {
+          "loss": 0.987095,
+          "trainNumber": 157
+        },
+        {
+          "loss": 0.988176,
+          "trainNumber": 158
+        },
+        {
+          "loss": 0.981881,
+          "trainNumber": 159
+        },
+        {
+          "loss": 0.974369,
+          "trainNumber": 160
+        },
+        {
+          "loss": 0.973088,
+          "trainNumber": 161
+        },
+        {
+          "loss": 0.969057,
+          "trainNumber": 162
+        },
+        {
+          "loss": 0.963783,
+          "trainNumber": 163
+        },
+        {
+          "loss": 0.957194,
+          "trainNumber": 164
+        },
+        {
+          "loss": 0.956703,
+          "trainNumber": 165
+        },
+        {
+          "loss": 0.943523,
+          "trainNumber": 166
+        },
+        {
+          "loss": 0.943523,
+          "trainNumber": 167
+        },
+        {
+          "loss": 0.945587,
+          "trainNumber": 168
+        },
+        {
+          "loss": 0.949763,
+          "trainNumber": 169
+        },
+        {
+          "loss": 0.96275,
+          "trainNumber": 170
+        },
+        {
+          "loss": 0.965399,
+          "trainNumber": 171
+        },
+        {
+          "loss": 0.956326,
+          "trainNumber": 172
+        },
+        {
+          "loss": 0.945536,
+          "trainNumber": 173
+        },
+        {
+          "loss": 0.927864,
+          "trainNumber": 174
+        },
+        {
+          "loss": 0.90358,
+          "trainNumber": 175
+        },
+        {
+          "loss": 0.908361,
+          "trainNumber": 176
+        },
+        {
+          "loss": 0.908361,
+          "trainNumber": 177
+        },
+        {
+          "loss": 0.895129,
+          "trainNumber": 178
+        },
+        {
+          "loss": 0.903013,
+          "trainNumber": 179
+        },
+        {
+          "loss": 0.918125,
+          "trainNumber": 180
+        },
+        {
+          "loss": 0.904863,
+          "trainNumber": 181
+        },
+        {
+          "loss": 0.898591,
+          "trainNumber": 182
+        },
+        {
+          "loss": 0.911677,
+          "trainNumber": 183
+        },
+        {
+          "loss": 0.905405,
+          "trainNumber": 184
+        },
+        {
+          "loss": 0.891437,
+          "trainNumber": 185
+        },
+        {
+          "loss": 0.891437,
+          "trainNumber": 186
+        },
+        {
+          "loss": 0.886251,
+          "trainNumber": 187
+        },
+        {
+          "loss": 0.883007,
+          "trainNumber": 188
+        },
+        {
+          "loss": 0.88261,
+          "trainNumber": 189
+        },
+        {
+          "loss": 0.893338,
+          "trainNumber": 190
+        },
+        {
+          "loss": 0.88084,
+          "trainNumber": 191
+        },
+        {
+          "loss": 0.885085,
+          "trainNumber": 192
+        },
+        {
+          "loss": 0.90294,
+          "trainNumber": 193
+        },
+        {
+          "loss": 0.90137,
+          "trainNumber": 194
+        },
+        {
+          "loss": 0.894328,
+          "trainNumber": 195
+        },
+        {
+          "loss": 0.896402,
+          "trainNumber": 196
+        },
+        {
+          "loss": 0.864651,
+          "trainNumber": 197
+        },
+        {
+          "loss": 0.852067,
+          "trainNumber": 198
+        }
+      ]
+    }
+  },
+  "ocrModels": null,
+  "segmentationModels": null,
+  "classificationTestInfo": null,
+  "detectionTestInfo": {},
+  "ocrTestInfo": null,
+  "segmentationTestInfo": null
+}

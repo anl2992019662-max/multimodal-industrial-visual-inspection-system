@@ -1,0 +1,104 @@
+[
+  {
+    "project": "Model/01jipian/01_1_louhan(less)/Project.dls",
+    "source_images": 20,
+    "labels_and_split_files": 14,
+    "name": "01_1_louhan(less)"
+  },
+  {
+    "project": "Model/01jipian/01_2_duohan(more)/Project.dls",
+    "source_images": 18,
+    "labels_and_split_files": 20,
+    "name": "01_2_duohan(more)"
+  },
+  {
+    "project": "Model/01jipian/01_3_hanpian(skew)/Project.dls",
+    "source_images": 92,
+    "labels_and_split_files": 68,
+    "name": "01_3_hanpian(skew)"
+  },
+  {
+    "project": "Model/01jipian/01_4_hanchuan(break)/Project.dls",
+    "source_images": 36,
+    "labels_and_split_files": 40,
+    "name": "01_4_hanchuan(break)"
+  },
+  {
+    "project": "Model/01jipian/01_5_pianyi(jipian)/Project.dls",
+    "source_images": 20,
+    "labels_and_split_files": 21,
+    "name": "01_5_pianyi(jipian)"
+  },
+  {
+    "project": "Model/01jipian/01_jipianfenlei/Project.dls",
+    "source_images": 220,
+    "labels_and_split_files": 5,
+    "name": "01_jipianfenlei"
+  },
+  {
+    "project": "Model/02xianlan/02_xianlan/Project.dls",
+    "source_images": 20,
+    "labels_and_split_files": 15,
+    "name": "02_xianlan"
+  },
+  {
+    "project": "Model/03shoutao/03_1_kongmo/Project.dls",
+    "source_images": 68,
+    "labels_and_split_files": 5,
+    "name": "03_1_kongmo"
+  },
+  {
+    "project": "Model/03shoutao/03_2_posun/Project.dls",
+    "source_images": 136,
+    "labels_and_split_files": 5,
+    "name": "03_2_posun"
+  },
+  {
+    "project": "Model/03shoutao/03_shoutaofenlei/Project.dls",
+    "source_images": 159,
+    "labels_and_split_files": 5,
+    "name": "03_shoutaofenlei"
+  },
+  {
+    "project": "Model/04xinpian/04_1_juanxian/Project.dls",
+    "source_images": 50,
+    "labels_and_split_files": 54,
+    "name": "04_1_juanxian"
+  },
+  {
+    "project": "Model/04xinpian/04_2_lianxian/Project.dls",
+    "source_images": 33,
+    "labels_and_split_files": 36,
+    "name": "04_2_lianxian"
+  },
+  {
+    "project": "Model/04xinpian/04_3_louhan/Project.dls",
+    "source_images": 50,
+    "labels_and_split_files": 52,
+    "name": "04_3_louhan"
+  },
+  {
+    "project": "Model/04xinpian/04_4_pianxian/Project.dls",
+    "source_images": 50,
+    "labels_and_split_files": 51,
+    "name": "04_4_pianxian"
+  },
+  {
+    "project": "Model/04xinpian/04_5_wanxian/Project.dls",
+    "source_images": 50,
+    "labels_and_split_files": 54,
+    "name": "04_5_wanxian"
+  },
+  {
+    "project": "Model/04xinpian/04_xinpianfenlei/Project.dls",
+    "source_images": 283,
+    "labels_and_split_files": 5,
+    "name": "04_xinpianfenlei"
+  },
+  {
+    "project": "Model/04xinpian/04_xinpianweizhidu/Project.dls",
+    "source_images": 50,
+    "labels_and_split_files": 54,
+    "name": "04_xinpianweizhidu"
+  }
+]

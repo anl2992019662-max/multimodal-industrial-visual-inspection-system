@@ -1,0 +1,135 @@
+[
+  {
+    "file": "dataset-pool-01.zip",
+    "bytes": 405644499,
+    "sha256": "3e17d6ebcea6602d528c932eb8d454e24ab5c2fd08ad489669de4e86387cde69",
+    "kind": "dataset",
+    "objects": 46
+  },
+  {
+    "file": "dataset-pool-02.zip",
+    "bytes": 403147974,
+    "sha256": "9d6d0d34a8daf213c87a8ae7158a3b83e2cd25d40fecef909309c7eaee5dda12",
+    "kind": "dataset",
+    "objects": 35
+  },
+  {
+    "file": "dataset-pool-03.zip",
+    "bytes": 401402764,
+    "sha256": "36f38ee998704955f62e5de132f06d48fed759c866015b3dc58eb2e4f0f234bc",
+    "kind": "dataset",
+    "objects": 31
+  },
+  {
+    "file": "dataset-pool-04.zip",
+    "bytes": 416845775,
+    "sha256": "177724b21f409a8918f33d3c6797c827c9d78318266f2b4f58c58228081fe579",
+    "kind": "dataset",
+    "objects": 36
+  },
+  {
+    "file": "dataset-pool-05.zip",
+    "bytes": 401679209,
+    "sha256": "7f67b448532ab838bbda950e4ce4b6b4e31618ffb64064312fe3d3276231ba83",
+    "kind": "dataset",
+    "objects": 50
+  },
+  {
+    "file": "dataset-pool-06.zip",
+    "bytes": 386362558,
+    "sha256": "a3c53f7c20e3d5846619923128f126026f76c81ff7df956185eb4da75dceb914",
+    "kind": "dataset",
+    "objects": 44
+  },
+  {
+    "file": "dataset-pool-07.zip",
+    "bytes": 396499092,
+    "sha256": "93de9ed7e8447f8970ff9375bae46cd5a198dfb85327c9e0d7433bb0b6df1a3b",
+    "kind": "dataset",
+    "objects": 36
+  },
+  {
+    "file": "dataset-pool-08.zip",
+    "bytes": 385943513,
+    "sha256": "4d0d7b89d38323f5dfa9ad386ce7be3cee0c7ca6038bc2fbaa67c5af4c23e404",
+    "kind": "dataset",
+    "objects": 37
+  },
+  {
+    "file": "dataset-pool-09.zip",
+    "bytes": 386993250,
+    "sha256": "38fb5cc684d442ff8613f22e450d4d89f1374455c5d7e3e1bddfb7070cadad69",
+    "kind": "dataset",
+    "objects": 36
+  },
+  {
+    "file": "dataset-pool-10.zip",
+    "bytes": 402381613,
+    "sha256": "ba27546fe001059e8a0df7de7f56ef2c264f3a478c28990b061eba071bb66ade",
+    "kind": "dataset",
+    "objects": 50
+  },
+  {
+    "file": "dataset-pool-11.zip",
+    "bytes": 401163794,
+    "sha256": "ffd2204d8cfa2e8532714fd11a9e3d4bcfebd8c7a468c85b1d41043b41c1b295",
+    "kind": "dataset",
+    "objects": 47
+  },
+  {
+    "file": "dataset-pool-12.zip",
+    "bytes": 407283824,
+    "sha256": "48376844c69495b59233346c1d5f60038c4bc8c22e47a1067bece2c6e1b093c0",
+    "kind": "dataset",
+    "objects": 45
+  },
+  {
+    "file": "dataset-pool-13.zip",
+    "bytes": 401947059,
+    "sha256": "852f4c1696dac6bef5da8dab4f37dcfb5a189c4482e9562ab778f15f488af231",
+    "kind": "dataset",
+    "objects": 41
+  },
+  {
+    "file": "dataset-pool-14.zip",
+    "bytes": 414722434,
+    "sha256": "aff28d5e087879e009576f7e04f345b1993f8384dcc5156675c8c82cbba26b92",
+    "kind": "dataset",
+    "objects": 39
+  },
+  {
+    "file": "dataset-pool-15.zip",
+    "bytes": 419615680,
+    "sha256": "93789ddbe7efa7ce6d997b1883d1a2d70835d76ee1cde610964de7e81e036803",
+    "kind": "dataset",
+    "objects": 49
+  },
+  {
+    "file": "dataset-pool-16.zip",
+    "bytes": 399956936,
+    "sha256": "f6d03da98b061cec28b0f951da69f5fdb553ca18c9479ca303a48c5d9f47f259",
+    "kind": "dataset",
+    "objects": 40
+  },
+  {
+    "file": "dataset-pool-17.zip",
+    "bytes": 394145510,
+    "sha256": "e2fb63733587a286d7ba2594df33f85ca7e9f59d17effe4cb82143e5b584c5ad",
+    "kind": "dataset",
+    "objects": 51
+  },
+  {
+    "file": "dataset-pool-18.zip",
+    "bytes": 251143276,
+    "sha256": "768f375c122052718241fc49008192859ef872556b679504038407e4f39afa18",
+    "kind": "dataset",
+    "objects": 16
+  },
+  {
+    "file": "model-library.zip",
+    "bytes": 759912130,
+    "sha256": "3e474e78540509a619fcac6be8b059b89cd38b364b510cc23bd01d1dbd3137a2",
+    "kind": "models",
+    "objects": 24
+  }
+]

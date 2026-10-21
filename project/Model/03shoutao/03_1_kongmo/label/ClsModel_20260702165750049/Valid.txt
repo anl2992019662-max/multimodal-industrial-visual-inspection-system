@@ -1,0 +1,14 @@
+OK_017.bmp	1
+OK_024.bmp	1
+OK_048.bmp	1
+OK_019.bmp	1
+OK_047.bmp	1
+OK_036.bmp	1
+OK_034.bmp	1
+OK_035.bmp	1
+OK_012.bmp	1
+OK_033.bmp	1
+kong_008.bmp	0
+OK_029.bmp	1
+OK_009.bmp	1
+OK_037.bmp	1
